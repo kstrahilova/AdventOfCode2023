@@ -2,22 +2,23 @@
 
 Challenge::main();
 
-class Challenge {
-function processLine(string $line)
+class Challenge
 {
-    echo ($line);
-}
-
-function main()
-{
-    $input = file(__DIR__ . "/input.txt");
-    $result = 0;
-
-    foreach ($input as $line) {
-        Challenge::processLine($line);
+    function processLine(string $line)
+    {
+        echo ($line);
     }
 
-    echo ("Result: " . $result . "\n");
-}
+    function main()
+    {
+        $input = file(__DIR__ . "/input.txt");
+        $result = 0;
+
+        foreach ($input as $line) {
+            Challenge::processLine($line);
+        }
+
+        echo ("Result: " . $result . "\n");
+    }
 
 }
