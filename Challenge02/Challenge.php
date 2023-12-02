@@ -4,36 +4,6 @@ Challenge::main();
 
 class Challenge
 {
-    function processLinePt1(string $line): int
-    {
-        $red = "red";
-        $green = "green";
-        $blue = "blue";
-
-        $nRed = 12;
-        $nGreen = 13;
-        $nBlue = 14;
-        list($game, $subsets) = explode(": ", $line);
-        $game = explode(" ", $game)[1];
-        $subsets = explode("; ", $subsets);
-
-        foreach ($subsets as $subset) {
-            $cubes = explode(", ", $subset);
-            foreach ($cubes as $cube) {
-                $cube = explode(" ", $cube);
-                $number = $cube[0];
-                $color = trim($cube[1]);
-
-                if (($number > $nRed && $color == $red) || ($number > $nGreen && $color == $green) || ($number > $nBlue && $color == $blue)) {
-                    return 0;
-                }
-            }
-        }
-
-        return (int) $game;
-
-    }
-
     function processLine(string $line, bool $partOne): int
     {
         $red = "red";
