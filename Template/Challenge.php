@@ -4,7 +4,7 @@ Challenge::main();
 
 class Challenge
 {
-    function processString(string $line)
+    function processLine(string $line)
     {
         echo ($line);
     }
@@ -15,7 +15,7 @@ class Challenge
         $result = 0;
 
         foreach ($input as $line) {
-            Challenge::processString($line);
+            Challenge::processLine($line);
         }
 
         echo ("Result: " . $result . "\n");
