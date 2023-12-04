@@ -29,11 +29,6 @@ class Challenge
     static function processCard(array $cards, int $current, array $nCopies): array
     {
         $matches = $cards[$current];
-        $nCopies[$current] += 1;
-
-        for ($i = $current + 1; $i <= $current + $matches; $i++) {
-            $nCopies = Challenge::processCard($cards, $i, $nCopies);
-        }
 
         return $nCopies;
     }
@@ -50,13 +45,14 @@ class Challenge
             // $result += Challenge::processLine($line);
             $card = Challenge::processLine($line);
             $cards[$card[0]] = $card[1];
-            $nCopies[$card[0]] = 0;
+            $nCopies[$card[0]] = 1;
         }
 
         for ($i = 1; $i <= count($cards); $i++) {
-            $nCopies = Challenge::processCard($cards, $i, $nCopies);
+            for ($j = $i + 1; $j <= $i + $cards[$i]; $j++) {
+                $nCopies[$j] += $nCopies[$i];
+            }
         }
-
         $result = array_sum($nCopies);
 
         echo ("Result: " . $result . "\n");
