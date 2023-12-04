@@ -26,13 +26,6 @@ class Challenge
         return [$card, $matches];
     }
 
-    static function processCard(array $cards, int $current, array $nCopies): array
-    {
-        $matches = $cards[$current];
-
-        return $nCopies;
-    }
-
     static function main()
     {
         $input = file(__DIR__ . "/input.txt");
