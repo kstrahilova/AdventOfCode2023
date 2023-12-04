@@ -4,15 +4,16 @@ Challenge::main();
 
 class Challenge
 {
-    static function processLine(string $line) : array // int
+    static function processLine(string $line): array // int
     {
+        $line = preg_replace('/([\s.\',-])\1+/', '$1', $line);
         $line = explode(': ', trim($line));
         $card = explode(' ', $line[0])[1];
         list($winning, $actual) = explode(' | ', $line[1]);
         $winning = explode(' ', $winning);
-        array_walk($winning, fn (string $string) => trim($string));
+        array_walk($winning, fn(string $string) => trim($string));
         $actual = explode(' ', $actual);
-        array_walk($actual, fn (string $string) => trim($string));
+        array_walk($actual, fn(string $string) => trim($string));
         $matches = 0;
         foreach ($winning as $winningNumber) {
             if (in_array($winningNumber, $actual) && $winningNumber !== "") {
@@ -22,37 +23,41 @@ class Challenge
 
         // $result = ($matches > 0) ? 2 ** ($matches - 1) : 0;
         // return $result;
-        echo "Card " . $card . " matches " . $matches . PHP_EOL;
         return [$card, $matches];
     }
 
-    static function processCard(array $cards, int $current) : int {
+    static function processCard(array $cards, int $current, array $nCopies): array
+    {
         $matches = $cards[$current];
-        $result = 1;
+        $nCopies[$current] += 1;
 
         for ($i = $current + 1; $i <= $current + $matches; $i++) {
-            $result += 1 + Challenge::processCard($cards, $i);
+            $nCopies = Challenge::processCard($cards, $i, $nCopies);
         }
 
-        return $result;
+        return $nCopies;
     }
 
     static function main()
     {
-        // $input = file(__DIR__ . "/input.txt");
-        $input = file(__DIR__ . "/testInput.txt");
+        $input = file(__DIR__ . "/input.txt");
+        // $input = file(__DIR__ . "/testInput.txt");
         $result = 0;
         $cards = [];
+        $nCopies = [];
 
         foreach ($input as $line) {
             // $result += Challenge::processLine($line);
             $card = Challenge::processLine($line);
             $cards[$card[0]] = $card[1];
+            $nCopies[$card[0]] = 0;
         }
 
         for ($i = 1; $i <= count($cards); $i++) {
-            $result += Challenge::processCard($cards, $i);
+            $nCopies = Challenge::processCard($cards, $i, $nCopies);
         }
+
+        $result = array_sum($nCopies);
 
         echo ("Result: " . $result . "\n");
     }
