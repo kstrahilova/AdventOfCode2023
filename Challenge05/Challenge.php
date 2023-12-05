@@ -167,11 +167,14 @@ class Challenge
                     // if there is no overlap (i.e. this seed range is completely before or after this soil range)
                     if ($seedEnd < $range[0][0] || $seedStart > $range[0][1]) {
                         // do nothing
+                        echo "not contained \n";
                         continue;
                     } else if ($seedStart <= $range[0][0] && $range[0][1] <= $seedEnd) {
                         // if array range is completely contained in seed range
                         // split up seed range in three: start - not contained, middle - contained, end - not contained
                         // overwrite contained middle of seeds with complete array range
+
+                        echo "seed fully contains range \n";
                         $seedOne = ($seedStart == $range[0][0]) ? [] : [$seedStart, $range[1][0] - 1];
                         $seedTwo = $range[0];
                         $seedThree = ($seedEnd == $range[0][1]) ? [] : [$range[1][1] + 1, $seedEnd];
@@ -186,16 +189,18 @@ class Challenge
                         // if seed range is completely contained in array range
                         // split up array range in three: start - not contained, middle - contained, end - not contained
                         // overwrite complete seeds with contained middle of array range
+                        echo "range fully contains seed \n";
                         $differenceStart = $seedStart - $range[0][0];
                         $differenceEnd = $range[0][1] - $seedEnd;
-                        $range = [$range[1][0] + $differenceStart, $range[1][0] - $differenceEnd];
-                        $seeds[$i] = $range;
+                        $seeds[$i] = [$range[1][0] + $differenceStart, $range[1][0] - $differenceEnd];
+                        
 
 
                     } else if ($range[0][1] <= $seedEnd) {
                         // array range starts before seed range but there's partial overlap
                         // split up array range in two - not contained and contained, and seeds in two - contained and not contained
                         // overwrite contained seeds with contained array
+                        echo "Range starts before seed \n";
                         $differenceStartArray = $seedStart - $range[0][0];
                         $startArray = $range[1][0] + $differenceStartArray;
                         $endArray = $range[1][1];
@@ -213,6 +218,7 @@ class Challenge
                         // seed range starts before array range but there's partial overlap
                         // split up seeds in two - not contained and contained, and array in two - contained and not contained
                         // overwrite contained seeds with contained array
+                        echo "Seed starts before range \n";
                         $startSeed = $seedStart;
                         $endSeed = $seedEnd;
                         $startArray = $range[1][0];
