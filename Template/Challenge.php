@@ -11,7 +11,8 @@ class Challenge
 
     function main()
     {
-        $input = file(__DIR__ . "/input.txt");
+        $input = file(__DIR__ . "/testInput.txt");
+        // $input = file(__DIR__ . "/input.txt");
         $result = 0;
 
         foreach ($input as $line) {
