@@ -54,6 +54,17 @@ class Challenge
         return $result;
     }
 
+    function findMinLocation(array $mapping): int
+    {
+        $min = PHP_INT_MAX;
+        foreach ($mapping as $value) {
+            if ($value[1] < $min) {
+                $min = $value[1];
+            }
+        }
+        return $min;
+    }
+
     function main()
     {
         $input = file(__DIR__ . "/testInput.txt");
@@ -72,7 +83,7 @@ class Challenge
                     $seedRanges[] = [$seedsInput[$j], ($seedsInput[$j] + $seedsInput[$j + 1] - 1)];
                 }
             } else if ($firstWord == "seed-to-soil map") {
-                echo "\n" . $firstWord . PHP_EOL;
+                // echo "\n" . $firstWord . PHP_EOL;
                 $i += 1;
                 $line = trim($input[$i]);
                 $soilRanges = [];
@@ -84,7 +95,7 @@ class Challenge
                 $nonSeeds[] = $soilRanges;
 
             } else if ($firstWord == "soil-to-fertilizer map") {
-                echo "\n" . $firstWord . PHP_EOL;
+                // echo "\n" . $firstWord . PHP_EOL;
                 $i += 1;
                 $line = trim($input[$i]);
                 $fertRanges = [];
@@ -95,7 +106,7 @@ class Challenge
                 }
                 $nonSeeds[] = $fertRanges;
             } else if ($firstWord == "fertilizer-to-water map") {
-                echo "\n" . $firstWord . PHP_EOL;
+                // echo "\n" . $firstWord . PHP_EOL;
                 $i += 1;
                 $line = trim($input[$i]);
                 $waterRanges = [];
@@ -106,7 +117,7 @@ class Challenge
                 }
                 $nonSeeds[] = $waterRanges;
             } else if ($firstWord == "water-to-light map") {
-                echo "\n" . $firstWord . PHP_EOL;
+                // echo "\n" . $firstWord . PHP_EOL;
                 $i += 1;
                 $line = trim($input[$i]);
                 $lightRanges = [];
@@ -117,7 +128,7 @@ class Challenge
                 }
                 $nonSeeds[] = $lightRanges;
             } else if ($firstWord == "light-to-temperature map") {
-                echo "\n" . $firstWord . PHP_EOL;
+                // echo "\n" . $firstWord . PHP_EOL;
                 $i += 1;
                 $line = trim($input[$i]);
                 $tempRanges = [];
@@ -129,7 +140,7 @@ class Challenge
                 }
                 $nonSeeds[] = $tempRanges;
             } else if ($firstWord == "temperature-to-humidity map") {
-                echo "\n" . $firstWord . PHP_EOL;
+                // echo "\n" . $firstWord . PHP_EOL;
                 $i += 1;
                 $line = trim($input[$i]);
                 $humidityRanges = [];
@@ -141,7 +152,7 @@ class Challenge
                 }
                 $nonSeeds[] = $humidityRanges;
             } else if ($firstWord == "humidity-to-location map") {
-                echo "\n" . $firstWord . PHP_EOL;
+                // echo "\n" . $firstWord . PHP_EOL;
                 $i += 1;
                 $line = trim($input[$i]);
                 $locationRanges = [];
@@ -155,6 +166,10 @@ class Challenge
             }
             // echo "here";
         }
+        foreach ($seedRanges as $seed) {
+            echo "[" . $seed[0] . ", " . $seed[1] . "] \n";
+        }
+        // return;
 
         foreach ($nonSeeds as $array) {
             $seeds = Challenge::getCopyOfSeeds($seedRanges);
@@ -162,49 +177,66 @@ class Challenge
                 $seedRange = $seeds[$i];
                 foreach ($array as $range) {
                     $source = $range[0];
+                    // if (!isset($seedRange[0]) || !isset($seedRange[1])) {
+                    //     echo " not set \n ";
+                    //     echo count($seedRange) . PHP_EOL;
+                    //     foreach ($seedRange as $key => $seed) {
+                    //         echo "\n";
+                    //         // foreach ($seed as $key => $s) {
+                    //         echo "element " . $seed . " at key " . $key . PHP_EOL;
+                    //         // }
+                    //     }
+                    //     return;
+                    // }
                     $seedStart = $seedRange[0];
                     $seedEnd = $seedRange[1];
                     // if there is no overlap (i.e. this seed range is completely before or after this soil range)
                     if ($seedEnd < $range[0][0] || $seedStart > $range[0][1]) {
                         // do nothing
-                        echo "not contained \n";
+                        // echo "not contained \n";
                         continue;
                     } else if ($seedStart <= $range[0][0] && $range[0][1] <= $seedEnd) {
                         // if array range is completely contained in seed range
                         // split up seed range in three: start - not contained, middle - contained, end - not contained
                         // overwrite contained middle of seeds with complete array range
 
-                        echo "seed fully contains range \n";
-                        $seedOne = ($seedStart == $range[0][0]) ? [] : [$seedStart, $range[1][0] - 1];
-                        $seedTwo = $range[0];
-                        $seedThree = ($seedEnd == $range[0][1]) ? [] : [$range[1][1] + 1, $seedEnd];
+                        // echo "seed fully contains range old start " . $seedStart . " old end " . $seedEnd . "\n";
 
                         unset($seeds[$i]);
-                        $seeds[] = $seedOne;
-                        $seeds[] = $seedTwo;
-                        $seeds[] = $seedThree;
+                        if ($seedStart !== $range[0][0]) {
+                            $seeds[] = [$seedStart, $range[1][0] - 1];
+                        }
+                            
+                        $seeds[] = $range[1];
+
+                        if ($seedEnd !== $range[0][1]) {
+                            $seeds[] = [$range[1][1] + 1, $seedEnd];
+                        }
 
 
                     } else if ($range[0][0] <= $seedStart && $seedEnd <= $range[0][1]) {
                         // if seed range is completely contained in array range
                         // split up array range in three: start - not contained, middle - contained, end - not contained
                         // overwrite complete seeds with contained middle of array range
-                        echo "range fully contains seed \n";
+                        // echo "range fully contains seed  old start " . $seedStart . " old end " . $seedEnd . " range start " . $range[0][0] . " range end " . $range[0][1] . " ";
                         $differenceStart = $seedStart - $range[0][0];
+                        $startSeed = $range[1][0] + $differenceStart;
                         $differenceEnd = $range[0][1] - $seedEnd;
-                        $seeds[$i] = [$range[1][0] + $differenceStart, $range[1][0] - $differenceEnd];
-                        
+                        $endSeed = $range[1][1] - $differenceEnd;
+                        // echo "new start " . $startSeed ." new end ". $endSeed ."\n";
+                        $seeds[$i] = [$startSeed, $endSeed];
+
 
 
                     } else if ($range[0][1] <= $seedEnd) {
                         // array range starts before seed range but there's partial overlap
                         // split up array range in two - not contained and contained, and seeds in two - contained and not contained
                         // overwrite contained seeds with contained array
-                        echo "Range starts before seed \n";
+                        // echo "Range starts before seed \n";
                         $differenceStartArray = $seedStart - $range[0][0];
                         $startArray = $range[1][0] + $differenceStartArray;
                         $endArray = $range[1][1];
-                        $startSeed = $seedStart + $array[0][1];
+                        $startSeed = $seedStart + $range[0][1];
                         $endSeed = $seedEnd;
 
                         $seedOne = [$startArray, $endArray];
@@ -218,7 +250,7 @@ class Challenge
                         // seed range starts before array range but there's partial overlap
                         // split up seeds in two - not contained and contained, and array in two - contained and not contained
                         // overwrite contained seeds with contained array
-                        echo "Seed starts before range \n";
+                        // echo "Seed starts before range \n";
                         $startSeed = $seedStart;
                         $endSeed = $seedEnd;
                         $startArray = $range[1][0];
@@ -233,27 +265,31 @@ class Challenge
                         $seeds[] = $seedTwo;
 
                     }
-                    echo "Size is " . count($seeds) . PHP_EOL;
+                    // foreach ($seeds as $el) {
+                    //     echo "[ " . $el[0] . ", " . $el[1] . " ]" . PHP_EOL;
+                    // }
+                    // echo "Size is " . count($seeds) . PHP_EOL;
                 }
             }
             $seedRanges = Challenge::getCopyOfSeeds($seeds);
-            foreach ($seedRanges as $el) {
-                echo "[ " . $el[0] . ", " . $el[1] . " ]" . PHP_EOL;
-            }
-            echo "\n";
+            // foreach ($seedRanges as $el) {
+            //     echo "[ " . $el[0] . ", " . $el[1] . " ]" . PHP_EOL;
+            // }
+            // echo "\n";
         }
         // $test = Challenge::getCopyOfSeeds($seedRanges);
 
 
 
         // $result = min($location);
-        foreach ($seedRanges as $el) {
-            echo "[ " . $el[0] . ", " . $el[1] . " ]" . PHP_EOL;
-        }
+        // foreach ($seedRanges as $el) {
+        //     echo "[ " . $el[0] . ", " . $el[1] . " ]" . PHP_EOL;
+        // }
 
         // foreach ($soilRanges as $el) {
         //     echo "[ " . $el[0][0] . ", " . $el[0][1] . " ], [ " . $el[1][0] . ", " . $el[1][1] . " ]" . PHP_EOL;
         // }
+        $result = Challenge::findMinLocation($seedRanges);
         echo ("Result: " . $result . "\n");
     }
 
