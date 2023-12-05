@@ -65,10 +65,36 @@ class Challenge
         return $min;
     }
 
+    function mergeRanges(array $ranges): array
+    {
+        // $copy = Challenge::getCopyOfSeeds($ranges);
+        for ($i = 0; $i < count($ranges); $i++) {
+            if (!isset($ranges[$i])) {
+                unset($ranges[$i]);
+            } else {
+                for ($j = 0; $j < count($ranges); $j++) {
+                    if (!isset($ranges[$j])) {
+                        unset($ranges[$j]);
+                    } else {
+                        if ($ranges[$i][0] == $ranges[$j][0] && $ranges[$i][1] == $ranges[$j][1] && $i !== $j) {
+                            // $newRange = [$ranges[$i][0], $ranges[$j][1]];
+                            // unset($copy[$i]);
+                            // unset($ranges[$j]);
+                            // $ranges[] = $newRange;
+                            // $copy[] = $newRange;
+                            echo "Can merge [" . $ranges[$i][0] . ", " . $ranges[$i][1] . "] and [" . $ranges[$j][0] . ", " . $ranges[$j][1] . "]" . PHP_EOL;
+                        }
+                    }
+                }
+            }
+        }
+        return $ranges;
+    }
+
     function main()
     {
-        $input = file(__DIR__ . "/testInput.txt");
-        // $input = file(__DIR__ . "/input.txt");
+        // $input = file(__DIR__ . "/testInput.txt");
+        $input = file(__DIR__ . "/input.txt");
         $result = 0;
         $nonSeeds = [];
 
@@ -171,23 +197,22 @@ class Challenge
         }
         // return;
 
+        $processing = 1;
+        echo count($nonSeeds) . "\n";
         foreach ($nonSeeds as $array) {
+            echo "Processing array " . $processing . " out of " . count($nonSeeds) . PHP_EOL;
+            $processing += 1;
             $seeds = Challenge::getCopyOfSeeds($seedRanges);
+            $initialSizeOfSeeds = count($seeds);
+            echo "Seeds is of size " . $initialSizeOfSeeds . PHP_EOL;
             for ($i = 0; $i < count($seeds); $i++) {
+            // for ($i = 0; $i < $initialSizeOfSeeds; $i++) {
+                // if ($i > $initialSizeOfSeeds) {
+                //     echo " i = " . $i . PHP_EOL;
+                //     return;
+                // }
                 $seedRange = $seeds[$i];
                 foreach ($array as $range) {
-                    $source = $range[0];
-                    // if (!isset($seedRange[0]) || !isset($seedRange[1])) {
-                    //     echo " not set \n ";
-                    //     echo count($seedRange) . PHP_EOL;
-                    //     foreach ($seedRange as $key => $seed) {
-                    //         echo "\n";
-                    //         // foreach ($seed as $key => $s) {
-                    //         echo "element " . $seed . " at key " . $key . PHP_EOL;
-                    //         // }
-                    //     }
-                    //     return;
-                    // }
                     $seedStart = $seedRange[0];
                     $seedEnd = $seedRange[1];
                     // if there is no overlap (i.e. this seed range is completely before or after this soil range)
@@ -195,7 +220,8 @@ class Challenge
                         // do nothing
                         // echo "not contained \n";
                         continue;
-                    } else if ($seedStart <= $range[0][0] && $range[0][1] <= $seedEnd) {
+                    // } else if ($seedStart <= $range[0][0] && $range[0][1] <= $seedEnd) {
+                    } else if ($seedStart < $range[0][0] && $range[0][1] < $seedEnd) {
                         // if array range is completely contained in seed range
                         // split up seed range in three: start - not contained, middle - contained, end - not contained
                         // overwrite contained middle of seeds with complete array range
@@ -206,7 +232,7 @@ class Challenge
                         if ($seedStart !== $range[0][0]) {
                             $seeds[] = [$seedStart, $range[1][0] - 1];
                         }
-                            
+
                         $seeds[] = $range[1];
 
                         if ($seedEnd !== $range[0][1]) {
@@ -214,7 +240,8 @@ class Challenge
                         }
 
 
-                    } else if ($range[0][0] <= $seedStart && $seedEnd <= $range[0][1]) {
+                    // } else if ($range[0][0] <= $seedStart && $seedEnd <= $range[0][1]) {
+                    } else if ($range[0][0] < $seedStart && $seedEnd < $range[0][1]) {
                         // if seed range is completely contained in array range
                         // split up array range in three: start - not contained, middle - contained, end - not contained
                         // overwrite complete seeds with contained middle of array range
@@ -228,7 +255,8 @@ class Challenge
 
 
 
-                    } else if ($range[0][1] <= $seedEnd) {
+                    // } else if ($range[0][1] <= $seedEnd) {
+                    } else if ($range[0][1] < $seedEnd) {
                         // array range starts before seed range but there's partial overlap
                         // split up array range in two - not contained and contained, and seeds in two - contained and not contained
                         // overwrite contained seeds with contained array
@@ -246,7 +274,8 @@ class Challenge
                         $seeds[] = $seedOne;
                         $seeds[] = $seedTwo;
 
-                    } else {
+                    // } else {
+                    } else if ($range[0][1] > $seedEnd) {
                         // seed range starts before array range but there's partial overlap
                         // split up seeds in two - not contained and contained, and array in two - contained and not contained
                         // overwrite contained seeds with contained array
@@ -271,6 +300,7 @@ class Challenge
                     // echo "Size is " . count($seeds) . PHP_EOL;
                 }
             }
+            $seeds = Challenge::mergeRanges($seeds);
             $seedRanges = Challenge::getCopyOfSeeds($seeds);
             // foreach ($seedRanges as $el) {
             //     echo "[ " . $el[0] . ", " . $el[1] . " ]" . PHP_EOL;
@@ -282,9 +312,9 @@ class Challenge
 
 
         // $result = min($location);
-        // foreach ($seedRanges as $el) {
-        //     echo "[ " . $el[0] . ", " . $el[1] . " ]" . PHP_EOL;
-        // }
+        foreach ($seedRanges as $el) {
+            echo "[ " . $el[0] . ", " . $el[1] . " ]" . PHP_EOL;
+        }
 
         // foreach ($soilRanges as $el) {
         //     echo "[ " . $el[0][0] . ", " . $el[0][1] . " ], [ " . $el[1][0] . ", " . $el[1][1] . " ]" . PHP_EOL;
