@@ -17,21 +17,12 @@ class Challenge
         ];
     }
 
-    function getCopyOfSeeds(array $seeds): array
-    {
-        $result = [];
-        foreach ($seeds as $seed) {
-            $result[] = [$seed[0], $seed[1]];
-        }
-        return $result;
-    }
-
     function findMinLocation(array $mapping): int
     {
         $min = PHP_INT_MAX;
         foreach ($mapping as $value) {
-            if ($value[1] < $min && $value[1] != 13) {
-                $min = $value[1];
+            if ($value[0] < $min) {
+                $min = $value[0];
             }
         }
         return $min;
@@ -56,7 +47,7 @@ class Challenge
                     $seedRanges[] = [$seedsInput[$j], ($seedsInput[$j] + $seedsInput[$j + 1] - 1)];
                 }
                 // $seedRanges = [[79, 79], [14, 14], [55, 55], [13, 13]];
-                $seedRanges = [[2906422699, 2906422699], [6916147, 6916147], [3075226163, 3075226163], [146720986, 146720986], [689152391, 689152391], [244427042, 244427042], [279234546, 279234546], [382175449, 382175449], [1105311711, 1105311711], [2036236, 2036236], [3650753915, 3650753915], [127044950, 127044950], [3994686181, 3994686181], [93904335, 93904335], [1450749684, 1450749684], [123906789, 123906789], [2044765513, 2044765513], [620379445, 620379445], [1609835129, 1609835129], [60050954, 60050954]];
+                // $seedRanges = [[2906422699, 2906422699], [6916147, 6916147], [3075226163, 3075226163], [146720986, 146720986], [689152391, 689152391], [244427042, 244427042], [279234546, 279234546], [382175449, 382175449], [1105311711, 1105311711], [2036236, 2036236], [3650753915, 3650753915], [127044950, 127044950], [3994686181, 3994686181], [93904335, 93904335], [1450749684, 1450749684], [123906789, 123906789], [2044765513, 2044765513], [620379445, 620379445], [1609835129, 1609835129], [60050954, 60050954]];
                 foreach ($seedRanges as $range) {
                     echo '[' . $range[0] . ', ' . $range[1] . ']' . PHP_EOL;
                 }
@@ -142,7 +133,6 @@ class Challenge
                 }
                 $nonSeeds[] = $locationRanges;
             }
-            // echo "here";
         }
         // foreach ($nonSeeds as $noNSeed) {
         //     foreach ($noNSeed as $nonSeed) {
@@ -162,9 +152,9 @@ class Challenge
 
             $intialSeedSize = count($seedRanges);
             // for each range of seeds
-            for ($i = 0; $i < $intialSeedSize; $i++) {
+            // for ($i = 0; $i < $intialSeedSize; $i++) {
+            for ($i = 0; $i < count($seedRanges); $i++) {
 
-                // $seeds = []; //Challenge::getCopyOfSeeds($seedRanges);
                 $seedRange = $seedRanges[$i];
                 // first seed
                 $firstSeed = $seedRange[0];
@@ -176,6 +166,10 @@ class Challenge
                     $firstMap = $map['start'];
                     $lastMap = $map['end'];
                     $difference = $map['difference'];
+                // for ($map = 0; $map < count($maps); $map++) {
+                //     $firstMap = $maps[$map]['start'];
+                //     $lastMap = $maps[$map]['end'];
+                //     $difference = $maps[$map]['difference'];
 
                     // if there is no overlap (i.e. this seed range is completely before or after this soil range)
                     if ($lastSeed < $firstMap || $firstSeed > $lastMap) {
@@ -189,7 +183,7 @@ class Challenge
 
                         // echo "seed fully contains range old start " . $seedStart . " old end " . $seedEnd . "\n";
 
-                        if ($firstSeed !== $firstMap) {
+                        if ($firstSeed < $firstMap) {
                             // $seeds[] = [$firstSeed, $firstMap - 1];
                             $seedRanges[] = [$firstSeed, $firstMap - 1];
                         }
@@ -197,7 +191,7 @@ class Challenge
                         $seedRanges[$i] = [$firstMap + $difference, $lastMap + $difference];
                         // $seeds[] = [$firstMap + $difference, $lastMap + $difference];
 
-                        if ($lastSeed !== $lastMap) {
+                        if ($lastSeed > $lastMap) {
                             // $seeds[] = [$lastMap + 1, $lastSeed];
                             $seedRanges[] = [$lastMap + 1, $lastSeed];
                         }
@@ -233,8 +227,8 @@ class Challenge
                         // $seeds[$i] = [$firstSeed, $firstMap - 1];
                         // $seeds[] = [$firstSeed, $firstMap - 1];
                         // $seeds[] = [$firstMap + $difference, $lastSeed + $difference];
-                        $seedRanges[$i] = [$firstSeed, $firstMap - 1];
-                        $seedRanges[] = [$firstMap + $difference, $lastSeed + $difference];
+                        $seedRanges[] = [$firstSeed, $firstMap - 1];
+                        $seedRanges[$i] = [$firstMap + $difference, $lastSeed + $difference];
                         break;
 
                     }
@@ -248,14 +242,13 @@ class Challenge
                 //         }
                 //     }
 
-                //     $seedRanges = Challenge::getCopyOfSeeds($seeds);
                 // }
-                // foreach ($seedRanges as $range) {
-                //     echo '[' . $range[0] . ', ' . $range[1] . ']' . PHP_EOL;
-                // }
-                // echo PHP_EOL;
-            }
 
+            }
+            foreach ($seedRanges as $range) {
+                echo '[' . $range[0] . ', ' . $range[1] . ']' . PHP_EOL;
+            }
+            echo PHP_EOL;
             // echo "\n";
 
 
