@@ -39,13 +39,30 @@ class Challenge
      */
     static function getType (array $sorted) : int {
         $frequencies = array_count_values($sorted);
+        $rank = 0;
         switch (count($frequencies)) {
-            case 1: return 7;
-            case 2: return max($frequencies) + 2;
-            case 3: return max($frequencies) + 1;
-            case 4: return 2;
-            default: return 1;
+            case 1: $rank = 7;
+            case 2: $rank = max($frequencies) + 2;
+            case 3: $rank = max($frequencies) + 1;
+            case 4: $rank = 2;
+            default: $rank = 1;
         }
+
+        if ($rank < 7 && isset($frequencies[1])) {
+            // 1xxxx -> xxxxx || 11xxx -> xxxxx
+            if ($rank == 6 || $rank == 5) $rank = 7;
+            // 1xyyy -> xyyyy
+            if ($rank == 4) $rank = 6;
+            // 11xyy -> xyyyy
+            if ($rank == 3) $rank = 6;
+            // 11xyz -> xxxyz
+            // 1xyzz -> xyzzz
+            if ($rank == 2) $rank = 4;
+            // 1abcd => aabcd
+            if ($rank == 1) $rank = 2;
+        }
+
+        return $rank;
     }
 
     static function printHands(array $cards) : void {
@@ -88,11 +105,14 @@ class Challenge
         }
     }
 
-    static function processLine(string $line) : array
+    static function processLine(string $line, int $part) : array
     {
         $line = explode(" ", trim($line));
         $original = str_split($line[0]);
         $hand = str_split($line[0]);
+        if ($part != 1) {
+            $hand = array_map(fn ($card) => ($card == "J") ? 1 : $card, $hand);
+        }
         $hand = array_map(function ($card) {
             $T = 10;
             switch ($card) {
@@ -122,11 +142,13 @@ class Challenge
     {
         // $input = file(__DIR__ . "/testInput.txt");
         $input = file(__DIR__ . "/input.txt");
+        // $part = 1;
+        $part = 2;
         $result = 0;
         $cards = [];
 
         foreach ($input as $line) {
-            $cards[] = Challenge::processLine($line);
+            $cards[] = Challenge::processLine($line, $part);
         }
 
         // Challenge::printHands($cards);
