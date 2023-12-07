@@ -4,12 +4,12 @@ Challenge::main();
 
 class Challenge
 {
-    function processLine(string $line)
+    static function processLine(string $line)
     {
         echo ($line);
     }
 
-    function main()
+    static function main()
     {
         $input = file(__DIR__ . "/testInput.txt");
         // $input = file(__DIR__ . "/input.txt");
