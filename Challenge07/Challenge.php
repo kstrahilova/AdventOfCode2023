@@ -4,7 +4,8 @@ Challenge::main();
 
 class Challenge
 {
-    static function copyArray(array $original) : array {
+    static function copyArray(array $original): array
+    {
         $copy = [];
         foreach ($original as $value) {
             $copy[] = $value;
@@ -12,16 +13,25 @@ class Challenge
         return $copy;
     }
 
-    static function getTextualRepresentationOfType(int $type) : string {
+    static function getTextualRepresentationOfType(int $type): string
+    {
         switch ($type) {
-            case 1: return "High card";
-            case 2: return "One pair";
-            case 3: return "Two pair";
-            case 4: return "Three of a kind";
-            case 5: return "Full house";
-            case 6: return "Four of a kind";
-            case 7: return "Five of a kind";
-            default: return "ERROR";
+            case 1:
+                return "High card";
+            case 2:
+                return "One pair";
+            case 3:
+                return "Two pair";
+            case 4:
+                return "Three of a kind";
+            case 5:
+                return "Full house";
+            case 6:
+                return "Four of a kind";
+            case 7:
+                return "Five of a kind";
+            default:
+                return "ERROR";
         }
     }
 
@@ -37,37 +47,54 @@ class Challenge
      *          case "One pair": 2
      *          case "High card": 1
      */
-    static function getType (array $sorted) : int {
+    static function getType(array $sorted): int
+    {
         $frequencies = array_count_values($sorted);
         $rank = 0;
         switch (count($frequencies)) {
-            case 1: $rank = 7; break;
-            case 2: $rank = max($frequencies) + 2; break;
-            case 3: $rank = max($frequencies) + 1; break;
-            case 4: $rank = 2; break;
-            default: $rank = 1; break;
+            case 1:
+                $rank = 7;
+                break;
+            case 2:
+                $rank = max($frequencies) + 2;
+                break;
+            case 3:
+                $rank = max($frequencies) + 1;
+                break;
+            case 4:
+                $rank = 2;
+                break;
+            default:
+                $rank = 1;
+                break;
         }
 
         if ($rank < 7 && isset($frequencies[1])) {
             // 1xxxx -> xxxxx || 1111x -> xxxxx || 11xxx -> xxxxx || 111xx -> xxxxx
-            if ($rank == 6 || $rank == 5) return 7;
+            if ($rank == 6 || $rank == 5)
+                return 7;
             // 1xyyy -> xyyyy
             // 111xy -> xxxxy
-            if ($rank == 4) return 6;
+            if ($rank == 4)
+                return 6;
             // 11xyy -> xyyyy, so 3 -> 6 = 3 + 1 + 2
             // 1xxyy -> xxxyy, so 3 -> 5 = 3 + 1 + 1
-            if ($rank == 3) return $rank + 1 + $frequencies[1];
+            if ($rank == 3)
+                return $rank + 1 + $frequencies[1];
             // 11xyz -> xxxyz
             // 1xyzz -> xyzzz
-            if ($rank == 2) return 4;
+            if ($rank == 2)
+                return 4;
             // 1abcd => aabcd
-            if ($rank == 1) return 2;
+            if ($rank == 1)
+                return 2;
         }
 
         return $rank;
     }
 
-    static function printHands(array $cards) : string {
+    static function printHands(array $cards): string
+    {
         $result = "";
         foreach ($cards as $card) {
             $result .= "Original hand: ";
@@ -78,13 +105,14 @@ class Challenge
             foreach ($card["hand"] as $i) {
                 $result .= $i . " ";
             }
-            $result .= "\nType: " . $card["type"]  . " => " . Challenge::getTextualRepresentationOfType($card["type"]) . "\nBet = " . $card["bet"] . "\n\n";
+            $result .= "\nType: " . $card["type"] . " => " . Challenge::getTextualRepresentationOfType($card["type"]) . "\nBet = " . $card["bet"] . "\n\n";
         }
 
         return $result;
     }
 
-    static function compare(array $a, array $b) : int {
+    static function compare(array $a, array $b): int
+    {
         if ($a["type"] == $b["type"]) {
             for ($i = 0; $i < count($a["hand"]); $i++) {
                 $first = $a["hand"][$i];
@@ -93,7 +121,7 @@ class Challenge
                     return -1;
                 } else if ($first > $second) {
                     return 1;
-                } 
+                }
             }
             return 0;
 
@@ -110,25 +138,30 @@ class Challenge
         }
     }
 
-    static function processLine(string $line, int $part) : array
+    static function processLine(string $line, int $part): array
     {
-        $lineString = $line;
         $line = explode(" ", trim($line));
         $original = str_split($line[0]);
         $hand = str_split($line[0]);
         if ($part != 1) {
-            $hand = array_map(fn ($card) => ($card == "J") ? 1 : $card, $hand);
+            $hand = array_map(fn($card) => ($card == "J") ? 1 : $card, $hand);
         }
 
         $hand = array_map(function ($card) {
             $T = 10;
             switch ($card) {
-                case "T": return $T;
-                case "J": return $T + 1;
-                case "Q": return $T + 2;
-                case "K": return $T + 3;
-                case "A": return $T + 4;
-                default: return $card;
+                case "T":
+                    return $T;
+                case "J":
+                    return $T + 1;
+                case "Q":
+                    return $T + 2;
+                case "K":
+                    return $T + 3;
+                case "A":
+                    return $T + 4;
+                default:
+                    return $card;
             }
         }, $hand);
 
@@ -136,7 +169,7 @@ class Challenge
         sort($sorted);
 
         $type = Challenge::getType($sorted);
-    
+
         return [
             "original" => $original,
             "hand" => $hand,
@@ -159,7 +192,7 @@ class Challenge
         }
 
         usort($cards, "Challenge::compare");
-        
+
         // $output = Challenge::printHands($cards);
         // file_put_contents(__DIR__ . "/output.txt", $output);
 
