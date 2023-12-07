@@ -4,6 +4,7 @@ Challenge::main();
 
 class Challenge
 {
+    static $freq;
     static function copyArray(array $original) : array {
         $copy = [];
         foreach ($original as $value) {
@@ -41,42 +42,47 @@ class Challenge
         $frequencies = array_count_values($sorted);
         $rank = 0;
         switch (count($frequencies)) {
-            case 1: $rank = 7;
-            case 2: $rank = max($frequencies) + 2;
-            case 3: $rank = max($frequencies) + 1;
-            case 4: $rank = 2;
-            default: $rank = 1;
+            case 1: $rank = 7; break;
+            case 2: $rank = max($frequencies) + 2; break;
+            case 3: $rank = max($frequencies) + 1; break;
+            case 4: $rank = 2; break;
+            default: $rank = 1; break;
         }
 
         if ($rank < 7 && isset($frequencies[1])) {
-            // 1xxxx -> xxxxx || 11xxx -> xxxxx
-            if ($rank == 6 || $rank == 5) $rank = 7;
+            // 1xxxx -> xxxxx || 1111x -> xxxxx || 11xxx -> xxxxx || 111xx -> xxxxx
+            if ($rank == 6 || $rank == 5) return 7;
             // 1xyyy -> xyyyy
-            if ($rank == 4) $rank = 6;
-            // 11xyy -> xyyyy
-            if ($rank == 3) $rank = 6;
+            // 111xy -> xxxxy
+            if ($rank == 4) return 6;
+            // 11xyy -> xyyyy, so 3 -> 6 = 3 + 1 + 2
+            // 1xxyy -> xxxyy, so 3 -> 5 = 3 + 1 + 1
+            if ($rank == 3) return $rank + 1 + $frequencies[1];
             // 11xyz -> xxxyz
             // 1xyzz -> xyzzz
-            if ($rank == 2) $rank = 4;
+            if ($rank == 2) return 4;
             // 1abcd => aabcd
-            if ($rank == 1) $rank = 2;
+            if ($rank == 1) return 2;
         }
 
         return $rank;
     }
 
-    static function printHands(array $cards) : void {
+    static function printHands(array $cards) : string {
+        $result = "";
         foreach ($cards as $card) {
-            echo "Original hand: ";
+            $result .= "Original hand: ";
             foreach ($card["original"] as $i) {
-                echo $i . " ";
+                $result .= $i . " ";
             }
-            echo "\nMapped hand: ";
+            $result .= "\nMapped hand: ";
             foreach ($card["hand"] as $i) {
-                echo $i . " ";
+                $result .= $i . " ";
             }
-            echo "\nType: " . $card["type"]  . " => " . Challenge::getTextualRepresentationOfType($card["type"]) . "\nBet = " . $card["bet"] . "\n\n";
+            $result .= "\nType: " . $card["type"]  . " => " . Challenge::getTextualRepresentationOfType($card["type"]) . "\nBet = " . $card["bet"] . "\n\n";
         }
+
+        return $result;
     }
 
     static function compare(array $a, array $b) : int {
@@ -107,6 +113,7 @@ class Challenge
 
     static function processLine(string $line, int $part) : array
     {
+        $lineString = $line;
         $line = explode(" ", trim($line));
         $original = str_split($line[0]);
         $hand = str_split($line[0]);
@@ -127,13 +134,22 @@ class Challenge
 
         $sorted = Challenge::copyArray($hand);
         sort($sorted);
+
+        $frequencies = array_count_values($sorted);
+        global $freq;
+        $freq .= $lineString . PHP_EOL;
+        foreach ($frequencies as $element => $frequency) {
+            $freq .= $element . " => " . $frequency . " ?= " . $frequencies[$element] . "\n";
+        }
+        $freq .= "Count " . count($frequencies) . "\n";
+        $freq .= "Max " . max($frequencies) . "\n";
+        $freq .= "\n";
         $type = Challenge::getType($sorted);
     
         return [
             "original" => $original,
             "hand" => $hand,
             "type" => $type,
-            "rank" => $type,
             "bet" => (int) $line[1],
         ];
     }
@@ -147,6 +163,9 @@ class Challenge
         $result = 0;
         $cards = [];
 
+        global $freq;
+        $freq = "";
+
         foreach ($input as $line) {
             $cards[] = Challenge::processLine($line, $part);
         }
@@ -154,7 +173,12 @@ class Challenge
         // Challenge::printHands($cards);
 
         usort($cards, "Challenge::compare");
-        // Challenge::printHands($cards);
+        
+        $output = Challenge::printHands($cards);
+        // echo $output;
+        file_put_contents(__DIR__ . "/output.txt", $output);
+        file_put_contents(__DIR__ . "/frequencies.txt", $freq);
+
 
         for ($i = 0; $i < count($cards); $i++) {
             $winnings = $cards[$i]["bet"] * ($i + 1);

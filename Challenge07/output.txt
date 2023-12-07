@@ -1,0 +1,5000 @@
+Original hand: 2 3 Q 7 A 
+Mapped hand: 2 3 12 7 14 
+Type: 1 => High card
+Bet = 878
+
+Original hand: 2 5 Q 4 7 
+Mapped hand: 2 5 12 4 7 
+Type: 1 => High card
+Bet = 739
+
+Original hand: 2 6 T 7 A 
+Mapped hand: 2 6 10 7 14 
+Type: 1 => High card
+Bet = 345
+
+Original hand: 2 7 T 3 4 
+Mapped hand: 2 7 10 3 4 
+Type: 1 => High card
+Bet = 134
+
+Original hand: 2 8 9 7 K 
+Mapped hand: 2 8 9 7 13 
+Type: 1 => High card
+Bet = 321
+
+Original hand: 2 9 3 5 K 
+Mapped hand: 2 9 3 5 13 
+Type: 1 => High card
+Bet = 543
+
+Original hand: 2 T 4 7 6 
+Mapped hand: 2 10 4 7 6 
+Type: 1 => High card
+Bet = 90
+
+Original hand: 2 T 6 Q 5 
+Mapped hand: 2 10 6 12 5 
+Type: 1 => High card
+Bet = 559
+
+Original hand: 2 Q 6 9 5 
+Mapped hand: 2 12 6 9 5 
+Type: 1 => High card
+Bet = 273
+
+Original hand: 2 K 5 9 7 
+Mapped hand: 2 13 5 9 7 
+Type: 1 => High card
+Bet = 742
+
+Original hand: 3 2 9 8 A 
+Mapped hand: 3 2 9 8 14 
+Type: 1 => High card
+Bet = 325
+
+Original hand: 3 5 6 2 T 
+Mapped hand: 3 5 6 2 10 
+Type: 1 => High card
+Bet = 877
+
+Original hand: 3 7 6 9 A 
+Mapped hand: 3 7 6 9 14 
+Type: 1 => High card
+Bet = 429
+
+Original hand: 3 7 K 2 A 
+Mapped hand: 3 7 13 2 14 
+Type: 1 => High card
+Bet = 348
+
+Original hand: 3 7 A 2 5 
+Mapped hand: 3 7 14 2 5 
+Type: 1 => High card
+Bet = 300
+
+Original hand: 3 8 2 Q A 
+Mapped hand: 3 8 2 12 14 
+Type: 1 => High card
+Bet = 320
+
+Original hand: 3 9 K 2 8 
+Mapped hand: 3 9 13 2 8 
+Type: 1 => High card
+Bet = 665
+
+Original hand: 3 T 5 4 9 
+Mapped hand: 3 10 5 4 9 
+Type: 1 => High card
+Bet = 811
+
+Original hand: 4 6 9 T 8 
+Mapped hand: 4 6 9 10 8 
+Type: 1 => High card
+Bet = 72
+
+Original hand: 4 7 3 2 A 
+Mapped hand: 4 7 3 2 14 
+Type: 1 => High card
+Bet = 420
+
+Original hand: 4 7 3 Q 6 
+Mapped hand: 4 7 3 12 6 
+Type: 1 => High card
+Bet = 988
+
+Original hand: 4 7 5 K 6 
+Mapped hand: 4 7 5 13 6 
+Type: 1 => High card
+Bet = 109
+
+Original hand: 4 8 5 3 Q 
+Mapped hand: 4 8 5 3 12 
+Type: 1 => High card
+Bet = 476
+
+Original hand: 4 9 3 8 T 
+Mapped hand: 4 9 3 8 10 
+Type: 1 => High card
+Bet = 156
+
+Original hand: 4 9 5 8 6 
+Mapped hand: 4 9 5 8 6 
+Type: 1 => High card
+Bet = 515
+
+Original hand: 4 T 7 A 5 
+Mapped hand: 4 10 7 14 5 
+Type: 1 => High card
+Bet = 956
+
+Original hand: 4 T 9 K 6 
+Mapped hand: 4 10 9 13 6 
+Type: 1 => High card
+Bet = 997
+
+Original hand: 4 K 5 8 6 
+Mapped hand: 4 13 5 8 6 
+Type: 1 => High card
+Bet = 760
+
+Original hand: 4 A 2 T 5 
+Mapped hand: 4 14 2 10 5 
+Type: 1 => High card
+Bet = 984
+
+Original hand: 4 A 6 3 8 
+Mapped hand: 4 14 6 3 8 
+Type: 1 => High card
+Bet = 880
+
+Original hand: 4 A K 8 7 
+Mapped hand: 4 14 13 8 7 
+Type: 1 => High card
+Bet = 78
+
+Original hand: 5 2 T 6 7 
+Mapped hand: 5 2 10 6 7 
+Type: 1 => High card
+Bet = 177
+
+Original hand: 5 3 Q 8 K 
+Mapped hand: 5 3 12 8 13 
+Type: 1 => High card
+Bet = 257
+
+Original hand: 5 6 3 7 T 
+Mapped hand: 5 6 3 7 10 
+Type: 1 => High card
+Bet = 734
+
+Original hand: 5 7 A Q 4 
+Mapped hand: 5 7 14 12 4 
+Type: 1 => High card
+Bet = 671
+
+Original hand: 5 8 K A 4 
+Mapped hand: 5 8 13 14 4 
+Type: 1 => High card
+Bet = 795
+
+Original hand: 5 9 2 A 6 
+Mapped hand: 5 9 2 14 6 
+Type: 1 => High card
+Bet = 449
+
+Original hand: 5 9 8 7 3 
+Mapped hand: 5 9 8 7 3 
+Type: 1 => High card
+Bet = 555
+
+Original hand: 5 9 Q 7 T 
+Mapped hand: 5 9 12 7 10 
+Type: 1 => High card
+Bet = 944
+
+Original hand: 5 T 9 K 4 
+Mapped hand: 5 10 9 13 4 
+Type: 1 => High card
+Bet = 780
+
+Original hand: 5 T K 4 7 
+Mapped hand: 5 10 13 4 7 
+Type: 1 => High card
+Bet = 395
+
+Original hand: 5 Q T 2 7 
+Mapped hand: 5 12 10 2 7 
+Type: 1 => High card
+Bet = 959
+
+Original hand: 5 Q K 4 A 
+Mapped hand: 5 12 13 4 14 
+Type: 1 => High card
+Bet = 474
+
+Original hand: 5 K 6 Q 2 
+Mapped hand: 5 13 6 12 2 
+Type: 1 => High card
+Bet = 971
+
+Original hand: 5 A 9 K Q 
+Mapped hand: 5 14 9 13 12 
+Type: 1 => High card
+Bet = 494
+
+Original hand: 6 3 4 7 A 
+Mapped hand: 6 3 4 7 14 
+Type: 1 => High card
+Bet = 497
+
+Original hand: 6 5 4 A 9 
+Mapped hand: 6 5 4 14 9 
+Type: 1 => High card
+Bet = 700
+
+Original hand: 6 8 7 A 5 
+Mapped hand: 6 8 7 14 5 
+Type: 1 => High card
+Bet = 528
+
+Original hand: 6 9 4 T 2 
+Mapped hand: 6 9 4 10 2 
+Type: 1 => High card
+Bet = 679
+
+Original hand: 6 T 7 8 9 
+Mapped hand: 6 10 7 8 9 
+Type: 1 => High card
+Bet = 167
+
+Original hand: 6 A 3 2 8 
+Mapped hand: 6 14 3 2 8 
+Type: 1 => High card
+Bet = 246
+
+Original hand: 6 A 5 8 3 
+Mapped hand: 6 14 5 8 3 
+Type: 1 => High card
+Bet = 814
+
+Original hand: 6 A T 5 4 
+Mapped hand: 6 14 10 5 4 
+Type: 1 => High card
+Bet = 79
+
+Original hand: 7 2 Q 5 A 
+Mapped hand: 7 2 12 5 14 
+Type: 1 => High card
+Bet = 908
+
+Original hand: 7 3 A 6 T 
+Mapped hand: 7 3 14 6 10 
+Type: 1 => High card
+Bet = 106
+
+Original hand: 7 4 K 2 8 
+Mapped hand: 7 4 13 2 8 
+Type: 1 => High card
+Bet = 523
+
+Original hand: 7 5 4 6 8 
+Mapped hand: 7 5 4 6 8 
+Type: 1 => High card
+Bet = 282
+
+Original hand: 7 5 4 9 6 
+Mapped hand: 7 5 4 9 6 
+Type: 1 => High card
+Bet = 4
+
+Original hand: 7 5 4 T Q 
+Mapped hand: 7 5 4 10 12 
+Type: 1 => High card
+Bet = 74
+
+Original hand: 7 5 6 8 2 
+Mapped hand: 7 5 6 8 2 
+Type: 1 => High card
+Bet = 960
+
+Original hand: 7 8 T 2 A 
+Mapped hand: 7 8 10 2 14 
+Type: 1 => High card
+Bet = 112
+
+Original hand: 7 Q K 6 5 
+Mapped hand: 7 12 13 6 5 
+Type: 1 => High card
+Bet = 716
+
+Original hand: 7 K 5 2 3 
+Mapped hand: 7 13 5 2 3 
+Type: 1 => High card
+Bet = 985
+
+Original hand: 7 A 6 Q 9 
+Mapped hand: 7 14 6 12 9 
+Type: 1 => High card
+Bet = 220
+
+Original hand: 8 2 3 A 4 
+Mapped hand: 8 2 3 14 4 
+Type: 1 => High card
+Bet = 457
+
+Original hand: 8 3 4 A 9 
+Mapped hand: 8 3 4 14 9 
+Type: 1 => High card
+Bet = 688
+
+Original hand: 8 4 6 9 7 
+Mapped hand: 8 4 6 9 7 
+Type: 1 => High card
+Bet = 581
+
+Original hand: 8 5 9 2 6 
+Mapped hand: 8 5 9 2 6 
+Type: 1 => High card
+Bet = 435
+
+Original hand: 8 6 9 2 A 
+Mapped hand: 8 6 9 2 14 
+Type: 1 => High card
+Bet = 844
+
+Original hand: 8 6 Q 3 5 
+Mapped hand: 8 6 12 3 5 
+Type: 1 => High card
+Bet = 764
+
+Original hand: 8 7 3 4 Q 
+Mapped hand: 8 7 3 4 12 
+Type: 1 => High card
+Bet = 538
+
+Original hand: 8 7 Q A K 
+Mapped hand: 8 7 12 14 13 
+Type: 1 => High card
+Bet = 970
+
+Original hand: 8 Q 6 A T 
+Mapped hand: 8 12 6 14 10 
+Type: 1 => High card
+Bet = 973
+
+Original hand: 8 Q 7 5 6 
+Mapped hand: 8 12 7 5 6 
+Type: 1 => High card
+Bet = 163
+
+Original hand: 8 K 3 A T 
+Mapped hand: 8 13 3 14 10 
+Type: 1 => High card
+Bet = 934
+
+Original hand: 8 A 2 9 4 
+Mapped hand: 8 14 2 9 4 
+Type: 1 => High card
+Bet = 57
+
+Original hand: 8 A Q 2 T 
+Mapped hand: 8 14 12 2 10 
+Type: 1 => High card
+Bet = 297
+
+Original hand: 8 A K 5 Q 
+Mapped hand: 8 14 13 5 12 
+Type: 1 => High card
+Bet = 230
+
+Original hand: 9 3 5 2 8 
+Mapped hand: 9 3 5 2 8 
+Type: 1 => High card
+Bet = 31
+
+Original hand: 9 3 T 5 A 
+Mapped hand: 9 3 10 5 14 
+Type: 1 => High card
+Bet = 365
+
+Original hand: 9 3 K 6 5 
+Mapped hand: 9 3 13 6 5 
+Type: 1 => High card
+Bet = 966
+
+Original hand: 9 5 K 3 Q 
+Mapped hand: 9 5 13 3 12 
+Type: 1 => High card
+Bet = 279
+
+Original hand: 9 7 Q A T 
+Mapped hand: 9 7 12 14 10 
+Type: 1 => High card
+Bet = 143
+
+Original hand: 9 T 6 3 4 
+Mapped hand: 9 10 6 3 4 
+Type: 1 => High card
+Bet = 231
+
+Original hand: 9 T Q 3 A 
+Mapped hand: 9 10 12 3 14 
+Type: 1 => High card
+Bet = 466
+
+Original hand: 9 K 5 8 4 
+Mapped hand: 9 13 5 8 4 
+Type: 1 => High card
+Bet = 564
+
+Original hand: 9 K 5 Q 2 
+Mapped hand: 9 13 5 12 2 
+Type: 1 => High card
+Bet = 341
+
+Original hand: 9 K 8 Q 4 
+Mapped hand: 9 13 8 12 4 
+Type: 1 => High card
+Bet = 464
+
+Original hand: T 2 7 8 4 
+Mapped hand: 10 2 7 8 4 
+Type: 1 => High card
+Bet = 59
+
+Original hand: T 3 7 8 5 
+Mapped hand: 10 3 7 8 5 
+Type: 1 => High card
+Bet = 237
+
+Original hand: T 3 A 6 8 
+Mapped hand: 10 3 14 6 8 
+Type: 1 => High card
+Bet = 432
+
+Original hand: T 4 2 A 8 
+Mapped hand: 10 4 2 14 8 
+Type: 1 => High card
+Bet = 624
+
+Original hand: T 4 K 3 A 
+Mapped hand: 10 4 13 3 14 
+Type: 1 => High card
+Bet = 847
+
+Original hand: T 5 2 9 7 
+Mapped hand: 10 5 2 9 7 
+Type: 1 => High card
+Bet = 133
+
+Original hand: T 5 9 7 4 
+Mapped hand: 10 5 9 7 4 
+Type: 1 => High card
+Bet = 181
+
+Original hand: T 6 2 4 5 
+Mapped hand: 10 6 2 4 5 
+Type: 1 => High card
+Bet = 917
+
+Original hand: T 6 3 7 9 
+Mapped hand: 10 6 3 7 9 
+Type: 1 => High card
+Bet = 661
+
+Original hand: T 6 7 8 2 
+Mapped hand: 10 6 7 8 2 
+Type: 1 => High card
+Bet = 898
+
+Original hand: T 7 4 A Q 
+Mapped hand: 10 7 4 14 12 
+Type: 1 => High card
+Bet = 304
+
+Original hand: T 8 2 7 5 
+Mapped hand: 10 8 2 7 5 
+Type: 1 => High card
+Bet = 436
+
+Original hand: T 8 3 2 5 
+Mapped hand: 10 8 3 2 5 
+Type: 1 => High card
+Bet = 888
+
+Original hand: T 8 A 4 7 
+Mapped hand: 10 8 14 4 7 
+Type: 1 => High card
+Bet = 613
+
+Original hand: T Q 5 K 8 
+Mapped hand: 10 12 5 13 8 
+Type: 1 => High card
+Bet = 819
+
+Original hand: T Q K 4 9 
+Mapped hand: 10 12 13 4 9 
+Type: 1 => High card
+Bet = 748
+
+Original hand: T A 2 5 9 
+Mapped hand: 10 14 2 5 9 
+Type: 1 => High card
+Bet = 173
+
+Original hand: T A K 5 4 
+Mapped hand: 10 14 13 5 4 
+Type: 1 => High card
+Bet = 455
+
+Original hand: Q 3 7 4 9 
+Mapped hand: 12 3 7 4 9 
+Type: 1 => High card
+Bet = 295
+
+Original hand: Q 3 8 T 2 
+Mapped hand: 12 3 8 10 2 
+Type: 1 => High card
+Bet = 709
+
+Original hand: Q 3 K 9 A 
+Mapped hand: 12 3 13 9 14 
+Type: 1 => High card
+Bet = 29
+
+Original hand: Q 4 2 K 9 
+Mapped hand: 12 4 2 13 9 
+Type: 1 => High card
+Bet = 147
+
+Original hand: Q 4 5 7 8 
+Mapped hand: 12 4 5 7 8 
+Type: 1 => High card
+Bet = 294
+
+Original hand: Q 4 6 3 5 
+Mapped hand: 12 4 6 3 5 
+Type: 1 => High card
+Bet = 558
+
+Original hand: Q 4 6 K 3 
+Mapped hand: 12 4 6 13 3 
+Type: 1 => High card
+Bet = 20
+
+Original hand: Q 5 T 9 6 
+Mapped hand: 12 5 10 9 6 
+Type: 1 => High card
+Bet = 417
+
+Original hand: Q 8 9 6 5 
+Mapped hand: 12 8 9 6 5 
+Type: 1 => High card
+Bet = 139
+
+Original hand: Q 9 7 5 6 
+Mapped hand: 12 9 7 5 6 
+Type: 1 => High card
+Bet = 30
+
+Original hand: Q 9 T 6 K 
+Mapped hand: 12 9 10 6 13 
+Type: 1 => High card
+Bet = 513
+
+Original hand: Q T 9 5 K 
+Mapped hand: 12 10 9 5 13 
+Type: 1 => High card
+Bet = 285
+
+Original hand: Q K 3 2 7 
+Mapped hand: 12 13 3 2 7 
+Type: 1 => High card
+Bet = 750
+
+Original hand: Q A 4 5 9 
+Mapped hand: 12 14 4 5 9 
+Type: 1 => High card
+Bet = 456
+
+Original hand: Q A 7 2 T 
+Mapped hand: 12 14 7 2 10 
+Type: 1 => High card
+Bet = 554
+
+Original hand: Q A T 4 2 
+Mapped hand: 12 14 10 4 2 
+Type: 1 => High card
+Bet = 951
+
+Original hand: K 2 6 8 T 
+Mapped hand: 13 2 6 8 10 
+Type: 1 => High card
+Bet = 967
+
+Original hand: K 2 A Q 3 
+Mapped hand: 13 2 14 12 3 
+Type: 1 => High card
+Bet = 144
+
+Original hand: K 3 T Q 7 
+Mapped hand: 13 3 10 12 7 
+Type: 1 => High card
+Bet = 115
+
+Original hand: K 4 6 2 A 
+Mapped hand: 13 4 6 2 14 
+Type: 1 => High card
+Bet = 508
+
+Original hand: K 4 9 2 3 
+Mapped hand: 13 4 9 2 3 
+Type: 1 => High card
+Bet = 752
+
+Original hand: K 5 T 8 9 
+Mapped hand: 13 5 10 8 9 
+Type: 1 => High card
+Bet = 243
+
+Original hand: K 6 9 4 5 
+Mapped hand: 13 6 9 4 5 
+Type: 1 => High card
+Bet = 322
+
+Original hand: K 8 6 9 3 
+Mapped hand: 13 8 6 9 3 
+Type: 1 => High card
+Bet = 871
+
+Original hand: K 8 9 6 A 
+Mapped hand: 13 8 9 6 14 
+Type: 1 => High card
+Bet = 93
+
+Original hand: K Q 3 8 A 
+Mapped hand: 13 12 3 8 14 
+Type: 1 => High card
+Bet = 412
+
+Original hand: K Q 4 6 7 
+Mapped hand: 13 12 4 6 7 
+Type: 1 => High card
+Bet = 64
+
+Original hand: K Q 8 A 9 
+Mapped hand: 13 12 8 14 9 
+Type: 1 => High card
+Bet = 608
+
+Original hand: K A 7 4 9 
+Mapped hand: 13 14 7 4 9 
+Type: 1 => High card
+Bet = 40
+
+Original hand: K A Q 2 5 
+Mapped hand: 13 14 12 2 5 
+Type: 1 => High card
+Bet = 927
+
+Original hand: A 3 8 T 4 
+Mapped hand: 14 3 8 10 4 
+Type: 1 => High card
+Bet = 968
+
+Original hand: A 5 6 8 Q 
+Mapped hand: 14 5 6 8 12 
+Type: 1 => High card
+Bet = 98
+
+Original hand: A 5 T Q 9 
+Mapped hand: 14 5 10 12 9 
+Type: 1 => High card
+Bet = 805
+
+Original hand: A 6 K 7 8 
+Mapped hand: 14 6 13 7 8 
+Type: 1 => High card
+Bet = 160
+
+Original hand: A 7 5 T 9 
+Mapped hand: 14 7 5 10 9 
+Type: 1 => High card
+Bet = 425
+
+Original hand: A 7 Q 8 T 
+Mapped hand: 14 7 12 8 10 
+Type: 1 => High card
+Bet = 983
+
+Original hand: A 8 3 K 4 
+Mapped hand: 14 8 3 13 4 
+Type: 1 => High card
+Bet = 905
+
+Original hand: A 9 6 Q 2 
+Mapped hand: 14 9 6 12 2 
+Type: 1 => High card
+Bet = 302
+
+Original hand: A 9 8 4 Q 
+Mapped hand: 14 9 8 4 12 
+Type: 1 => High card
+Bet = 821
+
+Original hand: A Q 2 T 6 
+Mapped hand: 14 12 2 10 6 
+Type: 1 => High card
+Bet = 99
+
+Original hand: A K T 8 6 
+Mapped hand: 14 13 10 8 6 
+Type: 1 => High card
+Bet = 936
+
+Original hand: J 2 3 5 7 
+Mapped hand: 1 2 3 5 7 
+Type: 2 => One pair
+Bet = 196
+
+Original hand: J 2 4 7 5 
+Mapped hand: 1 2 4 7 5 
+Type: 2 => One pair
+Bet = 495
+
+Original hand: J 3 7 6 8 
+Mapped hand: 1 3 7 6 8 
+Type: 2 => One pair
+Bet = 536
+
+Original hand: J 4 7 3 9 
+Mapped hand: 1 4 7 3 9 
+Type: 2 => One pair
+Bet = 816
+
+Original hand: J 5 4 7 T 
+Mapped hand: 1 5 4 7 10 
+Type: 2 => One pair
+Bet = 595
+
+Original hand: J 5 T 8 2 
+Mapped hand: 1 5 10 8 2 
+Type: 2 => One pair
+Bet = 718
+
+Original hand: J 6 5 A K 
+Mapped hand: 1 6 5 14 13 
+Type: 2 => One pair
+Bet = 801
+
+Original hand: J 6 7 2 9 
+Mapped hand: 1 6 7 2 9 
+Type: 2 => One pair
+Bet = 467
+
+Original hand: J 7 4 9 5 
+Mapped hand: 1 7 4 9 5 
+Type: 2 => One pair
+Bet = 628
+
+Original hand: J K A 9 3 
+Mapped hand: 1 13 14 9 3 
+Type: 2 => One pair
+Bet = 887
+
+Original hand: J A 8 2 K 
+Mapped hand: 1 14 8 2 13 
+Type: 2 => One pair
+Bet = 978
+
+Original hand: J A 9 4 6 
+Mapped hand: 1 14 9 4 6 
+Type: 2 => One pair
+Bet = 582
+
+Original hand: 2 J 4 K A 
+Mapped hand: 2 1 4 13 14 
+Type: 2 => One pair
+Bet = 43
+
+Original hand: 2 J 8 7 6 
+Mapped hand: 2 1 8 7 6 
+Type: 2 => One pair
+Bet = 713
+
+Original hand: 2 J T 9 K 
+Mapped hand: 2 1 10 9 13 
+Type: 2 => One pair
+Bet = 136
+
+Original hand: 2 2 9 Q A 
+Mapped hand: 2 2 9 12 14 
+Type: 2 => One pair
+Bet = 633
+
+Original hand: 2 3 A Q 3 
+Mapped hand: 2 3 14 12 3 
+Type: 2 => One pair
+Bet = 600
+
+Original hand: 2 4 4 A 5 
+Mapped hand: 2 4 4 14 5 
+Type: 2 => One pair
+Bet = 465
+
+Original hand: 2 5 3 2 8 
+Mapped hand: 2 5 3 2 8 
+Type: 2 => One pair
+Bet = 815
+
+Original hand: 2 5 8 9 5 
+Mapped hand: 2 5 8 9 5 
+Type: 2 => One pair
+Bet = 268
+
+Original hand: 2 6 7 4 4 
+Mapped hand: 2 6 7 4 4 
+Type: 2 => One pair
+Bet = 850
+
+Original hand: 2 9 3 7 9 
+Mapped hand: 2 9 3 7 9 
+Type: 2 => One pair
+Bet = 972
+
+Original hand: 2 9 9 8 3 
+Mapped hand: 2 9 9 8 3 
+Type: 2 => One pair
+Bet = 540
+
+Original hand: 2 T 8 A T 
+Mapped hand: 2 10 8 14 10 
+Type: 2 => One pair
+Bet = 502
+
+Original hand: 2 T A 9 9 
+Mapped hand: 2 10 14 9 9 
+Type: 2 => One pair
+Bet = 406
+
+Original hand: 2 Q 9 3 J 
+Mapped hand: 2 12 9 3 1 
+Type: 2 => One pair
+Bet = 755
+
+Original hand: 2 Q T 2 K 
+Mapped hand: 2 12 10 2 13 
+Type: 2 => One pair
+Bet = 75
+
+Original hand: 2 Q Q 7 6 
+Mapped hand: 2 12 12 7 6 
+Type: 2 => One pair
+Bet = 510
+
+Original hand: 2 K K 7 5 
+Mapped hand: 2 13 13 7 5 
+Type: 2 => One pair
+Bet = 339
+
+Original hand: 3 J 6 9 8 
+Mapped hand: 3 1 6 9 8 
+Type: 2 => One pair
+Bet = 837
+
+Original hand: 3 2 K J T 
+Mapped hand: 3 2 13 1 10 
+Type: 2 => One pair
+Bet = 733
+
+Original hand: 3 4 5 3 2 
+Mapped hand: 3 4 5 3 2 
+Type: 2 => One pair
+Bet = 368
+
+Original hand: 3 5 2 K 2 
+Mapped hand: 3 5 2 13 2 
+Type: 2 => One pair
+Bet = 94
+
+Original hand: 3 6 Q 4 3 
+Mapped hand: 3 6 12 4 3 
+Type: 2 => One pair
+Bet = 696
+
+Original hand: 3 7 6 2 7 
+Mapped hand: 3 7 6 2 7 
+Type: 2 => One pair
+Bet = 873
+
+Original hand: 3 8 2 9 8 
+Mapped hand: 3 8 2 9 8 
+Type: 2 => One pair
+Bet = 643
+
+Original hand: 3 8 4 6 6 
+Mapped hand: 3 8 4 6 6 
+Type: 2 => One pair
+Bet = 461
+
+Original hand: 3 9 A A T 
+Mapped hand: 3 9 14 14 10 
+Type: 2 => One pair
+Bet = 424
+
+Original hand: 3 Q J A K 
+Mapped hand: 3 12 1 14 13 
+Type: 2 => One pair
+Bet = 241
+
+Original hand: 3 Q Q 8 9 
+Mapped hand: 3 12 12 8 9 
+Type: 2 => One pair
+Bet = 446
+
+Original hand: 3 K J 7 5 
+Mapped hand: 3 13 1 7 5 
+Type: 2 => One pair
+Bet = 547
+
+Original hand: 3 A T 9 T 
+Mapped hand: 3 14 10 9 10 
+Type: 2 => One pair
+Bet = 897
+
+Original hand: 4 J 9 K 8 
+Mapped hand: 4 1 9 13 8 
+Type: 2 => One pair
+Bet = 353
+
+Original hand: 4 2 T 2 Q 
+Mapped hand: 4 2 10 2 12 
+Type: 2 => One pair
+Bet = 108
+
+Original hand: 4 3 6 J 2 
+Mapped hand: 4 3 6 1 2 
+Type: 2 => One pair
+Bet = 685
+
+Original hand: 4 5 6 J 8 
+Mapped hand: 4 5 6 1 8 
+Type: 2 => One pair
+Bet = 15
+
+Original hand: 4 6 5 2 6 
+Mapped hand: 4 6 5 2 6 
+Type: 2 => One pair
+Bet = 327
+
+Original hand: 4 6 8 8 7 
+Mapped hand: 4 6 8 8 7 
+Type: 2 => One pair
+Bet = 704
+
+Original hand: 4 6 T 5 T 
+Mapped hand: 4 6 10 5 10 
+Type: 2 => One pair
+Bet = 550
+
+Original hand: 4 6 K 4 8 
+Mapped hand: 4 6 13 4 8 
+Type: 2 => One pair
+Bet = 336
+
+Original hand: 4 8 2 8 A 
+Mapped hand: 4 8 2 8 14 
+Type: 2 => One pair
+Bet = 215
+
+Original hand: 4 T 6 T 8 
+Mapped hand: 4 10 6 10 8 
+Type: 2 => One pair
+Bet = 544
+
+Original hand: 4 Q 4 5 T 
+Mapped hand: 4 12 4 5 10 
+Type: 2 => One pair
+Bet = 180
+
+Original hand: 4 K 9 2 J 
+Mapped hand: 4 13 9 2 1 
+Type: 2 => One pair
+Bet = 33
+
+Original hand: 4 K 9 3 K 
+Mapped hand: 4 13 9 3 13 
+Type: 2 => One pair
+Bet = 928
+
+Original hand: 4 A 4 3 T 
+Mapped hand: 4 14 4 3 10 
+Type: 2 => One pair
+Bet = 653
+
+Original hand: 5 J A T 8 
+Mapped hand: 5 1 14 10 8 
+Type: 2 => One pair
+Bet = 778
+
+Original hand: 5 2 K 8 K 
+Mapped hand: 5 2 13 8 13 
+Type: 2 => One pair
+Bet = 453
+
+Original hand: 5 3 7 K K 
+Mapped hand: 5 3 7 13 13 
+Type: 2 => One pair
+Bet = 225
+
+Original hand: 5 4 3 4 Q 
+Mapped hand: 5 4 3 4 12 
+Type: 2 => One pair
+Bet = 232
+
+Original hand: 5 4 5 2 3 
+Mapped hand: 5 4 5 2 3 
+Type: 2 => One pair
+Bet = 935
+
+Original hand: 5 7 A 9 J 
+Mapped hand: 5 7 14 9 1 
+Type: 2 => One pair
+Bet = 996
+
+Original hand: 5 8 4 J T 
+Mapped hand: 5 8 4 1 10 
+Type: 2 => One pair
+Bet = 743
+
+Original hand: 5 9 J 8 A 
+Mapped hand: 5 9 1 8 14 
+Type: 2 => One pair
+Bet = 692
+
+Original hand: 5 Q T 2 J 
+Mapped hand: 5 12 10 2 1 
+Type: 2 => One pair
+Bet = 854
+
+Original hand: 5 Q Q 3 8 
+Mapped hand: 5 12 12 3 8 
+Type: 2 => One pair
+Bet = 349
+
+Original hand: 5 K J 7 4 
+Mapped hand: 5 13 1 7 4 
+Type: 2 => One pair
+Bet = 866
+
+Original hand: 5 A 3 2 J 
+Mapped hand: 5 14 3 2 1 
+Type: 2 => One pair
+Bet = 943
+
+Original hand: 5 A 3 3 8 
+Mapped hand: 5 14 3 3 8 
+Type: 2 => One pair
+Bet = 86
+
+Original hand: 5 A 8 J K 
+Mapped hand: 5 14 8 1 13 
+Type: 2 => One pair
+Bet = 447
+
+Original hand: 6 J 3 2 T 
+Mapped hand: 6 1 3 2 10 
+Type: 2 => One pair
+Bet = 380
+
+Original hand: 6 J Q 3 A 
+Mapped hand: 6 1 12 3 14 
+Type: 2 => One pair
+Bet = 459
+
+Original hand: 6 J A 9 K 
+Mapped hand: 6 1 14 9 13 
+Type: 2 => One pair
+Bet = 950
+
+Original hand: 6 2 J 5 7 
+Mapped hand: 6 2 1 5 7 
+Type: 2 => One pair
+Bet = 890
+
+Original hand: 6 2 2 T 7 
+Mapped hand: 6 2 2 10 7 
+Type: 2 => One pair
+Bet = 622
+
+Original hand: 6 2 7 J K 
+Mapped hand: 6 2 7 1 13 
+Type: 2 => One pair
+Bet = 894
+
+Original hand: 6 2 7 5 7 
+Mapped hand: 6 2 7 5 7 
+Type: 2 => One pair
+Bet = 575
+
+Original hand: 6 4 6 T Q 
+Mapped hand: 6 4 6 10 12 
+Type: 2 => One pair
+Bet = 783
+
+Original hand: 6 6 3 7 Q 
+Mapped hand: 6 6 3 7 12 
+Type: 2 => One pair
+Bet = 53
+
+Original hand: 6 6 A 5 3 
+Mapped hand: 6 6 14 5 3 
+Type: 2 => One pair
+Bet = 793
+
+Original hand: 6 7 3 7 Q 
+Mapped hand: 6 7 3 7 12 
+Type: 2 => One pair
+Bet = 641
+
+Original hand: 6 7 T 3 3 
+Mapped hand: 6 7 10 3 3 
+Type: 2 => One pair
+Bet = 444
+
+Original hand: 6 8 A 3 3 
+Mapped hand: 6 8 14 3 3 
+Type: 2 => One pair
+Bet = 169
+
+Original hand: 6 9 9 3 K 
+Mapped hand: 6 9 9 3 13 
+Type: 2 => One pair
+Bet = 616
+
+Original hand: 6 T 7 4 7 
+Mapped hand: 6 10 7 4 7 
+Type: 2 => One pair
+Bet = 740
+
+Original hand: 6 T A A 4 
+Mapped hand: 6 10 14 14 4 
+Type: 2 => One pair
+Bet = 286
+
+Original hand: 6 Q J 2 3 
+Mapped hand: 6 12 1 2 3 
+Type: 2 => One pair
+Bet = 746
+
+Original hand: 6 Q 3 J T 
+Mapped hand: 6 12 3 1 10 
+Type: 2 => One pair
+Bet = 909
+
+Original hand: 6 A 2 Q Q 
+Mapped hand: 6 14 2 12 12 
+Type: 2 => One pair
+Bet = 942
+
+Original hand: 6 A Q J 8 
+Mapped hand: 6 14 12 1 8 
+Type: 2 => One pair
+Bet = 439
+
+Original hand: 7 J A K Q 
+Mapped hand: 7 1 14 13 12 
+Type: 2 => One pair
+Bet = 812
+
+Original hand: 7 2 4 A A 
+Mapped hand: 7 2 4 14 14 
+Type: 2 => One pair
+Bet = 516
+
+Original hand: 7 3 4 3 T 
+Mapped hand: 7 3 4 3 10 
+Type: 2 => One pair
+Bet = 829
+
+Original hand: 7 5 5 3 K 
+Mapped hand: 7 5 5 3 13 
+Type: 2 => One pair
+Bet = 352
+
+Original hand: 7 6 T T A 
+Mapped hand: 7 6 10 10 14 
+Type: 2 => One pair
+Bet = 858
+
+Original hand: 7 6 A 9 6 
+Mapped hand: 7 6 14 9 6 
+Type: 2 => One pair
+Bet = 947
+
+Original hand: 7 9 5 K 7 
+Mapped hand: 7 9 5 13 7 
+Type: 2 => One pair
+Bet = 723
+
+Original hand: 7 T 6 J 2 
+Mapped hand: 7 10 6 1 2 
+Type: 2 => One pair
+Bet = 977
+
+Original hand: 7 Q 2 2 8 
+Mapped hand: 7 12 2 2 8 
+Type: 2 => One pair
+Bet = 557
+
+Original hand: 7 Q T J 5 
+Mapped hand: 7 12 10 1 5 
+Type: 2 => One pair
+Bet = 363
+
+Original hand: 7 Q T J 6 
+Mapped hand: 7 12 10 1 6 
+Type: 2 => One pair
+Bet = 152
+
+Original hand: 7 Q A 7 2 
+Mapped hand: 7 12 14 7 2 
+Type: 2 => One pair
+Bet = 498
+
+Original hand: 7 K 4 5 K 
+Mapped hand: 7 13 4 5 13 
+Type: 2 => One pair
+Bet = 567
+
+Original hand: 7 A K 4 K 
+Mapped hand: 7 14 13 4 13 
+Type: 2 => One pair
+Bet = 201
+
+Original hand: 8 J 4 9 Q 
+Mapped hand: 8 1 4 9 12 
+Type: 2 => One pair
+Bet = 458
+
+Original hand: 8 2 2 7 9 
+Mapped hand: 8 2 2 7 9 
+Type: 2 => One pair
+Bet = 283
+
+Original hand: 8 3 5 J 9 
+Mapped hand: 8 3 5 1 9 
+Type: 2 => One pair
+Bet = 601
+
+Original hand: 8 3 8 T 6 
+Mapped hand: 8 3 8 10 6 
+Type: 2 => One pair
+Bet = 250
+
+Original hand: 8 4 4 9 7 
+Mapped hand: 8 4 4 9 7 
+Type: 2 => One pair
+Bet = 217
+
+Original hand: 8 5 5 3 4 
+Mapped hand: 8 5 5 3 4 
+Type: 2 => One pair
+Bet = 862
+
+Original hand: 8 6 2 K 6 
+Mapped hand: 8 6 2 13 6 
+Type: 2 => One pair
+Bet = 369
+
+Original hand: 8 7 4 4 K 
+Mapped hand: 8 7 4 4 13 
+Type: 2 => One pair
+Bet = 727
+
+Original hand: 8 7 Q 9 8 
+Mapped hand: 8 7 12 9 8 
+Type: 2 => One pair
+Bet = 155
+
+Original hand: 8 7 K 5 J 
+Mapped hand: 8 7 13 5 1 
+Type: 2 => One pair
+Bet = 730
+
+Original hand: 8 8 7 2 4 
+Mapped hand: 8 8 7 2 4 
+Type: 2 => One pair
+Bet = 551
+
+Original hand: 8 8 Q 6 3 
+Mapped hand: 8 8 12 6 3 
+Type: 2 => One pair
+Bet = 274
+
+Original hand: 8 8 K Q 7 
+Mapped hand: 8 8 13 12 7 
+Type: 2 => One pair
+Bet = 955
+
+Original hand: 8 9 T J 4 
+Mapped hand: 8 9 10 1 4 
+Type: 2 => One pair
+Bet = 245
+
+Original hand: 8 T 6 4 6 
+Mapped hand: 8 10 6 4 6 
+Type: 2 => One pair
+Bet = 431
+
+Original hand: 8 T Q 3 Q 
+Mapped hand: 8 10 12 3 12 
+Type: 2 => One pair
+Bet = 252
+
+Original hand: 8 T K T 2 
+Mapped hand: 8 10 13 10 2 
+Type: 2 => One pair
+Bet = 393
+
+Original hand: 8 Q J 2 A 
+Mapped hand: 8 12 1 2 14 
+Type: 2 => One pair
+Bet = 239
+
+Original hand: 8 Q 4 7 8 
+Mapped hand: 8 12 4 7 8 
+Type: 2 => One pair
+Bet = 409
+
+Original hand: 8 Q 8 6 7 
+Mapped hand: 8 12 8 6 7 
+Type: 2 => One pair
+Bet = 574
+
+Original hand: 8 Q K 4 J 
+Mapped hand: 8 12 13 4 1 
+Type: 2 => One pair
+Bet = 233
+
+Original hand: 8 Q A 2 A 
+Mapped hand: 8 12 14 2 14 
+Type: 2 => One pair
+Bet = 427
+
+Original hand: 8 K 4 Q 8 
+Mapped hand: 8 13 4 12 8 
+Type: 2 => One pair
+Bet = 910
+
+Original hand: 8 K K 2 Q 
+Mapped hand: 8 13 13 2 12 
+Type: 2 => One pair
+Bet = 317
+
+Original hand: 8 K A T J 
+Mapped hand: 8 13 14 10 1 
+Type: 2 => One pair
+Bet = 651
+
+Original hand: 8 A 7 T J 
+Mapped hand: 8 14 7 10 1 
+Type: 2 => One pair
+Bet = 682
+
+Original hand: 8 A A 6 Q 
+Mapped hand: 8 14 14 6 12 
+Type: 2 => One pair
+Bet = 5
+
+Original hand: 9 J A T 5 
+Mapped hand: 9 1 14 10 5 
+Type: 2 => One pair
+Bet = 487
+
+Original hand: 9 4 2 4 7 
+Mapped hand: 9 4 2 4 7 
+Type: 2 => One pair
+Bet = 146
+
+Original hand: 9 4 3 5 9 
+Mapped hand: 9 4 3 5 9 
+Type: 2 => One pair
+Bet = 140
+
+Original hand: 9 5 7 5 2 
+Mapped hand: 9 5 7 5 2 
+Type: 2 => One pair
+Bet = 486
+
+Original hand: 9 9 3 K A 
+Mapped hand: 9 9 3 13 14 
+Type: 2 => One pair
+Bet = 185
+
+Original hand: 9 9 7 K 6 
+Mapped hand: 9 9 7 13 6 
+Type: 2 => One pair
+Bet = 329
+
+Original hand: 9 9 8 K 7 
+Mapped hand: 9 9 8 13 7 
+Type: 2 => One pair
+Bet = 642
+
+Original hand: 9 Q J K A 
+Mapped hand: 9 12 1 13 14 
+Type: 2 => One pair
+Bet = 569
+
+Original hand: 9 K 2 K 4 
+Mapped hand: 9 13 2 13 4 
+Type: 2 => One pair
+Bet = 161
+
+Original hand: 9 A J K 8 
+Mapped hand: 9 14 1 13 8 
+Type: 2 => One pair
+Bet = 556
+
+Original hand: 9 A 9 4 K 
+Mapped hand: 9 14 9 4 13 
+Type: 2 => One pair
+Bet = 193
+
+Original hand: 9 A Q Q 4 
+Mapped hand: 9 14 12 12 4 
+Type: 2 => One pair
+Bet = 729
+
+Original hand: T J 7 9 Q 
+Mapped hand: 10 1 7 9 12 
+Type: 2 => One pair
+Bet = 969
+
+Original hand: T 3 2 4 2 
+Mapped hand: 10 3 2 4 2 
+Type: 2 => One pair
+Bet = 835
+
+Original hand: T 4 2 4 6 
+Mapped hand: 10 4 2 4 6 
+Type: 2 => One pair
+Bet = 566
+
+Original hand: T 4 3 6 T 
+Mapped hand: 10 4 3 6 10 
+Type: 2 => One pair
+Bet = 605
+
+Original hand: T 5 5 2 K 
+Mapped hand: 10 5 5 2 13 
+Type: 2 => One pair
+Bet = 251
+
+Original hand: T 5 8 8 Q 
+Mapped hand: 10 5 8 8 12 
+Type: 2 => One pair
+Bet = 70
+
+Original hand: T 5 Q 4 5 
+Mapped hand: 10 5 12 4 5 
+Type: 2 => One pair
+Bet = 38
+
+Original hand: T 6 J A K 
+Mapped hand: 10 6 1 14 13 
+Type: 2 => One pair
+Bet = 586
+
+Original hand: T 9 3 8 8 
+Mapped hand: 10 9 3 8 8 
+Type: 2 => One pair
+Bet = 902
+
+Original hand: T T 7 9 4 
+Mapped hand: 10 10 7 9 4 
+Type: 2 => One pair
+Bet = 539
+
+Original hand: T Q 7 T 2 
+Mapped hand: 10 12 7 10 2 
+Type: 2 => One pair
+Bet = 206
+
+Original hand: T K 4 7 T 
+Mapped hand: 10 13 4 7 10 
+Type: 2 => One pair
+Bet = 166
+
+Original hand: T A 4 8 J 
+Mapped hand: 10 14 4 8 1 
+Type: 2 => One pair
+Bet = 618
+
+Original hand: T A T 2 6 
+Mapped hand: 10 14 10 2 6 
+Type: 2 => One pair
+Bet = 715
+
+Original hand: Q 2 9 6 2 
+Mapped hand: 12 2 9 6 2 
+Type: 2 => One pair
+Bet = 468
+
+Original hand: Q 2 Q 3 9 
+Mapped hand: 12 2 12 3 9 
+Type: 2 => One pair
+Bet = 895
+
+Original hand: Q 2 A A T 
+Mapped hand: 12 2 14 14 10 
+Type: 2 => One pair
+Bet = 280
+
+Original hand: Q 4 7 5 7 
+Mapped hand: 12 4 7 5 7 
+Type: 2 => One pair
+Bet = 856
+
+Original hand: Q 4 A J 3 
+Mapped hand: 12 4 14 1 3 
+Type: 2 => One pair
+Bet = 394
+
+Original hand: Q 4 A 4 5 
+Mapped hand: 12 4 14 4 5 
+Type: 2 => One pair
+Bet = 236
+
+Original hand: Q 5 5 K 3 
+Mapped hand: 12 5 5 13 3 
+Type: 2 => One pair
+Bet = 527
+
+Original hand: Q 6 9 J T 
+Mapped hand: 12 6 9 1 10 
+Type: 2 => One pair
+Bet = 939
+
+Original hand: Q 7 4 3 J 
+Mapped hand: 12 7 4 3 1 
+Type: 2 => One pair
+Bet = 200
+
+Original hand: Q 9 9 2 5 
+Mapped hand: 12 9 9 2 5 
+Type: 2 => One pair
+Bet = 630
+
+Original hand: Q T A 6 T 
+Mapped hand: 12 10 14 6 10 
+Type: 2 => One pair
+Bet = 213
+
+Original hand: Q Q 4 K 3 
+Mapped hand: 12 12 4 13 3 
+Type: 2 => One pair
+Bet = 253
+
+Original hand: Q A K Q T 
+Mapped hand: 12 14 13 12 10 
+Type: 2 => One pair
+Bet = 925
+
+Original hand: Q A K A 8 
+Mapped hand: 12 14 13 14 8 
+Type: 2 => One pair
+Bet = 367
+
+Original hand: K 5 9 5 3 
+Mapped hand: 13 5 9 5 3 
+Type: 2 => One pair
+Bet = 452
+
+Original hand: K 6 5 5 3 
+Mapped hand: 13 6 5 5 3 
+Type: 2 => One pair
+Bet = 54
+
+Original hand: K 8 T 8 7 
+Mapped hand: 13 8 10 8 7 
+Type: 2 => One pair
+Bet = 260
+
+Original hand: K 9 9 2 8 
+Mapped hand: 13 9 9 2 8 
+Type: 2 => One pair
+Bet = 65
+
+Original hand: K Q J T 7 
+Mapped hand: 13 12 1 10 7 
+Type: 2 => One pair
+Bet = 501
+
+Original hand: K Q 6 T 6 
+Mapped hand: 13 12 6 10 6 
+Type: 2 => One pair
+Bet = 360
+
+Original hand: K Q 9 3 Q 
+Mapped hand: 13 12 9 3 12 
+Type: 2 => One pair
+Bet = 114
+
+Original hand: K K 9 8 5 
+Mapped hand: 13 13 9 8 5 
+Type: 2 => One pair
+Bet = 42
+
+Original hand: K K A 6 7 
+Mapped hand: 13 13 14 6 7 
+Type: 2 => One pair
+Bet = 794
+
+Original hand: K A 4 T K 
+Mapped hand: 13 14 4 10 13 
+Type: 2 => One pair
+Bet = 650
+
+Original hand: A J 4 8 2 
+Mapped hand: 14 1 4 8 2 
+Type: 2 => One pair
+Bet = 255
+
+Original hand: A 2 K 9 2 
+Mapped hand: 14 2 13 9 2 
+Type: 2 => One pair
+Bet = 123
+
+Original hand: A 3 T K K 
+Mapped hand: 14 3 10 13 13 
+Type: 2 => One pair
+Bet = 772
+
+Original hand: A 5 8 A 2 
+Mapped hand: 14 5 8 14 2 
+Type: 2 => One pair
+Bet = 481
+
+Original hand: A 5 Q 8 5 
+Mapped hand: 14 5 12 8 5 
+Type: 2 => One pair
+Bet = 553
+
+Original hand: A 7 9 7 T 
+Mapped hand: 14 7 9 7 10 
+Type: 2 => One pair
+Bet = 663
+
+Original hand: A 7 K J T 
+Mapped hand: 14 7 13 1 10 
+Type: 2 => One pair
+Bet = 309
+
+Original hand: A 8 6 4 6 
+Mapped hand: 14 8 6 4 6 
+Type: 2 => One pair
+Bet = 135
+
+Original hand: A 9 3 7 J 
+Mapped hand: 14 9 3 7 1 
+Type: 2 => One pair
+Bet = 37
+
+Original hand: A 9 T T 5 
+Mapped hand: 14 9 10 10 5 
+Type: 2 => One pair
+Bet = 560
+
+Original hand: A 9 T K K 
+Mapped hand: 14 9 10 13 13 
+Type: 2 => One pair
+Bet = 39
+
+Original hand: A T T 4 7 
+Mapped hand: 14 10 10 4 7 
+Type: 2 => One pair
+Bet = 676
+
+Original hand: A T K J 5 
+Mapped hand: 14 10 13 1 5 
+Type: 2 => One pair
+Bet = 82
+
+Original hand: A Q 4 4 9 
+Mapped hand: 14 12 4 4 9 
+Type: 2 => One pair
+Bet = 921
+
+Original hand: A Q 4 K A 
+Mapped hand: 14 12 4 13 14 
+Type: 2 => One pair
+Bet = 422
+
+Original hand: A K 2 6 J 
+Mapped hand: 14 13 2 6 1 
+Type: 2 => One pair
+Bet = 964
+
+Original hand: A K Q Q 5 
+Mapped hand: 14 13 12 12 5 
+Type: 2 => One pair
+Bet = 827
+
+Original hand: 2 2 9 5 9 
+Mapped hand: 2 2 9 5 9 
+Type: 3 => Two pair
+Bet = 426
+
+Original hand: 2 3 3 2 T 
+Mapped hand: 2 3 3 2 10 
+Type: 3 => Two pair
+Bet = 889
+
+Original hand: 2 4 2 4 T 
+Mapped hand: 2 4 2 4 10 
+Type: 3 => Two pair
+Bet = 737
+
+Original hand: 2 6 9 2 6 
+Mapped hand: 2 6 9 2 6 
+Type: 3 => Two pair
+Bet = 512
+
+Original hand: 2 7 T 7 T 
+Mapped hand: 2 7 10 7 10 
+Type: 3 => Two pair
+Bet = 3
+
+Original hand: 2 8 2 Q 8 
+Mapped hand: 2 8 2 12 8 
+Type: 3 => Two pair
+Bet = 428
+
+Original hand: 2 8 3 8 3 
+Mapped hand: 2 8 3 8 3 
+Type: 3 => Two pair
+Bet = 904
+
+Original hand: 2 T 5 T 2 
+Mapped hand: 2 10 5 10 2 
+Type: 3 => Two pair
+Bet = 759
+
+Original hand: 3 2 2 6 3 
+Mapped hand: 3 2 2 6 3 
+Type: 3 => Two pair
+Bet = 314
+
+Original hand: 3 3 2 9 9 
+Mapped hand: 3 3 2 9 9 
+Type: 3 => Two pair
+Bet = 652
+
+Original hand: 3 3 4 8 4 
+Mapped hand: 3 3 4 8 4 
+Type: 3 => Two pair
+Bet = 401
+
+Original hand: 3 3 8 Q Q 
+Mapped hand: 3 3 8 12 12 
+Type: 3 => Two pair
+Bet = 530
+
+Original hand: 3 3 K K 5 
+Mapped hand: 3 3 13 13 5 
+Type: 3 => Two pair
+Bet = 308
+
+Original hand: 3 4 3 9 4 
+Mapped hand: 3 4 3 9 4 
+Type: 3 => Two pair
+Bet = 963
+
+Original hand: 3 6 3 4 4 
+Mapped hand: 3 6 3 4 4 
+Type: 3 => Two pair
+Bet = 127
+
+Original hand: 3 7 3 7 4 
+Mapped hand: 3 7 3 7 4 
+Type: 3 => Two pair
+Bet = 627
+
+Original hand: 3 7 5 3 5 
+Mapped hand: 3 7 5 3 5 
+Type: 3 => Two pair
+Bet = 153
+
+Original hand: 3 7 Q 7 Q 
+Mapped hand: 3 7 12 7 12 
+Type: 3 => Two pair
+Bet = 612
+
+Original hand: 3 T 7 T 7 
+Mapped hand: 3 10 7 10 7 
+Type: 3 => Two pair
+Bet = 806
+
+Original hand: 3 K 6 3 6 
+Mapped hand: 3 13 6 3 6 
+Type: 3 => Two pair
+Bet = 623
+
+Original hand: 3 K 8 K 8 
+Mapped hand: 3 13 8 13 8 
+Type: 3 => Two pair
+Bet = 903
+
+Original hand: 3 A 7 7 3 
+Mapped hand: 3 14 7 7 3 
+Type: 3 => Two pair
+Bet = 50
+
+Original hand: 4 5 A 5 A 
+Mapped hand: 4 5 14 5 14 
+Type: 3 => Two pair
+Bet = 886
+
+Original hand: 4 8 9 8 9 
+Mapped hand: 4 8 9 8 9 
+Type: 3 => Two pair
+Bet = 825
+
+Original hand: 4 T 2 T 2 
+Mapped hand: 4 10 2 10 2 
+Type: 3 => Two pair
+Bet = 186
+
+Original hand: 4 Q T T 4 
+Mapped hand: 4 12 10 10 4 
+Type: 3 => Two pair
+Bet = 138
+
+Original hand: 4 A 4 5 5 
+Mapped hand: 4 14 4 5 5 
+Type: 3 => Two pair
+Bet = 49
+
+Original hand: 4 A A 4 2 
+Mapped hand: 4 14 14 4 2 
+Type: 3 => Two pair
+Bet = 10
+
+Original hand: 4 A A 4 5 
+Mapped hand: 4 14 14 4 5 
+Type: 3 => Two pair
+Bet = 61
+
+Original hand: 5 2 2 5 3 
+Mapped hand: 5 2 2 5 3 
+Type: 3 => Two pair
+Bet = 151
+
+Original hand: 5 2 4 5 4 
+Mapped hand: 5 2 4 5 4 
+Type: 3 => Two pair
+Bet = 443
+
+Original hand: 5 2 6 5 6 
+Mapped hand: 5 2 6 5 6 
+Type: 3 => Two pair
+Bet = 542
+
+Original hand: 5 3 A 3 A 
+Mapped hand: 5 3 14 3 14 
+Type: 3 => Two pair
+Bet = 763
+
+Original hand: 5 4 4 K 5 
+Mapped hand: 5 4 4 13 5 
+Type: 3 => Two pair
+Bet = 76
+
+Original hand: 5 6 8 5 6 
+Mapped hand: 5 6 8 5 6 
+Type: 3 => Two pair
+Bet = 92
+
+Original hand: 5 7 7 T T 
+Mapped hand: 5 7 7 10 10 
+Type: 3 => Two pair
+Bet = 735
+
+Original hand: 5 Q 5 Q K 
+Mapped hand: 5 12 5 12 13 
+Type: 3 => Two pair
+Bet = 249
+
+Original hand: 5 Q Q 2 5 
+Mapped hand: 5 12 12 2 5 
+Type: 3 => Two pair
+Bet = 132
+
+Original hand: 5 K 5 K 9 
+Mapped hand: 5 13 5 13 9 
+Type: 3 => Two pair
+Bet = 372
+
+Original hand: 6 2 6 7 7 
+Mapped hand: 6 2 6 7 7 
+Type: 3 => Two pair
+Bet = 797
+
+Original hand: 6 6 T 9 T 
+Mapped hand: 6 6 10 9 10 
+Type: 3 => Two pair
+Bet = 519
+
+Original hand: 6 6 Q 4 4 
+Mapped hand: 6 6 12 4 4 
+Type: 3 => Two pair
+Bet = 405
+
+Original hand: 6 7 K 6 7 
+Mapped hand: 6 7 13 6 7 
+Type: 3 => Two pair
+Bet = 952
+
+Original hand: 6 8 5 8 5 
+Mapped hand: 6 8 5 8 5 
+Type: 3 => Two pair
+Bet = 598
+
+Original hand: 6 T 4 6 4 
+Mapped hand: 6 10 4 6 4 
+Type: 3 => Two pair
+Bet = 36
+
+Original hand: 6 T 6 T K 
+Mapped hand: 6 10 6 10 13 
+Type: 3 => Two pair
+Bet = 982
+
+Original hand: 7 4 A 4 7 
+Mapped hand: 7 4 14 4 7 
+Type: 3 => Two pair
+Bet = 875
+
+Original hand: 7 7 9 T T 
+Mapped hand: 7 7 9 10 10 
+Type: 3 => Two pair
+Bet = 920
+
+Original hand: 7 8 8 7 6 
+Mapped hand: 7 8 8 7 6 
+Type: 3 => Two pair
+Bet = 8
+
+Original hand: 7 9 7 A 9 
+Mapped hand: 7 9 7 14 9 
+Type: 3 => Two pair
+Bet = 562
+
+Original hand: 7 K 7 K 3 
+Mapped hand: 7 13 7 13 3 
+Type: 3 => Two pair
+Bet = 316
+
+Original hand: 7 A A 9 9 
+Mapped hand: 7 14 14 9 9 
+Type: 3 => Two pair
+Bet = 485
+
+Original hand: 8 4 4 8 6 
+Mapped hand: 8 4 4 8 6 
+Type: 3 => Two pair
+Bet = 178
+
+Original hand: 8 4 8 4 7 
+Mapped hand: 8 4 8 4 7 
+Type: 3 => Two pair
+Bet = 451
+
+Original hand: 8 4 8 5 4 
+Mapped hand: 8 4 8 5 4 
+Type: 3 => Two pair
+Bet = 864
+
+Original hand: 8 8 7 A A 
+Mapped hand: 8 8 7 14 14 
+Type: 3 => Two pair
+Bet = 699
+
+Original hand: 8 Q 8 Q 7 
+Mapped hand: 8 12 8 12 7 
+Type: 3 => Two pair
+Bet = 62
+
+Original hand: 8 Q Q 7 7 
+Mapped hand: 8 12 12 7 7 
+Type: 3 => Two pair
+Bet = 774
+
+Original hand: 8 Q Q 8 3 
+Mapped hand: 8 12 12 8 3 
+Type: 3 => Two pair
+Bet = 992
+
+Original hand: 8 K K 8 7 
+Mapped hand: 8 13 13 8 7 
+Type: 3 => Two pair
+Bet = 670
+
+Original hand: 8 A A 3 8 
+Mapped hand: 8 14 14 3 8 
+Type: 3 => Two pair
+Bet = 689
+
+Original hand: 8 A A Q Q 
+Mapped hand: 8 14 14 12 12 
+Type: 3 => Two pair
+Bet = 809
+
+Original hand: 9 4 Q Q 9 
+Mapped hand: 9 4 12 12 9 
+Type: 3 => Two pair
+Bet = 415
+
+Original hand: 9 6 6 7 7 
+Mapped hand: 9 6 6 7 7 
+Type: 3 => Two pair
+Bet = 477
+
+Original hand: 9 7 2 7 9 
+Mapped hand: 9 7 2 7 9 
+Type: 3 => Two pair
+Bet = 95
+
+Original hand: 9 9 5 3 3 
+Mapped hand: 9 9 5 3 3 
+Type: 3 => Two pair
+Bet = 521
+
+Original hand: 9 T 9 4 T 
+Mapped hand: 9 10 9 4 10 
+Type: 3 => Two pair
+Bet = 609
+
+Original hand: 9 K 2 2 9 
+Mapped hand: 9 13 2 2 9 
+Type: 3 => Two pair
+Bet = 388
+
+Original hand: 9 K 6 K 9 
+Mapped hand: 9 13 6 13 9 
+Type: 3 => Two pair
+Bet = 448
+
+Original hand: 9 A Q A Q 
+Mapped hand: 9 14 12 14 12 
+Type: 3 => Two pair
+Bet = 594
+
+Original hand: T 3 T 4 3 
+Mapped hand: 10 3 10 4 3 
+Type: 3 => Two pair
+Bet = 17
+
+Original hand: T 6 3 3 T 
+Mapped hand: 10 6 3 3 10 
+Type: 3 => Two pair
+Bet = 208
+
+Original hand: T 7 A T A 
+Mapped hand: 10 7 14 10 14 
+Type: 3 => Two pair
+Bet = 620
+
+Original hand: T 8 2 8 T 
+Mapped hand: 10 8 2 8 10 
+Type: 3 => Two pair
+Bet = 933
+
+Original hand: T T 2 4 4 
+Mapped hand: 10 10 2 4 4 
+Type: 3 => Two pair
+Bet = 364
+
+Original hand: T T 9 8 9 
+Mapped hand: 10 10 9 8 9 
+Type: 3 => Two pair
+Bet = 277
+
+Original hand: T A 5 A T 
+Mapped hand: 10 14 5 14 10 
+Type: 3 => Two pair
+Bet = 292
+
+Original hand: Q 3 9 9 Q 
+Mapped hand: 12 3 9 9 12 
+Type: 3 => Two pair
+Bet = 116
+
+Original hand: Q 5 5 7 Q 
+Mapped hand: 12 5 5 7 12 
+Type: 3 => Two pair
+Bet = 691
+
+Original hand: Q 6 Q 9 9 
+Mapped hand: 12 6 12 9 9 
+Type: 3 => Two pair
+Bet = 800
+
+Original hand: Q 7 T T 7 
+Mapped hand: 12 7 10 10 7 
+Type: 3 => Two pair
+Bet = 68
+
+Original hand: Q 8 2 2 Q 
+Mapped hand: 12 8 2 2 12 
+Type: 3 => Two pair
+Bet = 954
+
+Original hand: Q T 5 Q 5 
+Mapped hand: 12 10 5 12 5 
+Type: 3 => Two pair
+Bet = 879
+
+Original hand: Q Q 4 3 3 
+Mapped hand: 12 12 4 3 3 
+Type: 3 => Two pair
+Bet = 520
+
+Original hand: Q Q 6 6 8 
+Mapped hand: 12 12 6 6 8 
+Type: 3 => Two pair
+Bet = 870
+
+Original hand: Q Q K 4 K 
+Mapped hand: 12 12 13 4 13 
+Type: 3 => Two pair
+Bet = 16
+
+Original hand: Q Q K K 3 
+Mapped hand: 12 12 13 13 3 
+Type: 3 => Two pair
+Bet = 818
+
+Original hand: Q Q A T T 
+Mapped hand: 12 12 14 10 10 
+Type: 3 => Two pair
+Bet = 965
+
+Original hand: Q K 9 K 9 
+Mapped hand: 12 13 9 13 9 
+Type: 3 => Two pair
+Bet = 235
+
+Original hand: K 4 2 K 4 
+Mapped hand: 13 4 2 13 4 
+Type: 3 => Two pair
+Bet = 402
+
+Original hand: K 4 3 3 4 
+Mapped hand: 13 4 3 3 4 
+Type: 3 => Two pair
+Bet = 2
+
+Original hand: K 4 9 4 9 
+Mapped hand: 13 4 9 4 9 
+Type: 3 => Two pair
+Bet = 442
+
+Original hand: K 6 4 6 4 
+Mapped hand: 13 6 4 6 4 
+Type: 3 => Two pair
+Bet = 381
+
+Original hand: K 7 3 7 3 
+Mapped hand: 13 7 3 7 3 
+Type: 3 => Two pair
+Bet = 484
+
+Original hand: K 9 T T K 
+Mapped hand: 13 9 10 10 13 
+Type: 3 => Two pair
+Bet = 392
+
+Original hand: K Q 6 6 Q 
+Mapped hand: 13 12 6 6 12 
+Type: 3 => Two pair
+Bet = 590
+
+Original hand: K Q 6 6 K 
+Mapped hand: 13 12 6 6 13 
+Type: 3 => Two pair
+Bet = 525
+
+Original hand: K Q Q K A 
+Mapped hand: 13 12 12 13 14 
+Type: 3 => Two pair
+Bet = 500
+
+Original hand: K A K 9 9 
+Mapped hand: 13 14 13 9 9 
+Type: 3 => Two pair
+Bet = 591
+
+Original hand: A 2 2 A 6 
+Mapped hand: 14 2 2 14 6 
+Type: 3 => Two pair
+Bet = 269
+
+Original hand: A 2 2 A 9 
+Mapped hand: 14 2 2 14 9 
+Type: 3 => Two pair
+Bet = 974
+
+Original hand: A 4 A T 4 
+Mapped hand: 14 4 14 10 4 
+Type: 3 => Two pair
+Bet = 993
+
+Original hand: A 8 T T 8 
+Mapped hand: 14 8 10 10 8 
+Type: 3 => Two pair
+Bet = 914
+
+Original hand: A T K T K 
+Mapped hand: 14 10 13 10 13 
+Type: 3 => Two pair
+Bet = 846
+
+Original hand: A K K 7 7 
+Mapped hand: 14 13 13 7 7 
+Type: 3 => Two pair
+Bet = 256
+
+Original hand: A A 8 2 2 
+Mapped hand: 14 14 8 2 2 
+Type: 3 => Two pair
+Bet = 614
+
+Original hand: A A Q 7 Q 
+Mapped hand: 14 14 12 7 12 
+Type: 3 => Two pair
+Bet = 989
+
+Original hand: J J 3 7 4 
+Mapped hand: 1 1 3 7 4 
+Type: 4 => Three of a kind
+Bet = 450
+
+Original hand: J 2 8 5 8 
+Mapped hand: 1 2 8 5 8 
+Type: 4 => Three of a kind
+Bet = 636
+
+Original hand: J 2 K T 2 
+Mapped hand: 1 2 13 10 2 
+Type: 4 => Three of a kind
+Bet = 649
+
+Original hand: J 3 J 8 7 
+Mapped hand: 1 3 1 8 7 
+Type: 4 => Three of a kind
+Bet = 88
+
+Original hand: J 3 6 5 5 
+Mapped hand: 1 3 6 5 5 
+Type: 4 => Three of a kind
+Bet = 924
+
+Original hand: J 3 T T 8 
+Mapped hand: 1 3 10 10 8 
+Type: 4 => Three of a kind
+Bet = 34
+
+Original hand: J 3 A 4 A 
+Mapped hand: 1 3 14 4 14 
+Type: 4 => Three of a kind
+Bet = 124
+
+Original hand: J 4 3 K 4 
+Mapped hand: 1 4 3 13 4 
+Type: 4 => Three of a kind
+Bet = 851
+
+Original hand: J 4 K K 7 
+Mapped hand: 1 4 13 13 7 
+Type: 4 => Three of a kind
+Bet = 706
+
+Original hand: J 5 8 3 5 
+Mapped hand: 1 5 8 3 5 
+Type: 4 => Three of a kind
+Bet = 817
+
+Original hand: J 5 9 3 5 
+Mapped hand: 1 5 9 3 5 
+Type: 4 => Three of a kind
+Bet = 506
+
+Original hand: J 5 9 9 3 
+Mapped hand: 1 5 9 9 3 
+Type: 4 => Three of a kind
+Bet = 860
+
+Original hand: J 5 T 8 8 
+Mapped hand: 1 5 10 8 8 
+Type: 4 => Three of a kind
+Bet = 789
+
+Original hand: J 6 4 8 8 
+Mapped hand: 1 6 4 8 8 
+Type: 4 => Three of a kind
+Bet = 634
+
+Original hand: J 6 A J 7 
+Mapped hand: 1 6 14 1 7 
+Type: 4 => Three of a kind
+Bet = 385
+
+Original hand: J 7 K 6 J 
+Mapped hand: 1 7 13 6 1 
+Type: 4 => Three of a kind
+Bet = 511
+
+Original hand: J 8 4 7 7 
+Mapped hand: 1 8 4 7 7 
+Type: 4 => Three of a kind
+Bet = 674
+
+Original hand: J 8 4 7 8 
+Mapped hand: 1 8 4 7 8 
+Type: 4 => Three of a kind
+Bet = 489
+
+Original hand: J 8 9 J T 
+Mapped hand: 1 8 9 1 10 
+Type: 4 => Three of a kind
+Bet = 129
+
+Original hand: J 8 9 4 8 
+Mapped hand: 1 8 9 4 8 
+Type: 4 => Three of a kind
+Bet = 267
+
+Original hand: J 8 9 5 9 
+Mapped hand: 1 8 9 5 9 
+Type: 4 => Three of a kind
+Bet = 375
+
+Original hand: J 9 J A 5 
+Mapped hand: 1 9 1 14 5 
+Type: 4 => Three of a kind
+Bet = 244
+
+Original hand: J 9 6 J 4 
+Mapped hand: 1 9 6 1 4 
+Type: 4 => Three of a kind
+Bet = 721
+
+Original hand: J 9 6 4 9 
+Mapped hand: 1 9 6 4 9 
+Type: 4 => Three of a kind
+Bet = 389
+
+Original hand: J 9 9 3 T 
+Mapped hand: 1 9 9 3 10 
+Type: 4 => Three of a kind
+Bet = 745
+
+Original hand: J T J A 6 
+Mapped hand: 1 10 1 14 6 
+Type: 4 => Three of a kind
+Bet = 744
+
+Original hand: J T 5 7 5 
+Mapped hand: 1 10 5 7 5 
+Type: 4 => Three of a kind
+Bet = 603
+
+Original hand: J T 9 7 7 
+Mapped hand: 1 10 9 7 7 
+Type: 4 => Three of a kind
+Bet = 615
+
+Original hand: J Q 4 Q T 
+Mapped hand: 1 12 4 12 10 
+Type: 4 => Three of a kind
+Bet = 534
+
+Original hand: J Q K K A 
+Mapped hand: 1 12 13 13 14 
+Type: 4 => Three of a kind
+Bet = 804
+
+Original hand: J K 9 4 J 
+Mapped hand: 1 13 9 4 1 
+Type: 4 => Three of a kind
+Bet = 524
+
+Original hand: J A 2 2 8 
+Mapped hand: 1 14 2 2 8 
+Type: 4 => Three of a kind
+Bet = 782
+
+Original hand: J A T A 9 
+Mapped hand: 1 14 10 14 9 
+Type: 4 => Three of a kind
+Bet = 128
+
+Original hand: J A K 6 6 
+Mapped hand: 1 14 13 6 6 
+Type: 4 => Three of a kind
+Bet = 28
+
+Original hand: 2 J 2 5 4 
+Mapped hand: 2 1 2 5 4 
+Type: 4 => Three of a kind
+Bet = 722
+
+Original hand: 2 J 8 4 8 
+Mapped hand: 2 1 8 4 8 
+Type: 4 => Three of a kind
+Bet = 655
+
+Original hand: 2 J T 6 2 
+Mapped hand: 2 1 10 6 2 
+Type: 4 => Three of a kind
+Bet = 398
+
+Original hand: 2 J A A 9 
+Mapped hand: 2 1 14 14 9 
+Type: 4 => Three of a kind
+Bet = 224
+
+Original hand: 2 2 2 7 9 
+Mapped hand: 2 2 2 7 9 
+Type: 4 => Three of a kind
+Bet = 104
+
+Original hand: 2 2 2 K 6 
+Mapped hand: 2 2 2 13 6 
+Type: 4 => Three of a kind
+Bet = 861
+
+Original hand: 2 2 3 4 2 
+Mapped hand: 2 2 3 4 2 
+Type: 4 => Three of a kind
+Bet = 545
+
+Original hand: 2 2 Q 2 K 
+Mapped hand: 2 2 12 2 13 
+Type: 4 => Three of a kind
+Bet = 637
+
+Original hand: 2 4 4 4 3 
+Mapped hand: 2 4 4 4 3 
+Type: 4 => Three of a kind
+Bet = 344
+
+Original hand: 2 4 7 4 J 
+Mapped hand: 2 4 7 4 1 
+Type: 4 => Three of a kind
+Bet = 483
+
+Original hand: 2 6 J 7 7 
+Mapped hand: 2 6 1 7 7 
+Type: 4 => Three of a kind
+Bet = 823
+
+Original hand: 2 7 J J 5 
+Mapped hand: 2 7 1 1 5 
+Type: 4 => Three of a kind
+Bet = 686
+
+Original hand: 2 7 J 4 J 
+Mapped hand: 2 7 1 4 1 
+Type: 4 => Three of a kind
+Bet = 202
+
+Original hand: 2 9 2 2 T 
+Mapped hand: 2 9 2 2 10 
+Type: 4 => Three of a kind
+Bet = 1000
+
+Original hand: 2 9 3 3 J 
+Mapped hand: 2 9 3 3 1 
+Type: 4 => Three of a kind
+Bet = 678
+
+Original hand: 2 T T 4 T 
+Mapped hand: 2 10 10 4 10 
+Type: 4 => Three of a kind
+Bet = 162
+
+Original hand: 2 T Q 2 2 
+Mapped hand: 2 10 12 2 2 
+Type: 4 => Three of a kind
+Bet = 987
+
+Original hand: 2 K 5 J K 
+Mapped hand: 2 13 5 1 13 
+Type: 4 => Three of a kind
+Bet = 768
+
+Original hand: 3 J J 6 9 
+Mapped hand: 3 1 1 6 9 
+Type: 4 => Three of a kind
+Bet = 154
+
+Original hand: 3 J 4 3 2 
+Mapped hand: 3 1 4 3 2 
+Type: 4 => Three of a kind
+Bet = 786
+
+Original hand: 3 J 9 T T 
+Mapped hand: 3 1 9 10 10 
+Type: 4 => Three of a kind
+Bet = 629
+
+Original hand: 3 J T 3 7 
+Mapped hand: 3 1 10 3 7 
+Type: 4 => Three of a kind
+Bet = 463
+
+Original hand: 3 2 5 2 2 
+Mapped hand: 3 2 5 2 2 
+Type: 4 => Three of a kind
+Bet = 684
+
+Original hand: 3 3 J 8 K 
+Mapped hand: 3 3 1 8 13 
+Type: 4 => Three of a kind
+Bet = 158
+
+Original hand: 3 3 T J 9 
+Mapped hand: 3 3 10 1 9 
+Type: 4 => Three of a kind
+Bet = 414
+
+Original hand: 3 4 8 8 8 
+Mapped hand: 3 4 8 8 8 
+Type: 4 => Three of a kind
+Bet = 326
+
+Original hand: 3 5 Q 3 3 
+Mapped hand: 3 5 12 3 3 
+Type: 4 => Three of a kind
+Bet = 58
+
+Original hand: 3 6 J 6 A 
+Mapped hand: 3 6 1 6 14 
+Type: 4 => Three of a kind
+Bet = 97
+
+Original hand: 3 6 6 7 J 
+Mapped hand: 3 6 6 7 1 
+Type: 4 => Three of a kind
+Bet = 791
+
+Original hand: 3 7 3 3 5 
+Mapped hand: 3 7 3 3 5 
+Type: 4 => Three of a kind
+Bet = 577
+
+Original hand: 3 7 8 8 8 
+Mapped hand: 3 7 8 8 8 
+Type: 4 => Three of a kind
+Bet = 657
+
+Original hand: 3 8 J 3 9 
+Mapped hand: 3 8 1 3 9 
+Type: 4 => Three of a kind
+Bet = 922
+
+Original hand: 3 9 4 3 J 
+Mapped hand: 3 9 4 3 1 
+Type: 4 => Three of a kind
+Bet = 13
+
+Original hand: 3 T J Q T 
+Mapped hand: 3 10 1 12 10 
+Type: 4 => Three of a kind
+Bet = 668
+
+Original hand: 3 Q K 3 J 
+Mapped hand: 3 12 13 3 1 
+Type: 4 => Three of a kind
+Bet = 289
+
+Original hand: 3 K 7 7 7 
+Mapped hand: 3 13 7 7 7 
+Type: 4 => Three of a kind
+Bet = 532
+
+Original hand: 3 K K K T 
+Mapped hand: 3 13 13 13 10 
+Type: 4 => Three of a kind
+Bet = 703
+
+Original hand: 3 A 3 7 3 
+Mapped hand: 3 14 3 7 3 
+Type: 4 => Three of a kind
+Bet = 278
+
+Original hand: 4 J 6 6 K 
+Mapped hand: 4 1 6 6 13 
+Type: 4 => Three of a kind
+Bet = 263
+
+Original hand: 4 4 J K 8 
+Mapped hand: 4 4 1 13 8 
+Type: 4 => Three of a kind
+Bet = 14
+
+Original hand: 4 4 J K Q 
+Mapped hand: 4 4 1 13 12 
+Type: 4 => Three of a kind
+Bet = 287
+
+Original hand: 4 4 4 7 K 
+Mapped hand: 4 4 4 7 13 
+Type: 4 => Three of a kind
+Bet = 227
+
+Original hand: 4 4 8 6 4 
+Mapped hand: 4 4 8 6 4 
+Type: 4 => Three of a kind
+Bet = 410
+
+Original hand: 4 4 8 7 4 
+Mapped hand: 4 4 8 7 4 
+Type: 4 => Three of a kind
+Bet = 357
+
+Original hand: 4 5 4 4 A 
+Mapped hand: 4 5 4 4 14 
+Type: 4 => Three of a kind
+Bet = 680
+
+Original hand: 4 5 6 6 6 
+Mapped hand: 4 5 6 6 6 
+Type: 4 => Three of a kind
+Bet = 19
+
+Original hand: 4 7 4 4 5 
+Mapped hand: 4 7 4 4 5 
+Type: 4 => Three of a kind
+Bet = 724
+
+Original hand: 4 7 7 K 7 
+Mapped hand: 4 7 7 13 7 
+Type: 4 => Three of a kind
+Bet = 26
+
+Original hand: 4 8 J 2 4 
+Mapped hand: 4 8 1 2 4 
+Type: 4 => Three of a kind
+Bet = 238
+
+Original hand: 4 9 4 4 K 
+Mapped hand: 4 9 4 4 13 
+Type: 4 => Three of a kind
+Bet = 492
+
+Original hand: 4 T 2 4 4 
+Mapped hand: 4 10 2 4 4 
+Type: 4 => Three of a kind
+Bet = 589
+
+Original hand: 4 T 7 J J 
+Mapped hand: 4 10 7 1 1 
+Type: 4 => Three of a kind
+Bet = 563
+
+Original hand: 4 Q 2 Q Q 
+Mapped hand: 4 12 2 12 12 
+Type: 4 => Three of a kind
+Bet = 548
+
+Original hand: 4 K 6 K K 
+Mapped hand: 4 13 6 13 13 
+Type: 4 => Three of a kind
+Bet = 310
+
+Original hand: 5 J T 8 J 
+Mapped hand: 5 1 10 8 1 
+Type: 4 => Three of a kind
+Bet = 741
+
+Original hand: 5 J K 8 8 
+Mapped hand: 5 1 13 8 8 
+Type: 4 => Three of a kind
+Bet = 876
+
+Original hand: 5 2 2 2 4 
+Mapped hand: 5 2 2 2 4 
+Type: 4 => Three of a kind
+Bet = 55
+
+Original hand: 5 3 3 3 9 
+Mapped hand: 5 3 3 3 9 
+Type: 4 => Three of a kind
+Bet = 762
+
+Original hand: 5 3 5 J Q 
+Mapped hand: 5 3 5 1 12 
+Type: 4 => Three of a kind
+Bet = 411
+
+Original hand: 5 5 J 2 K 
+Mapped hand: 5 5 1 2 13 
+Type: 4 => Three of a kind
+Bet = 81
+
+Original hand: 5 5 2 5 8 
+Mapped hand: 5 5 2 5 8 
+Type: 4 => Three of a kind
+Bet = 766
+
+Original hand: 5 5 3 5 T 
+Mapped hand: 5 5 3 5 10 
+Type: 4 => Three of a kind
+Bet = 504
+
+Original hand: 5 5 4 5 8 
+Mapped hand: 5 5 4 5 8 
+Type: 4 => Three of a kind
+Bet = 340
+
+Original hand: 5 5 5 4 7 
+Mapped hand: 5 5 5 4 7 
+Type: 4 => Three of a kind
+Bet = 728
+
+Original hand: 5 5 5 7 Q 
+Mapped hand: 5 5 5 7 12 
+Type: 4 => Three of a kind
+Bet = 841
+
+Original hand: 5 6 Q Q Q 
+Mapped hand: 5 6 12 12 12 
+Type: 4 => Three of a kind
+Bet = 149
+
+Original hand: 5 8 A 5 5 
+Mapped hand: 5 8 14 5 5 
+Type: 4 => Three of a kind
+Bet = 311
+
+Original hand: 5 9 8 5 5 
+Mapped hand: 5 9 8 5 5 
+Type: 4 => Three of a kind
+Bet = 906
+
+Original hand: 5 9 9 9 7 
+Mapped hand: 5 9 9 9 7 
+Type: 4 => Three of a kind
+Bet = 787
+
+Original hand: 5 Q 5 5 A 
+Mapped hand: 5 12 5 5 14 
+Type: 4 => Three of a kind
+Bet = 749
+
+Original hand: 5 K J T 5 
+Mapped hand: 5 13 1 10 5 
+Type: 4 => Three of a kind
+Bet = 672
+
+Original hand: 6 J 4 4 7 
+Mapped hand: 6 1 4 4 7 
+Type: 4 => Three of a kind
+Bet = 303
+
+Original hand: 6 J 6 2 4 
+Mapped hand: 6 1 6 2 4 
+Type: 4 => Three of a kind
+Bet = 635
+
+Original hand: 6 2 J 2 K 
+Mapped hand: 6 2 1 2 13 
+Type: 4 => Three of a kind
+Bet = 445
+
+Original hand: 6 3 6 4 6 
+Mapped hand: 6 3 6 4 6 
+Type: 4 => Three of a kind
+Bet = 293
+
+Original hand: 6 4 4 4 3 
+Mapped hand: 6 4 4 4 3 
+Type: 4 => Three of a kind
+Bet = 370
+
+Original hand: 6 5 6 8 6 
+Mapped hand: 6 5 6 8 6 
+Type: 4 => Three of a kind
+Bet = 298
+
+Original hand: 6 5 7 J 6 
+Mapped hand: 6 5 7 1 6 
+Type: 4 => Three of a kind
+Bet = 291
+
+Original hand: 6 6 J 2 K 
+Mapped hand: 6 6 1 2 13 
+Type: 4 => Three of a kind
+Bet = 396
+
+Original hand: 6 6 6 4 T 
+Mapped hand: 6 6 6 4 10 
+Type: 4 => Three of a kind
+Bet = 747
+
+Original hand: 6 7 J Q 7 
+Mapped hand: 6 7 1 12 7 
+Type: 4 => Three of a kind
+Bet = 266
+
+Original hand: 6 8 J 6 7 
+Mapped hand: 6 8 1 6 7 
+Type: 4 => Three of a kind
+Bet = 391
+
+Original hand: 6 8 K K K 
+Mapped hand: 6 8 13 13 13 
+Type: 4 => Three of a kind
+Bet = 469
+
+Original hand: 6 9 6 J Q 
+Mapped hand: 6 9 6 1 12 
+Type: 4 => Three of a kind
+Bet = 631
+
+Original hand: 6 9 6 6 3 
+Mapped hand: 6 9 6 6 3 
+Type: 4 => Three of a kind
+Bet = 296
+
+Original hand: 6 9 Q 6 6 
+Mapped hand: 6 9 12 6 6 
+Type: 4 => Three of a kind
+Bet = 690
+
+Original hand: 6 9 A A A 
+Mapped hand: 6 9 14 14 14 
+Type: 4 => Three of a kind
+Bet = 430
+
+Original hand: 6 Q 5 6 6 
+Mapped hand: 6 12 5 6 6 
+Type: 4 => Three of a kind
+Bet = 460
+
+Original hand: 6 K Q 6 J 
+Mapped hand: 6 13 12 6 1 
+Type: 4 => Three of a kind
+Bet = 962
+
+Original hand: 6 K Q K K 
+Mapped hand: 6 13 12 13 13 
+Type: 4 => Three of a kind
+Bet = 584
+
+Original hand: 6 A 8 8 8 
+Mapped hand: 6 14 8 8 8 
+Type: 4 => Three of a kind
+Bet = 404
+
+Original hand: 7 J J 8 K 
+Mapped hand: 7 1 1 8 13 
+Type: 4 => Three of a kind
+Bet = 708
+
+Original hand: 7 J 6 9 6 
+Mapped hand: 7 1 6 9 6 
+Type: 4 => Three of a kind
+Bet = 338
+
+Original hand: 7 J K 8 8 
+Mapped hand: 7 1 13 8 8 
+Type: 4 => Three of a kind
+Bet = 640
+
+Original hand: 7 J A A Q 
+Mapped hand: 7 1 14 14 12 
+Type: 4 => Three of a kind
+Bet = 580
+
+Original hand: 7 4 A 4 4 
+Mapped hand: 7 4 14 4 4 
+Type: 4 => Three of a kind
+Bet = 945
+
+Original hand: 7 5 9 7 7 
+Mapped hand: 7 5 9 7 7 
+Type: 4 => Three of a kind
+Bet = 328
+
+Original hand: 7 7 2 7 6 
+Mapped hand: 7 7 2 7 6 
+Type: 4 => Three of a kind
+Bet = 382
+
+Original hand: 7 7 4 J 9 
+Mapped hand: 7 7 4 1 9 
+Type: 4 => Three of a kind
+Bet = 798
+
+Original hand: 7 7 7 5 4 
+Mapped hand: 7 7 7 5 4 
+Type: 4 => Three of a kind
+Bet = 848
+
+Original hand: 7 7 8 J 3 
+Mapped hand: 7 7 8 1 3 
+Type: 4 => Three of a kind
+Bet = 751
+
+Original hand: 7 7 Q J 3 
+Mapped hand: 7 7 12 1 3 
+Type: 4 => Three of a kind
+Bet = 587
+
+Original hand: 7 9 K J K 
+Mapped hand: 7 9 13 1 13 
+Type: 4 => Three of a kind
+Bet = 77
+
+Original hand: 7 T 7 7 3 
+Mapped hand: 7 10 7 7 3 
+Type: 4 => Three of a kind
+Bet = 731
+
+Original hand: 7 T 7 7 6 
+Mapped hand: 7 10 7 7 6 
+Type: 4 => Three of a kind
+Bet = 712
+
+Original hand: 7 Q J 3 J 
+Mapped hand: 7 12 1 3 1 
+Type: 4 => Three of a kind
+Bet = 770
+
+Original hand: 7 Q J 9 7 
+Mapped hand: 7 12 1 9 7 
+Type: 4 => Three of a kind
+Bet = 694
+
+Original hand: 8 J J T 3 
+Mapped hand: 8 1 1 10 3 
+Type: 4 => Three of a kind
+Bet = 775
+
+Original hand: 8 J Q Q 2 
+Mapped hand: 8 1 12 12 2 
+Type: 4 => Three of a kind
+Bet = 383
+
+Original hand: 8 2 J 8 7 
+Mapped hand: 8 2 1 8 7 
+Type: 4 => Three of a kind
+Bet = 89
+
+Original hand: 8 2 8 9 8 
+Mapped hand: 8 2 8 9 8 
+Type: 4 => Three of a kind
+Bet = 883
+
+Original hand: 8 3 3 3 K 
+Mapped hand: 8 3 3 3 13 
+Type: 4 => Three of a kind
+Bet = 361
+
+Original hand: 8 4 8 5 8 
+Mapped hand: 8 4 8 5 8 
+Type: 4 => Three of a kind
+Bet = 788
+
+Original hand: 8 6 9 9 J 
+Mapped hand: 8 6 9 9 1 
+Type: 4 => Three of a kind
+Bet = 172
+
+Original hand: 8 8 J 6 3 
+Mapped hand: 8 8 1 6 3 
+Type: 4 => Three of a kind
+Bet = 588
+
+Original hand: 8 8 4 J T 
+Mapped hand: 8 8 4 1 10 
+Type: 4 => Three of a kind
+Bet = 644
+
+Original hand: 8 8 4 T 8 
+Mapped hand: 8 8 4 10 8 
+Type: 4 => Three of a kind
+Bet = 526
+
+Original hand: 8 8 8 T 7 
+Mapped hand: 8 8 8 10 7 
+Type: 4 => Three of a kind
+Bet = 491
+
+Original hand: 8 8 T J 6 
+Mapped hand: 8 8 10 1 6 
+Type: 4 => Three of a kind
+Bet = 767
+
+Original hand: 8 8 K 8 5 
+Mapped hand: 8 8 13 8 5 
+Type: 4 => Three of a kind
+Bet = 593
+
+Original hand: 8 K 6 8 J 
+Mapped hand: 8 13 6 8 1 
+Type: 4 => Three of a kind
+Bet = 839
+
+Original hand: 9 J 8 6 6 
+Mapped hand: 9 1 8 6 6 
+Type: 4 => Three of a kind
+Bet = 565
+
+Original hand: 9 J Q T T 
+Mapped hand: 9 1 12 10 10 
+Type: 4 => Three of a kind
+Bet = 832
+
+Original hand: 9 2 2 2 4 
+Mapped hand: 9 2 2 2 4 
+Type: 4 => Three of a kind
+Bet = 121
+
+Original hand: 9 3 J 7 9 
+Mapped hand: 9 3 1 7 9 
+Type: 4 => Three of a kind
+Bet = 100
+
+Original hand: 9 3 3 3 8 
+Mapped hand: 9 3 3 3 8 
+Type: 4 => Three of a kind
+Bet = 836
+
+Original hand: 9 4 9 J 5 
+Mapped hand: 9 4 9 1 5 
+Type: 4 => Three of a kind
+Bet = 473
+
+Original hand: 9 4 9 9 T 
+Mapped hand: 9 4 9 9 10 
+Type: 4 => Three of a kind
+Bet = 211
+
+Original hand: 9 6 4 4 4 
+Mapped hand: 9 6 4 4 4 
+Type: 4 => Three of a kind
+Bet = 179
+
+Original hand: 9 7 4 7 7 
+Mapped hand: 9 7 4 7 7 
+Type: 4 => Three of a kind
+Bet = 332
+
+Original hand: 9 7 Q Q Q 
+Mapped hand: 9 7 12 12 12 
+Type: 4 => Three of a kind
+Bet = 337
+
+Original hand: 9 8 J 7 7 
+Mapped hand: 9 8 1 7 7 
+Type: 4 => Three of a kind
+Bet = 371
+
+Original hand: 9 8 9 T 9 
+Mapped hand: 9 8 9 10 9 
+Type: 4 => Three of a kind
+Bet = 529
+
+Original hand: 9 9 3 9 5 
+Mapped hand: 9 9 3 9 5 
+Type: 4 => Three of a kind
+Bet = 209
+
+Original hand: 9 9 3 9 8 
+Mapped hand: 9 9 3 9 8 
+Type: 4 => Three of a kind
+Bet = 946
+
+Original hand: 9 9 6 4 9 
+Mapped hand: 9 9 6 4 9 
+Type: 4 => Three of a kind
+Bet = 1
+
+Original hand: 9 9 7 4 9 
+Mapped hand: 9 9 7 4 9 
+Type: 4 => Three of a kind
+Bet = 275
+
+Original hand: 9 9 8 A 9 
+Mapped hand: 9 9 8 14 9 
+Type: 4 => Three of a kind
+Bet = 561
+
+Original hand: 9 9 9 K 2 
+Mapped hand: 9 9 9 13 2 
+Type: 4 => Three of a kind
+Bet = 21
+
+Original hand: 9 Q J Q A 
+Mapped hand: 9 12 1 12 14 
+Type: 4 => Three of a kind
+Bet = 725
+
+Original hand: 9 K 6 9 J 
+Mapped hand: 9 13 6 9 1 
+Type: 4 => Three of a kind
+Bet = 145
+
+Original hand: 9 K K Q J 
+Mapped hand: 9 13 13 12 1 
+Type: 4 => Three of a kind
+Bet = 490
+
+Original hand: 9 A 2 J 9 
+Mapped hand: 9 14 2 1 9 
+Type: 4 => Three of a kind
+Bet = 191
+
+Original hand: 9 A T J T 
+Mapped hand: 9 14 10 1 10 
+Type: 4 => Three of a kind
+Bet = 892
+
+Original hand: 9 A A 3 J 
+Mapped hand: 9 14 14 3 1 
+Type: 4 => Three of a kind
+Bet = 183
+
+Original hand: 9 A A A 2 
+Mapped hand: 9 14 14 14 2 
+Type: 4 => Three of a kind
+Bet = 343
+
+Original hand: 9 A A A 3 
+Mapped hand: 9 14 14 14 3 
+Type: 4 => Three of a kind
+Bet = 374
+
+Original hand: T J A 2 J 
+Mapped hand: 10 1 14 2 1 
+Type: 4 => Three of a kind
+Bet = 509
+
+Original hand: T 4 A 4 4 
+Mapped hand: 10 4 14 4 4 
+Type: 4 => Three of a kind
+Bet = 23
+
+Original hand: T 6 6 6 8 
+Mapped hand: 10 6 6 6 8 
+Type: 4 => Three of a kind
+Bet = 822
+
+Original hand: T T J 7 Q 
+Mapped hand: 10 10 1 7 12 
+Type: 4 => Three of a kind
+Bet = 834
+
+Original hand: T T 3 J 5 
+Mapped hand: 10 10 3 1 5 
+Type: 4 => Three of a kind
+Bet = 192
+
+Original hand: T T 3 T 9 
+Mapped hand: 10 10 3 10 9 
+Type: 4 => Three of a kind
+Bet = 159
+
+Original hand: T Q J 9 Q 
+Mapped hand: 10 12 1 9 12 
+Type: 4 => Three of a kind
+Bet = 645
+
+Original hand: T Q 6 T T 
+Mapped hand: 10 12 6 10 10 
+Type: 4 => Three of a kind
+Bet = 541
+
+Original hand: T Q 8 T T 
+Mapped hand: 10 12 8 10 10 
+Type: 4 => Three of a kind
+Bet = 803
+
+Original hand: Q J 8 8 5 
+Mapped hand: 12 1 8 8 5 
+Type: 4 => Three of a kind
+Bet = 899
+
+Original hand: Q J T Q 2 
+Mapped hand: 12 1 10 12 2 
+Type: 4 => Three of a kind
+Bet = 261
+
+Original hand: Q J K A A 
+Mapped hand: 12 1 13 14 14 
+Type: 4 => Three of a kind
+Bet = 568
+
+Original hand: Q 2 2 2 A 
+Mapped hand: 12 2 2 2 14 
+Type: 4 => Three of a kind
+Bet = 126
+
+Original hand: Q 3 6 6 6 
+Mapped hand: 12 3 6 6 6 
+Type: 4 => Three of a kind
+Bet = 119
+
+Original hand: Q 7 K 7 7 
+Mapped hand: 12 7 13 7 7 
+Type: 4 => Three of a kind
+Bet = 991
+
+Original hand: Q 7 A 7 J 
+Mapped hand: 12 7 14 7 1 
+Type: 4 => Three of a kind
+Bet = 218
+
+Original hand: Q 8 3 J Q 
+Mapped hand: 12 8 3 1 12 
+Type: 4 => Three of a kind
+Bet = 334
+
+Original hand: Q 8 Q Q 7 
+Mapped hand: 12 8 12 12 7 
+Type: 4 => Three of a kind
+Bet = 45
+
+Original hand: Q T J 7 7 
+Mapped hand: 12 10 1 7 7 
+Type: 4 => Three of a kind
+Bet = 355
+
+Original hand: Q T 3 J 3 
+Mapped hand: 12 10 3 1 3 
+Type: 4 => Three of a kind
+Bet = 91
+
+Original hand: Q T 9 9 9 
+Mapped hand: 12 10 9 9 9 
+Type: 4 => Three of a kind
+Bet = 669
+
+Original hand: Q T T 7 T 
+Mapped hand: 12 10 10 7 10 
+Type: 4 => Three of a kind
+Bet = 335
+
+Original hand: Q Q Q 3 A 
+Mapped hand: 12 12 12 3 14 
+Type: 4 => Three of a kind
+Bet = 820
+
+Original hand: Q Q Q 4 6 
+Mapped hand: 12 12 12 4 6 
+Type: 4 => Three of a kind
+Bet = 408
+
+Original hand: Q Q Q 8 3 
+Mapped hand: 12 12 12 8 3 
+Type: 4 => Three of a kind
+Bet = 758
+
+Original hand: Q Q Q T 8 
+Mapped hand: 12 12 12 10 8 
+Type: 4 => Three of a kind
+Bet = 607
+
+Original hand: Q Q Q A 7 
+Mapped hand: 12 12 12 14 7 
+Type: 4 => Three of a kind
+Bet = 27
+
+Original hand: K J 6 2 K 
+Mapped hand: 13 1 6 2 13 
+Type: 4 => Three of a kind
+Bet = 288
+
+Original hand: K J A K 6 
+Mapped hand: 13 1 14 13 6 
+Type: 4 => Three of a kind
+Bet = 753
+
+Original hand: K 2 2 J Q 
+Mapped hand: 13 2 2 1 12 
+Type: 4 => Three of a kind
+Bet = 941
+
+Original hand: K 2 2 8 2 
+Mapped hand: 13 2 2 8 2 
+Type: 4 => Three of a kind
+Bet = 552
+
+Original hand: K 2 A A A 
+Mapped hand: 13 2 14 14 14 
+Type: 4 => Three of a kind
+Bet = 514
+
+Original hand: K 4 K 7 K 
+Mapped hand: 13 4 13 7 13 
+Type: 4 => Three of a kind
+Bet = 333
+
+Original hand: K 5 7 7 7 
+Mapped hand: 13 5 7 7 7 
+Type: 4 => Three of a kind
+Bet = 833
+
+Original hand: K 7 K 8 K 
+Mapped hand: 13 7 13 8 13 
+Type: 4 => Three of a kind
+Bet = 24
+
+Original hand: K 8 8 3 8 
+Mapped hand: 13 8 8 3 8 
+Type: 4 => Three of a kind
+Bet = 830
+
+Original hand: K 8 Q K K 
+Mapped hand: 13 8 12 13 13 
+Type: 4 => Three of a kind
+Bet = 981
+
+Original hand: K 8 K 5 K 
+Mapped hand: 13 8 13 5 13 
+Type: 4 => Three of a kind
+Bet = 120
+
+Original hand: K 9 J K A 
+Mapped hand: 13 9 1 13 14 
+Type: 4 => Three of a kind
+Bet = 711
+
+Original hand: K 9 K K 3 
+Mapped hand: 13 9 13 13 3 
+Type: 4 => Three of a kind
+Bet = 756
+
+Original hand: K T Q K J 
+Mapped hand: 13 10 12 13 1 
+Type: 4 => Three of a kind
+Bet = 891
+
+Original hand: K K J 2 7 
+Mapped hand: 13 13 1 2 7 
+Type: 4 => Three of a kind
+Bet = 330
+
+Original hand: K K 7 Q J 
+Mapped hand: 13 13 7 12 1 
+Type: 4 => Three of a kind
+Bet = 683
+
+Original hand: K K Q K 7 
+Mapped hand: 13 13 12 13 7 
+Type: 4 => Three of a kind
+Bet = 810
+
+Original hand: K K K 3 7 
+Mapped hand: 13 13 13 3 7 
+Type: 4 => Three of a kind
+Bet = 994
+
+Original hand: K K K 6 T 
+Mapped hand: 13 13 13 6 10 
+Type: 4 => Three of a kind
+Bet = 416
+
+Original hand: K K K T 5 
+Mapped hand: 13 13 13 10 5 
+Type: 4 => Three of a kind
+Bet = 441
+
+Original hand: K A T J T 
+Mapped hand: 13 14 10 1 10 
+Type: 4 => Three of a kind
+Bet = 659
+
+Original hand: A J 2 A K 
+Mapped hand: 14 1 2 14 13 
+Type: 4 => Three of a kind
+Bet = 413
+
+Original hand: A J A 7 3 
+Mapped hand: 14 1 14 7 3 
+Type: 4 => Three of a kind
+Bet = 796
+
+Original hand: A 2 2 J K 
+Mapped hand: 14 2 2 1 13 
+Type: 4 => Three of a kind
+Bet = 248
+
+Original hand: A 3 J 3 2 
+Mapped hand: 14 3 1 3 2 
+Type: 4 => Three of a kind
+Bet = 986
+
+Original hand: A 3 K J A 
+Mapped hand: 14 3 13 1 14 
+Type: 4 => Three of a kind
+Bet = 503
+
+Original hand: A 5 5 9 5 
+Mapped hand: 14 5 5 9 5 
+Type: 4 => Three of a kind
+Bet = 262
+
+Original hand: A 5 A K A 
+Mapped hand: 14 5 14 13 14 
+Type: 4 => Three of a kind
+Bet = 148
+
+Original hand: A T J T 8 
+Mapped hand: 14 10 1 10 8 
+Type: 4 => Three of a kind
+Bet = 771
+
+Original hand: A K A 4 A 
+Mapped hand: 14 13 14 4 14 
+Type: 4 => Three of a kind
+Bet = 198
+
+Original hand: A A 2 A 8 
+Mapped hand: 14 14 2 14 8 
+Type: 4 => Three of a kind
+Bet = 73
+
+Original hand: A A 7 A 8 
+Mapped hand: 14 14 7 14 8 
+Type: 4 => Three of a kind
+Bet = 358
+
+Original hand: A A A 2 3 
+Mapped hand: 14 14 14 2 3 
+Type: 4 => Three of a kind
+Bet = 838
+
+Original hand: A A A K Q 
+Mapped hand: 14 14 14 13 12 
+Type: 4 => Three of a kind
+Bet = 376
+
+Original hand: J 3 9 9 3 
+Mapped hand: 1 3 9 9 3 
+Type: 5 => Full house
+Bet = 719
+
+Original hand: J 5 3 5 3 
+Mapped hand: 1 5 3 5 3 
+Type: 5 => Full house
+Bet = 546
+
+Original hand: J T T K K 
+Mapped hand: 1 10 10 13 13 
+Type: 5 => Full house
+Bet = 824
+
+Original hand: J T Q Q T 
+Mapped hand: 1 10 12 12 10 
+Type: 5 => Full house
+Bet = 7
+
+Original hand: 2 J 6 2 6 
+Mapped hand: 2 1 6 2 6 
+Type: 5 => Full house
+Bet = 732
+
+Original hand: 2 2 7 7 7 
+Mapped hand: 2 2 7 7 7 
+Type: 5 => Full house
+Bet = 102
+
+Original hand: 2 5 2 5 5 
+Mapped hand: 2 5 2 5 5 
+Type: 5 => Full house
+Bet = 913
+
+Original hand: 2 5 5 2 2 
+Mapped hand: 2 5 5 2 2 
+Type: 5 => Full house
+Bet = 923
+
+Original hand: 2 6 2 2 6 
+Mapped hand: 2 6 2 2 6 
+Type: 5 => Full house
+Bet = 940
+
+Original hand: 2 6 2 6 6 
+Mapped hand: 2 6 2 6 6 
+Type: 5 => Full house
+Bet = 187
+
+Original hand: 2 9 9 2 9 
+Mapped hand: 2 9 9 2 9 
+Type: 5 => Full house
+Bet = 619
+
+Original hand: 2 K 2 2 K 
+Mapped hand: 2 13 2 2 13 
+Type: 5 => Full house
+Bet = 377
+
+Original hand: 2 A A 2 J 
+Mapped hand: 2 14 14 2 1 
+Type: 5 => Full house
+Bet = 885
+
+Original hand: 3 2 J 3 2 
+Mapped hand: 3 2 1 3 2 
+Type: 5 => Full house
+Bet = 199
+
+Original hand: 3 2 3 2 3 
+Mapped hand: 3 2 3 2 3 
+Type: 5 => Full house
+Bet = 259
+
+Original hand: 3 3 8 3 8 
+Mapped hand: 3 3 8 3 8 
+Type: 5 => Full house
+Bet = 638
+
+Original hand: 3 3 Q Q 3 
+Mapped hand: 3 3 12 12 3 
+Type: 5 => Full house
+Bet = 471
+
+Original hand: 3 4 J 3 4 
+Mapped hand: 3 4 1 3 4 
+Type: 5 => Full house
+Bet = 419
+
+Original hand: 3 6 3 3 6 
+Mapped hand: 3 6 3 3 6 
+Type: 5 => Full house
+Bet = 478
+
+Original hand: 3 7 7 7 3 
+Mapped hand: 3 7 7 7 3 
+Type: 5 => Full house
+Bet = 602
+
+Original hand: 3 9 3 3 9 
+Mapped hand: 3 9 3 3 9 
+Type: 5 => Full house
+Bet = 911
+
+Original hand: 3 T T T 3 
+Mapped hand: 3 10 10 10 3 
+Type: 5 => Full house
+Bet = 606
+
+Original hand: 3 A 3 A J 
+Mapped hand: 3 14 3 14 1 
+Type: 5 => Full house
+Bet = 583
+
+Original hand: 4 2 2 4 2 
+Mapped hand: 4 2 2 4 2 
+Type: 5 => Full house
+Bet = 226
+
+Original hand: 4 2 4 4 2 
+Mapped hand: 4 2 4 4 2 
+Type: 5 => Full house
+Bet = 901
+
+Original hand: 4 4 3 4 3 
+Mapped hand: 4 4 3 4 3 
+Type: 5 => Full house
+Bet = 999
+
+Original hand: 4 4 7 7 4 
+Mapped hand: 4 4 7 7 4 
+Type: 5 => Full house
+Bet = 957
+
+Original hand: 4 6 6 4 4 
+Mapped hand: 4 6 6 4 4 
+Type: 5 => Full house
+Bet = 331
+
+Original hand: 4 8 8 4 4 
+Mapped hand: 4 8 8 4 4 
+Type: 5 => Full house
+Bet = 323
+
+Original hand: 5 J 4 4 5 
+Mapped hand: 5 1 4 4 5 
+Type: 5 => Full house
+Bet = 270
+
+Original hand: 5 4 4 5 5 
+Mapped hand: 5 4 4 5 5 
+Type: 5 => Full house
+Bet = 570
+
+Original hand: 5 5 3 5 3 
+Mapped hand: 5 5 3 5 3 
+Type: 5 => Full house
+Bet = 926
+
+Original hand: 5 5 4 4 4 
+Mapped hand: 5 5 4 4 4 
+Type: 5 => Full house
+Bet = 403
+
+Original hand: 5 5 8 5 8 
+Mapped hand: 5 5 8 5 8 
+Type: 5 => Full house
+Bet = 113
+
+Original hand: 5 5 T T T 
+Mapped hand: 5 5 10 10 10 
+Type: 5 => Full house
+Bet = 647
+
+Original hand: 5 7 7 7 5 
+Mapped hand: 5 7 7 7 5 
+Type: 5 => Full house
+Bet = 258
+
+Original hand: 5 8 J 8 5 
+Mapped hand: 5 8 1 8 5 
+Type: 5 => Full house
+Bet = 141
+
+Original hand: 5 9 9 9 5 
+Mapped hand: 5 9 9 9 5 
+Type: 5 => Full house
+Bet = 84
+
+Original hand: 5 T 5 T J 
+Mapped hand: 5 10 5 10 1 
+Type: 5 => Full house
+Bet = 221
+
+Original hand: 5 T T 5 5 
+Mapped hand: 5 10 10 5 5 
+Type: 5 => Full house
+Bet = 990
+
+Original hand: 5 K K J 5 
+Mapped hand: 5 13 13 1 5 
+Type: 5 => Full house
+Bet = 842
+
+Original hand: 5 K K 5 K 
+Mapped hand: 5 13 13 5 13 
+Type: 5 => Full house
+Bet = 535
+
+Original hand: 6 J 6 5 5 
+Mapped hand: 6 1 6 5 5 
+Type: 5 => Full house
+Bet = 929
+
+Original hand: 6 6 3 6 3 
+Mapped hand: 6 6 3 6 3 
+Type: 5 => Full house
+Bet = 52
+
+Original hand: 6 6 4 6 4 
+Mapped hand: 6 6 4 6 4 
+Type: 5 => Full house
+Bet = 522
+
+Original hand: 6 6 6 7 7 
+Mapped hand: 6 6 6 7 7 
+Type: 5 => Full house
+Bet = 346
+
+Original hand: 6 6 8 6 8 
+Mapped hand: 6 6 8 6 8 
+Type: 5 => Full house
+Bet = 572
+
+Original hand: 6 6 Q 6 Q 
+Mapped hand: 6 6 12 6 12 
+Type: 5 => Full house
+Bet = 131
+
+Original hand: 6 6 A 6 A 
+Mapped hand: 6 6 14 6 14 
+Type: 5 => Full house
+Bet = 312
+
+Original hand: 6 8 J 8 6 
+Mapped hand: 6 8 1 8 6 
+Type: 5 => Full house
+Bet = 961
+
+Original hand: 6 9 6 6 9 
+Mapped hand: 6 9 6 6 9 
+Type: 5 => Full house
+Bet = 272
+
+Original hand: 6 T 6 J T 
+Mapped hand: 6 10 6 1 10 
+Type: 5 => Full house
+Bet = 915
+
+Original hand: 6 A A A 6 
+Mapped hand: 6 14 14 14 6 
+Type: 5 => Full house
+Bet = 843
+
+Original hand: 7 3 3 7 3 
+Mapped hand: 7 3 3 7 3 
+Type: 5 => Full house
+Bet = 107
+
+Original hand: 7 6 6 7 7 
+Mapped hand: 7 6 6 7 7 
+Type: 5 => Full house
+Bet = 373
+
+Original hand: 7 7 9 7 9 
+Mapped hand: 7 7 9 7 9 
+Type: 5 => Full house
+Bet = 222
+
+Original hand: 7 7 A A A 
+Mapped hand: 7 7 14 14 14 
+Type: 5 => Full house
+Bet = 666
+
+Original hand: 7 Q 7 Q 7 
+Mapped hand: 7 12 7 12 7 
+Type: 5 => Full house
+Bet = 537
+
+Original hand: 7 A A 7 J 
+Mapped hand: 7 14 14 7 1 
+Type: 5 => Full house
+Bet = 632
+
+Original hand: 7 A A 7 7 
+Mapped hand: 7 14 14 7 7 
+Type: 5 => Full house
+Bet = 881
+
+Original hand: 8 2 2 J 8 
+Mapped hand: 8 2 2 1 8 
+Type: 5 => Full house
+Bet = 893
+
+Original hand: 8 4 4 8 J 
+Mapped hand: 8 4 4 8 1 
+Type: 5 => Full house
+Bet = 103
+
+Original hand: 8 4 4 8 8 
+Mapped hand: 8 4 4 8 8 
+Type: 5 => Full house
+Bet = 234
+
+Original hand: 8 7 7 7 8 
+Mapped hand: 8 7 7 7 8 
+Type: 5 => Full house
+Bet = 499
+
+Original hand: 8 7 7 8 8 
+Mapped hand: 8 7 7 8 8 
+Type: 5 => Full house
+Bet = 384
+
+Original hand: 8 8 5 5 8 
+Mapped hand: 8 8 5 5 8 
+Type: 5 => Full house
+Bet = 46
+
+Original hand: 8 8 8 A A 
+Mapped hand: 8 8 8 14 14 
+Type: 5 => Full house
+Bet = 790
+
+Original hand: 8 8 9 J 9 
+Mapped hand: 8 8 9 1 9 
+Type: 5 => Full house
+Bet = 313
+
+Original hand: 8 8 9 8 9 
+Mapped hand: 8 8 9 8 9 
+Type: 5 => Full house
+Bet = 418
+
+Original hand: 8 8 Q Q Q 
+Mapped hand: 8 8 12 12 12 
+Type: 5 => Full house
+Bet = 828
+
+Original hand: 8 8 K J K 
+Mapped hand: 8 8 13 1 13 
+Type: 5 => Full house
+Bet = 170
+
+Original hand: 8 T T 8 8 
+Mapped hand: 8 10 10 8 8 
+Type: 5 => Full house
+Bet = 41
+
+Original hand: 8 Q Q J 8 
+Mapped hand: 8 12 12 1 8 
+Type: 5 => Full house
+Bet = 792
+
+Original hand: 8 Q Q 8 8 
+Mapped hand: 8 12 12 8 8 
+Type: 5 => Full house
+Bet = 660
+
+Original hand: 9 J Q 9 Q 
+Mapped hand: 9 1 12 9 12 
+Type: 5 => Full house
+Bet = 578
+
+Original hand: 9 2 J 9 2 
+Mapped hand: 9 2 1 9 2 
+Type: 5 => Full house
+Bet = 710
+
+Original hand: 9 4 9 4 J 
+Mapped hand: 9 4 9 4 1 
+Type: 5 => Full house
+Bet = 105
+
+Original hand: 9 6 9 6 J 
+Mapped hand: 9 6 9 6 1 
+Type: 5 => Full house
+Bet = 264
+
+Original hand: 9 8 9 9 8 
+Mapped hand: 9 8 9 9 8 
+Type: 5 => Full house
+Bet = 912
+
+Original hand: 9 9 9 3 3 
+Mapped hand: 9 9 9 3 3 
+Type: 5 => Full house
+Bet = 433
+
+Original hand: 9 9 9 7 7 
+Mapped hand: 9 9 9 7 7 
+Type: 5 => Full house
+Bet = 701
+
+Original hand: T 2 2 2 T 
+Mapped hand: 10 2 2 2 10 
+Type: 5 => Full house
+Bet = 87
+
+Original hand: T 3 T 3 J 
+Mapped hand: 10 3 10 3 1 
+Type: 5 => Full house
+Bet = 63
+
+Original hand: T 4 J T 4 
+Mapped hand: 10 4 1 10 4 
+Type: 5 => Full house
+Bet = 677
+
+Original hand: T 7 T T 7 
+Mapped hand: 10 7 10 10 7 
+Type: 5 => Full house
+Bet = 407
+
+Original hand: T T Q T Q 
+Mapped hand: 10 10 12 10 12 
+Type: 5 => Full house
+Bet = 35
+
+Original hand: T A A J T 
+Mapped hand: 10 14 14 1 10 
+Type: 5 => Full house
+Bet = 67
+
+Original hand: Q J 2 2 Q 
+Mapped hand: 12 1 2 2 12 
+Type: 5 => Full house
+Bet = 85
+
+Original hand: Q 3 Q 3 Q 
+Mapped hand: 12 3 12 3 12 
+Type: 5 => Full house
+Bet = 707
+
+Original hand: Q 5 J 5 Q 
+Mapped hand: 12 5 1 5 12 
+Type: 5 => Full house
+Bet = 761
+
+Original hand: Q 6 Q Q 6 
+Mapped hand: 12 6 12 12 6 
+Type: 5 => Full house
+Bet = 852
+
+Original hand: Q T Q Q T 
+Mapped hand: 12 10 12 12 10 
+Type: 5 => Full house
+Bet = 164
+
+Original hand: Q Q 2 Q 2 
+Mapped hand: 12 12 2 12 2 
+Type: 5 => Full house
+Bet = 390
+
+Original hand: Q Q 3 3 J 
+Mapped hand: 12 12 3 3 1 
+Type: 5 => Full house
+Bet = 117
+
+Original hand: Q Q 5 5 5 
+Mapped hand: 12 12 5 5 5 
+Type: 5 => Full house
+Bet = 596
+
+Original hand: Q Q Q K K 
+Mapped hand: 12 12 12 13 13 
+Type: 5 => Full house
+Bet = 931
+
+Original hand: K J A A K 
+Mapped hand: 13 1 14 14 13 
+Type: 5 => Full house
+Bet = 110
+
+Original hand: K 2 K 2 K 
+Mapped hand: 13 2 13 2 13 
+Type: 5 => Full house
+Bet = 150
+
+Original hand: K 7 7 K J 
+Mapped hand: 13 7 7 13 1 
+Type: 5 => Full house
+Bet = 276
+
+Original hand: K 9 K 9 J 
+Mapped hand: 13 9 13 9 1 
+Type: 5 => Full house
+Bet = 204
+
+Original hand: K T K T K 
+Mapped hand: 13 10 13 10 13 
+Type: 5 => Full house
+Bet = 576
+
+Original hand: K K 4 K 4 
+Mapped hand: 13 13 4 13 4 
+Type: 5 => Full house
+Bet = 675
+
+Original hand: K K 7 7 K 
+Mapped hand: 13 13 7 7 13 
+Type: 5 => Full house
+Bet = 301
+
+Original hand: K K 8 8 8 
+Mapped hand: 13 13 8 8 8 
+Type: 5 => Full house
+Bet = 319
+
+Original hand: K K K A A 
+Mapped hand: 13 13 13 14 14 
+Type: 5 => Full house
+Bet = 175
+
+Original hand: A J A Q Q 
+Mapped hand: 14 1 14 12 12 
+Type: 5 => Full house
+Bet = 531
+
+Original hand: A 2 2 A 2 
+Mapped hand: 14 2 2 14 2 
+Type: 5 => Full house
+Bet = 229
+
+Original hand: A T T A A 
+Mapped hand: 14 10 10 14 14 
+Type: 5 => Full house
+Bet = 290
+
+Original hand: A Q Q A Q 
+Mapped hand: 14 12 12 14 12 
+Type: 5 => Full house
+Bet = 779
+
+Original hand: A Q Q A A 
+Mapped hand: 14 12 12 14 14 
+Type: 5 => Full house
+Bet = 656
+
+Original hand: A A 4 A 4 
+Mapped hand: 14 14 4 14 4 
+Type: 5 => Full house
+Bet = 907
+
+Original hand: A A 8 8 A 
+Mapped hand: 14 14 8 8 14 
+Type: 5 => Full house
+Bet = 813
+
+Original hand: J J 8 8 2 
+Mapped hand: 1 1 8 8 2 
+Type: 6 => Four of a kind
+Bet = 318
+
+Original hand: J J A J T 
+Mapped hand: 1 1 14 1 10 
+Type: 6 => Four of a kind
+Bet = 754
+
+Original hand: J 2 J 3 J 
+Mapped hand: 1 2 1 3 1 
+Type: 6 => Four of a kind
+Bet = 118
+
+Original hand: J 3 J A A 
+Mapped hand: 1 3 1 14 14 
+Type: 6 => Four of a kind
+Bet = 324
+
+Original hand: J 4 5 4 4 
+Mapped hand: 1 4 5 4 4 
+Type: 6 => Four of a kind
+Bet = 205
+
+Original hand: J 5 J 9 5 
+Mapped hand: 1 5 1 9 5 
+Type: 6 => Four of a kind
+Bet = 695
+
+Original hand: J 5 5 Q 5 
+Mapped hand: 1 5 5 12 5 
+Type: 6 => Four of a kind
+Bet = 714
+
+Original hand: J 7 7 7 4 
+Mapped hand: 1 7 7 7 4 
+Type: 6 => Four of a kind
+Bet = 687
+
+Original hand: J 7 7 7 K 
+Mapped hand: 1 7 7 7 13 
+Type: 6 => Four of a kind
+Bet = 930
+
+Original hand: J 8 5 8 8 
+Mapped hand: 1 8 5 8 8 
+Type: 6 => Four of a kind
+Bet = 142
+
+Original hand: J 8 7 8 8 
+Mapped hand: 1 8 7 8 8 
+Type: 6 => Four of a kind
+Bet = 979
+
+Original hand: J 8 9 8 8 
+Mapped hand: 1 8 9 8 8 
+Type: 6 => Four of a kind
+Bet = 884
+
+Original hand: J 8 A A A 
+Mapped hand: 1 8 14 14 14 
+Type: 6 => Four of a kind
+Bet = 667
+
+Original hand: J 9 J Q 9 
+Mapped hand: 1 9 1 12 9 
+Type: 6 => Four of a kind
+Bet = 475
+
+Original hand: J T J A A 
+Mapped hand: 1 10 1 14 14 
+Type: 6 => Four of a kind
+Bet = 826
+
+Original hand: J Q Q 3 Q 
+Mapped hand: 1 12 12 3 12 
+Type: 6 => Four of a kind
+Bet = 11
+
+Original hand: J Q K K J 
+Mapped hand: 1 12 13 13 1 
+Type: 6 => Four of a kind
+Bet = 648
+
+Original hand: J K 2 2 2 
+Mapped hand: 1 13 2 2 2 
+Type: 6 => Four of a kind
+Bet = 397
+
+Original hand: J A 4 J 4 
+Mapped hand: 1 14 4 1 4 
+Type: 6 => Four of a kind
+Bet = 130
+
+Original hand: 2 2 J 2 8 
+Mapped hand: 2 2 1 2 8 
+Type: 6 => Four of a kind
+Bet = 639
+
+Original hand: 2 2 J 9 J 
+Mapped hand: 2 2 1 9 1 
+Type: 6 => Four of a kind
+Bet = 60
+
+Original hand: 2 2 2 2 6 
+Mapped hand: 2 2 2 2 6 
+Type: 6 => Four of a kind
+Bet = 781
+
+Original hand: 2 2 2 3 2 
+Mapped hand: 2 2 2 3 2 
+Type: 6 => Four of a kind
+Bet = 9
+
+Original hand: 2 2 3 J 2 
+Mapped hand: 2 2 3 1 2 
+Type: 6 => Four of a kind
+Bet = 900
+
+Original hand: 2 2 A 2 J 
+Mapped hand: 2 2 14 2 1 
+Type: 6 => Four of a kind
+Bet = 799
+
+Original hand: 2 2 A 2 2 
+Mapped hand: 2 2 14 2 2 
+Type: 6 => Four of a kind
+Bet = 207
+
+Original hand: 2 3 3 3 3 
+Mapped hand: 2 3 3 3 3 
+Type: 6 => Four of a kind
+Bet = 378
+
+Original hand: 2 4 2 2 2 
+Mapped hand: 2 4 2 2 2 
+Type: 6 => Four of a kind
+Bet = 807
+
+Original hand: 2 4 4 J 4 
+Mapped hand: 2 4 4 1 4 
+Type: 6 => Four of a kind
+Bet = 242
+
+Original hand: 2 7 2 2 2 
+Mapped hand: 2 7 2 2 2 
+Type: 6 => Four of a kind
+Bet = 305
+
+Original hand: 2 8 J 8 8 
+Mapped hand: 2 8 1 8 8 
+Type: 6 => Four of a kind
+Bet = 315
+
+Original hand: 2 Q Q Q Q 
+Mapped hand: 2 12 12 12 12 
+Type: 6 => Four of a kind
+Bet = 194
+
+Original hand: 3 J 3 4 3 
+Mapped hand: 3 1 3 4 3 
+Type: 6 => Four of a kind
+Bet = 840
+
+Original hand: 3 J 4 3 J 
+Mapped hand: 3 1 4 3 1 
+Type: 6 => Four of a kind
+Bet = 507
+
+Original hand: 3 3 3 J 5 
+Mapped hand: 3 3 3 1 5 
+Type: 6 => Four of a kind
+Bet = 872
+
+Original hand: 3 3 3 3 5 
+Mapped hand: 3 3 3 3 5 
+Type: 6 => Four of a kind
+Bet = 400
+
+Original hand: 3 3 3 3 A 
+Mapped hand: 3 3 3 3 14 
+Type: 6 => Four of a kind
+Bet = 472
+
+Original hand: 3 3 3 T J 
+Mapped hand: 3 3 3 10 1 
+Type: 6 => Four of a kind
+Bet = 214
+
+Original hand: 3 3 3 Q 3 
+Mapped hand: 3 3 3 12 3 
+Type: 6 => Four of a kind
+Bet = 496
+
+Original hand: 3 3 9 3 3 
+Mapped hand: 3 3 9 3 3 
+Type: 6 => Four of a kind
+Bet = 882
+
+Original hand: 3 3 A J 3 
+Mapped hand: 3 3 14 1 3 
+Type: 6 => Four of a kind
+Bet = 347
+
+Original hand: 3 6 6 6 J 
+Mapped hand: 3 6 6 6 1 
+Type: 6 => Four of a kind
+Bet = 845
+
+Original hand: 3 6 6 6 6 
+Mapped hand: 3 6 6 6 6 
+Type: 6 => Four of a kind
+Bet = 646
+
+Original hand: 3 7 3 3 3 
+Mapped hand: 3 7 3 3 3 
+Type: 6 => Four of a kind
+Bet = 802
+
+Original hand: 3 9 9 9 9 
+Mapped hand: 3 9 9 9 9 
+Type: 6 => Four of a kind
+Bet = 857
+
+Original hand: 4 J J 4 5 
+Mapped hand: 4 1 1 4 5 
+Type: 6 => Four of a kind
+Bet = 32
+
+Original hand: 4 J 8 4 4 
+Mapped hand: 4 1 8 4 4 
+Type: 6 => Four of a kind
+Bet = 359
+
+Original hand: 4 4 J K 4 
+Mapped hand: 4 4 1 13 4 
+Type: 6 => Four of a kind
+Bet = 720
+
+Original hand: 4 4 4 2 4 
+Mapped hand: 4 4 4 2 4 
+Type: 6 => Four of a kind
+Bet = 228
+
+Original hand: 4 4 4 6 4 
+Mapped hand: 4 4 4 6 4 
+Type: 6 => Four of a kind
+Bet = 517
+
+Original hand: 4 4 4 7 4 
+Mapped hand: 4 4 4 7 4 
+Type: 6 => Four of a kind
+Bet = 240
+
+Original hand: 4 4 4 8 4 
+Mapped hand: 4 4 4 8 4 
+Type: 6 => Four of a kind
+Bet = 212
+
+Original hand: 4 5 J 5 5 
+Mapped hand: 4 5 1 5 5 
+Type: 6 => Four of a kind
+Bet = 80
+
+Original hand: 4 Q 4 4 4 
+Mapped hand: 4 12 4 4 4 
+Type: 6 => Four of a kind
+Bet = 362
+
+Original hand: 4 K J K K 
+Mapped hand: 4 13 1 13 13 
+Type: 6 => Four of a kind
+Bet = 271
+
+Original hand: 5 J 5 9 5 
+Mapped hand: 5 1 5 9 5 
+Type: 6 => Four of a kind
+Bet = 859
+
+Original hand: 5 5 5 6 5 
+Mapped hand: 5 5 5 6 5 
+Type: 6 => Four of a kind
+Bet = 342
+
+Original hand: 5 5 5 K 5 
+Mapped hand: 5 5 5 13 5 
+Type: 6 => Four of a kind
+Bet = 976
+
+Original hand: 5 7 5 5 5 
+Mapped hand: 5 7 5 5 5 
+Type: 6 => Four of a kind
+Bet = 482
+
+Original hand: 5 8 J 5 5 
+Mapped hand: 5 8 1 5 5 
+Type: 6 => Four of a kind
+Bet = 625
+
+Original hand: 5 T 5 5 5 
+Mapped hand: 5 10 5 5 5 
+Type: 6 => Four of a kind
+Bet = 938
+
+Original hand: 5 K K J K 
+Mapped hand: 5 13 13 1 13 
+Type: 6 => Four of a kind
+Bet = 265
+
+Original hand: 5 A 5 5 J 
+Mapped hand: 5 14 5 5 1 
+Type: 6 => Four of a kind
+Bet = 48
+
+Original hand: 5 A A A A 
+Mapped hand: 5 14 14 14 14 
+Type: 6 => Four of a kind
+Bet = 949
+
+Original hand: 6 J 8 6 6 
+Mapped hand: 6 1 8 6 6 
+Type: 6 => Four of a kind
+Bet = 717
+
+Original hand: 6 J 9 J 6 
+Mapped hand: 6 1 9 1 6 
+Type: 6 => Four of a kind
+Bet = 505
+
+Original hand: 6 4 6 6 J 
+Mapped hand: 6 4 6 6 1 
+Type: 6 => Four of a kind
+Bet = 849
+
+Original hand: 6 5 6 6 6 
+Mapped hand: 6 5 6 6 6 
+Type: 6 => Four of a kind
+Bet = 111
+
+Original hand: 6 6 4 6 6 
+Mapped hand: 6 6 4 6 6 
+Type: 6 => Four of a kind
+Bet = 421
+
+Original hand: 6 6 6 6 T 
+Mapped hand: 6 6 6 6 10 
+Type: 6 => Four of a kind
+Bet = 197
+
+Original hand: 6 6 6 6 K 
+Mapped hand: 6 6 6 6 13 
+Type: 6 => Four of a kind
+Bet = 137
+
+Original hand: 6 6 6 6 A 
+Mapped hand: 6 6 6 6 14 
+Type: 6 => Four of a kind
+Bet = 480
+
+Original hand: 6 6 6 9 6 
+Mapped hand: 6 6 6 9 6 
+Type: 6 => Four of a kind
+Bet = 66
+
+Original hand: 6 7 J 7 7 
+Mapped hand: 6 7 1 7 7 
+Type: 6 => Four of a kind
+Bet = 203
+
+Original hand: 6 7 6 6 6 
+Mapped hand: 6 7 6 6 6 
+Type: 6 => Four of a kind
+Bet = 662
+
+Original hand: 6 8 6 6 6 
+Mapped hand: 6 8 6 6 6 
+Type: 6 => Four of a kind
+Bet = 423
+
+Original hand: 6 Q 6 6 6 
+Mapped hand: 6 12 6 6 6 
+Type: 6 => Four of a kind
+Bet = 438
+
+Original hand: 7 3 7 7 7 
+Mapped hand: 7 3 7 7 7 
+Type: 6 => Four of a kind
+Bet = 571
+
+Original hand: 7 5 J 7 7 
+Mapped hand: 7 5 1 7 7 
+Type: 6 => Four of a kind
+Bet = 518
+
+Original hand: 7 7 J 7 3 
+Mapped hand: 7 7 1 7 3 
+Type: 6 => Four of a kind
+Bet = 617
+
+Original hand: 7 7 5 7 7 
+Mapped hand: 7 7 5 7 7 
+Type: 6 => Four of a kind
+Bet = 22
+
+Original hand: 7 7 6 7 7 
+Mapped hand: 7 7 6 7 7 
+Type: 6 => Four of a kind
+Bet = 698
+
+Original hand: 7 7 7 J Q 
+Mapped hand: 7 7 7 1 12 
+Type: 6 => Four of a kind
+Bet = 188
+
+Original hand: 7 7 7 2 J 
+Mapped hand: 7 7 7 2 1 
+Type: 6 => Four of a kind
+Bet = 853
+
+Original hand: 7 7 7 4 7 
+Mapped hand: 7 7 7 4 7 
+Type: 6 => Four of a kind
+Bet = 174
+
+Original hand: 7 7 7 T 7 
+Mapped hand: 7 7 7 10 7 
+Type: 6 => Four of a kind
+Bet = 769
+
+Original hand: 7 T 7 J 7 
+Mapped hand: 7 10 7 1 7 
+Type: 6 => Four of a kind
+Bet = 44
+
+Original hand: 8 5 5 5 5 
+Mapped hand: 8 5 5 5 5 
+Type: 6 => Four of a kind
+Bet = 784
+
+Original hand: 8 8 J 7 J 
+Mapped hand: 8 8 1 7 1 
+Type: 6 => Four of a kind
+Bet = 975
+
+Original hand: 8 8 2 8 8 
+Mapped hand: 8 8 2 8 8 
+Type: 6 => Four of a kind
+Bet = 995
+
+Original hand: 8 8 8 7 8 
+Mapped hand: 8 8 8 7 8 
+Type: 6 => Four of a kind
+Bet = 18
+
+Original hand: 8 8 8 8 3 
+Mapped hand: 8 8 8 8 3 
+Type: 6 => Four of a kind
+Bet = 702
+
+Original hand: 8 8 8 8 9 
+Mapped hand: 8 8 8 8 9 
+Type: 6 => Four of a kind
+Bet = 937
+
+Original hand: 8 8 8 Q 8 
+Mapped hand: 8 8 8 12 8 
+Type: 6 => Four of a kind
+Bet = 863
+
+Original hand: 8 8 8 K 8 
+Mapped hand: 8 8 8 13 8 
+Type: 6 => Four of a kind
+Bet = 654
+
+Original hand: 8 8 A 8 8 
+Mapped hand: 8 8 14 8 8 
+Type: 6 => Four of a kind
+Bet = 597
+
+Original hand: 8 9 9 9 9 
+Mapped hand: 8 9 9 9 9 
+Type: 6 => Four of a kind
+Bet = 96
+
+Original hand: 8 Q Q Q Q 
+Mapped hand: 8 12 12 12 12 
+Type: 6 => Four of a kind
+Bet = 101
+
+Original hand: 8 K J 8 8 
+Mapped hand: 8 13 1 8 8 
+Type: 6 => Four of a kind
+Bet = 919
+
+Original hand: 9 J 9 5 9 
+Mapped hand: 9 1 9 5 9 
+Type: 6 => Four of a kind
+Bet = 493
+
+Original hand: 9 J 9 9 T 
+Mapped hand: 9 1 9 9 10 
+Type: 6 => Four of a kind
+Bet = 705
+
+Original hand: 9 3 9 9 J 
+Mapped hand: 9 3 9 9 1 
+Type: 6 => Four of a kind
+Bet = 953
+
+Original hand: 9 4 9 9 9 
+Mapped hand: 9 4 9 9 9 
+Type: 6 => Four of a kind
+Bet = 306
+
+Original hand: 9 5 5 5 5 
+Mapped hand: 9 5 5 5 5 
+Type: 6 => Four of a kind
+Bet = 307
+
+Original hand: 9 7 7 7 7 
+Mapped hand: 9 7 7 7 7 
+Type: 6 => Four of a kind
+Bet = 776
+
+Original hand: 9 9 J 9 2 
+Mapped hand: 9 9 1 9 2 
+Type: 6 => Four of a kind
+Bet = 869
+
+Original hand: 9 9 J K J 
+Mapped hand: 9 9 1 13 1 
+Type: 6 => Four of a kind
+Bet = 437
+
+Original hand: 9 9 9 J A 
+Mapped hand: 9 9 9 1 14 
+Type: 6 => Four of a kind
+Bet = 865
+
+Original hand: 9 9 9 5 9 
+Mapped hand: 9 9 9 5 9 
+Type: 6 => Four of a kind
+Bet = 867
+
+Original hand: 9 9 T 9 9 
+Mapped hand: 9 9 10 9 9 
+Type: 6 => Four of a kind
+Bet = 948
+
+Original hand: 9 K 9 9 9 
+Mapped hand: 9 13 9 9 9 
+Type: 6 => Four of a kind
+Bet = 573
+
+Original hand: 9 A 9 9 9 
+Mapped hand: 9 14 9 9 9 
+Type: 6 => Four of a kind
+Bet = 916
+
+Original hand: 9 A A J A 
+Mapped hand: 9 14 14 1 14 
+Type: 6 => Four of a kind
+Bet = 284
+
+Original hand: T 4 4 4 4 
+Mapped hand: 10 4 4 4 4 
+Type: 6 => Four of a kind
+Bet = 533
+
+Original hand: T 6 6 J 6 
+Mapped hand: 10 6 6 1 6 
+Type: 6 => Four of a kind
+Bet = 184
+
+Original hand: T 6 T T T 
+Mapped hand: 10 6 10 10 10 
+Type: 6 => Four of a kind
+Bet = 932
+
+Original hand: T 8 8 8 8 
+Mapped hand: 10 8 8 8 8 
+Type: 6 => Four of a kind
+Bet = 12
+
+Original hand: T 9 T T T 
+Mapped hand: 10 9 10 10 10 
+Type: 6 => Four of a kind
+Bet = 195
+
+Original hand: T T T J 5 
+Mapped hand: 10 10 10 1 5 
+Type: 6 => Four of a kind
+Bet = 122
+
+Original hand: T T T 7 T 
+Mapped hand: 10 10 10 7 10 
+Type: 6 => Four of a kind
+Bet = 356
+
+Original hand: T T T 9 J 
+Mapped hand: 10 10 10 9 1 
+Type: 6 => Four of a kind
+Bet = 189
+
+Original hand: T K J T T 
+Mapped hand: 10 13 1 10 10 
+Type: 6 => Four of a kind
+Bet = 386
+
+Original hand: T A A J A 
+Mapped hand: 10 14 14 1 14 
+Type: 6 => Four of a kind
+Bet = 223
+
+Original hand: Q J Q 2 Q 
+Mapped hand: 12 1 12 2 12 
+Type: 6 => Four of a kind
+Bet = 777
+
+Original hand: Q 2 2 2 2 
+Mapped hand: 12 2 2 2 2 
+Type: 6 => Four of a kind
+Bet = 604
+
+Original hand: Q 3 Q J J 
+Mapped hand: 12 3 12 1 1 
+Type: 6 => Four of a kind
+Bet = 470
+
+Original hand: Q 5 Q Q Q 
+Mapped hand: 12 5 12 12 12 
+Type: 6 => Four of a kind
+Bet = 125
+
+Original hand: Q 6 J 6 6 
+Mapped hand: 12 6 1 6 6 
+Type: 6 => Four of a kind
+Bet = 168
+
+Original hand: Q 9 9 9 9 
+Mapped hand: 12 9 9 9 9 
+Type: 6 => Four of a kind
+Bet = 6
+
+Original hand: Q T Q Q Q 
+Mapped hand: 12 10 12 12 12 
+Type: 6 => Four of a kind
+Bet = 299
+
+Original hand: Q Q Q 6 Q 
+Mapped hand: 12 12 12 6 12 
+Type: 6 => Four of a kind
+Bet = 47
+
+Original hand: Q Q Q 9 Q 
+Mapped hand: 12 12 12 9 12 
+Type: 6 => Four of a kind
+Bet = 350
+
+Original hand: Q Q Q Q 7 
+Mapped hand: 12 12 12 12 7 
+Type: 6 => Four of a kind
+Bet = 808
+
+Original hand: Q Q Q Q K 
+Mapped hand: 12 12 12 12 13 
+Type: 6 => Four of a kind
+Bet = 585
+
+Original hand: Q K K K K 
+Mapped hand: 12 13 13 13 13 
+Type: 6 => Four of a kind
+Bet = 247
+
+Original hand: Q A A A A 
+Mapped hand: 12 14 14 14 14 
+Type: 6 => Four of a kind
+Bet = 958
+
+Original hand: K J J 7 7 
+Mapped hand: 13 1 1 7 7 
+Type: 6 => Four of a kind
+Bet = 658
+
+Original hand: K 3 3 3 3 
+Mapped hand: 13 3 3 3 3 
+Type: 6 => Four of a kind
+Bet = 25
+
+Original hand: K 4 4 4 4 
+Mapped hand: 13 4 4 4 4 
+Type: 6 => Four of a kind
+Bet = 868
+
+Original hand: K 4 K K K 
+Mapped hand: 13 4 13 13 13 
+Type: 6 => Four of a kind
+Bet = 980
+
+Original hand: K 6 K K J 
+Mapped hand: 13 6 13 13 1 
+Type: 6 => Four of a kind
+Bet = 454
+
+Original hand: K 8 J K K 
+Mapped hand: 13 8 1 13 13 
+Type: 6 => Four of a kind
+Bet = 351
+
+Original hand: K 8 K K K 
+Mapped hand: 13 8 13 13 13 
+Type: 6 => Four of a kind
+Bet = 56
+
+Original hand: K T T T T 
+Mapped hand: 13 10 10 10 10 
+Type: 6 => Four of a kind
+Bet = 366
+
+Original hand: K T K K K 
+Mapped hand: 13 10 13 13 13 
+Type: 6 => Four of a kind
+Bet = 83
+
+Original hand: K K J K T 
+Mapped hand: 13 13 1 13 10 
+Type: 6 => Four of a kind
+Bet = 785
+
+Original hand: K K 9 K J 
+Mapped hand: 13 13 9 13 1 
+Type: 6 => Four of a kind
+Bet = 254
+
+Original hand: K K 9 K K 
+Mapped hand: 13 13 9 13 13 
+Type: 6 => Four of a kind
+Bet = 831
+
+Original hand: K K K 3 K 
+Mapped hand: 13 13 13 3 13 
+Type: 6 => Four of a kind
+Bet = 896
+
+Original hand: K K K K 2 
+Mapped hand: 13 13 13 13 2 
+Type: 6 => Four of a kind
+Bet = 664
+
+Original hand: K K K K 7 
+Mapped hand: 13 13 13 13 7 
+Type: 6 => Four of a kind
+Bet = 773
+
+Original hand: K K A K K 
+Mapped hand: 13 13 14 13 13 
+Type: 6 => Four of a kind
+Bet = 579
+
+Original hand: A J J 9 9 
+Mapped hand: 14 1 1 9 9 
+Type: 6 => Four of a kind
+Bet = 621
+
+Original hand: A J A 6 A 
+Mapped hand: 14 1 14 6 14 
+Type: 6 => Four of a kind
+Bet = 626
+
+Original hand: A J A 7 A 
+Mapped hand: 14 1 14 7 14 
+Type: 6 => Four of a kind
+Bet = 874
+
+Original hand: A 2 A A A 
+Mapped hand: 14 2 14 14 14 
+Type: 6 => Four of a kind
+Bet = 219
+
+Original hand: A 3 A A A 
+Mapped hand: 14 3 14 14 14 
+Type: 6 => Four of a kind
+Bet = 216
+
+Original hand: A 8 8 J 8 
+Mapped hand: 14 8 8 1 8 
+Type: 6 => Four of a kind
+Bet = 757
+
+Original hand: A 9 J A J 
+Mapped hand: 14 9 1 14 1 
+Type: 6 => Four of a kind
+Bet = 599
+
+Original hand: A A J 2 A 
+Mapped hand: 14 14 1 2 14 
+Type: 6 => Four of a kind
+Bet = 165
+
+Original hand: A A J K A 
+Mapped hand: 14 14 1 13 14 
+Type: 6 => Four of a kind
+Bet = 182
+
+Original hand: A A 3 J A 
+Mapped hand: 14 14 3 1 14 
+Type: 6 => Four of a kind
+Bet = 51
+
+Original hand: A A 7 A A 
+Mapped hand: 14 14 7 14 14 
+Type: 6 => Four of a kind
+Bet = 157
+
+Original hand: A A A K A 
+Mapped hand: 14 14 14 13 14 
+Type: 6 => Four of a kind
+Bet = 673
+
+Original hand: A A A A 4 
+Mapped hand: 14 14 14 14 4 
+Type: 6 => Four of a kind
+Bet = 488
+
+Original hand: A A A A 9 
+Mapped hand: 14 14 14 14 9 
+Type: 6 => Four of a kind
+Bet = 387
+
+Original hand: J J J J J 
+Mapped hand: 1 1 1 1 1 
+Type: 7 => Five of a kind
+Bet = 440
+
+Original hand: J J 2 2 2 
+Mapped hand: 1 1 2 2 2 
+Type: 7 => Five of a kind
+Bet = 462
+
+Original hand: J J 3 3 3 
+Mapped hand: 1 1 3 3 3 
+Type: 7 => Five of a kind
+Bet = 176
+
+Original hand: J J 7 7 7 
+Mapped hand: 1 1 7 7 7 
+Type: 7 => Five of a kind
+Bet = 71
+
+Original hand: J J 9 9 9 
+Mapped hand: 1 1 9 9 9 
+Type: 7 => Five of a kind
+Bet = 549
+
+Original hand: J J A A A 
+Mapped hand: 1 1 14 14 14 
+Type: 7 => Five of a kind
+Bet = 855
+
+Original hand: J 4 J 4 4 
+Mapped hand: 1 4 1 4 4 
+Type: 7 => Five of a kind
+Bet = 171
+
+Original hand: J 5 5 J 5 
+Mapped hand: 1 5 5 1 5 
+Type: 7 => Five of a kind
+Bet = 281
+
+Original hand: 2 J J J J 
+Mapped hand: 2 1 1 1 1 
+Type: 7 => Five of a kind
+Bet = 765
+
+Original hand: 2 J J 2 J 
+Mapped hand: 2 1 1 2 1 
+Type: 7 => Five of a kind
+Bet = 726
+
+Original hand: 2 J 2 2 2 
+Mapped hand: 2 1 2 2 2 
+Type: 7 => Five of a kind
+Bet = 354
+
+Original hand: 3 J 3 3 3 
+Mapped hand: 3 1 3 3 3 
+Type: 7 => Five of a kind
+Bet = 681
+
+Original hand: 4 4 4 J 4 
+Mapped hand: 4 4 4 1 4 
+Type: 7 => Five of a kind
+Bet = 998
+
+Original hand: 5 5 5 J 5 
+Mapped hand: 5 5 5 1 5 
+Type: 7 => Five of a kind
+Bet = 592
+
+Original hand: 6 6 J J 6 
+Mapped hand: 6 6 1 1 6 
+Type: 7 => Five of a kind
+Bet = 210
+
+Original hand: 6 6 6 J 6 
+Mapped hand: 6 6 6 1 6 
+Type: 7 => Five of a kind
+Bet = 479
+
+Original hand: 7 J 7 7 7 
+Mapped hand: 7 1 7 7 7 
+Type: 7 => Five of a kind
+Bet = 736
+
+Original hand: 8 J J J J 
+Mapped hand: 8 1 1 1 1 
+Type: 7 => Five of a kind
+Bet = 610
+
+Original hand: 8 8 J 8 8 
+Mapped hand: 8 8 1 8 8 
+Type: 7 => Five of a kind
+Bet = 379
+
+Original hand: 9 9 J 9 9 
+Mapped hand: 9 9 1 9 9 
+Type: 7 => Five of a kind
+Bet = 69
+
+Original hand: T T T J J 
+Mapped hand: 10 10 10 1 1 
+Type: 7 => Five of a kind
+Bet = 693
+
+Original hand: T T T T J 
+Mapped hand: 10 10 10 10 1 
+Type: 7 => Five of a kind
+Bet = 399
+
+Original hand: Q J Q Q J 
+Mapped hand: 12 1 12 12 1 
+Type: 7 => Five of a kind
+Bet = 918
+
+Original hand: Q J Q Q Q 
+Mapped hand: 12 1 12 12 12 
+Type: 7 => Five of a kind
+Bet = 434
+
+Original hand: K J J K K 
+Mapped hand: 13 1 1 13 13 
+Type: 7 => Five of a kind
+Bet = 611
+
+Original hand: K J K K K 
+Mapped hand: 13 1 13 13 13 
+Type: 7 => Five of a kind
+Bet = 190
+
+Original hand: A J J J A 
+Mapped hand: 14 1 1 1 14 
+Type: 7 => Five of a kind
+Bet = 697
+
+Original hand: A A A A J 
+Mapped hand: 14 14 14 14 1 
+Type: 7 => Five of a kind
+Bet = 738
+
