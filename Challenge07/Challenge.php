@@ -4,7 +4,6 @@ Challenge::main();
 
 class Challenge
 {
-    static $freq;
     static function copyArray(array $original) : array {
         $copy = [];
         foreach ($original as $value) {
@@ -120,6 +119,7 @@ class Challenge
         if ($part != 1) {
             $hand = array_map(fn ($card) => ($card == "J") ? 1 : $card, $hand);
         }
+
         $hand = array_map(function ($card) {
             $T = 10;
             switch ($card) {
@@ -135,15 +135,6 @@ class Challenge
         $sorted = Challenge::copyArray($hand);
         sort($sorted);
 
-        $frequencies = array_count_values($sorted);
-        global $freq;
-        $freq .= $lineString . PHP_EOL;
-        foreach ($frequencies as $element => $frequency) {
-            $freq .= $element . " => " . $frequency . " ?= " . $frequencies[$element] . "\n";
-        }
-        $freq .= "Count " . count($frequencies) . "\n";
-        $freq .= "Max " . max($frequencies) . "\n";
-        $freq .= "\n";
         $type = Challenge::getType($sorted);
     
         return [
@@ -163,26 +154,17 @@ class Challenge
         $result = 0;
         $cards = [];
 
-        global $freq;
-        $freq = "";
-
         foreach ($input as $line) {
             $cards[] = Challenge::processLine($line, $part);
         }
 
-        // Challenge::printHands($cards);
-
         usort($cards, "Challenge::compare");
         
-        $output = Challenge::printHands($cards);
-        // echo $output;
-        file_put_contents(__DIR__ . "/output.txt", $output);
-        file_put_contents(__DIR__ . "/frequencies.txt", $freq);
-
+        // $output = Challenge::printHands($cards);
+        // file_put_contents(__DIR__ . "/output.txt", $output);
 
         for ($i = 0; $i < count($cards); $i++) {
             $winnings = $cards[$i]["bet"] * ($i + 1);
-            // echo "Winnings of " . $i . " are " . $winnings ."\n";
             $result += $winnings;
         }
 
