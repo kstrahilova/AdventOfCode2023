@@ -72,7 +72,7 @@ class Challenge
             $line = trim($input[$i]);
             if ($line !== "") {
                 $newValue = Challenge::processLine($line);
-                $output .= "New values = " . $newValue[1] . " " . $newValue[2] ."\n";
+                $output .= "New values = " . $newValue[1] . " " . $newValue[2] . "\n";
                 $resultPt1 += $newValue[1];
                 $resultPt2 += $newValue[2];
             }
