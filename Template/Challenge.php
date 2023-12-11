@@ -14,10 +14,13 @@ class Challenge
         $input = file(__DIR__ . "/testInput.txt");
         // $input = file(__DIR__ . "/input.txt");
         $result = 0;
+        $output = "";
 
         foreach ($input as $line) {
             Challenge::processLine($line);
         }
+
+        file_put_contents(__DIR__ . "/output.txt", $output);
 
         echo ("Result: " . $result . "\n");
     }
