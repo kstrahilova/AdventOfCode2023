@@ -1,0 +1,588 @@
+
+Running method
+Group is larger than group size 
+1
+?
+We set |size| elements to # followed by ., remove |size| + 1 elements from groups and remove size from sizes
+
+Running method
+Equal 
+Setting all of this group to #
+
+Running method
+Equal 
+Setting all of this group to #
+
+Running method
+We have processed all damaged groups
+We are returning 1
+There are no #'s in this group, setting all of this group to .
+
+Running method
+Group is larger than group size 
+1
+#
+We are returning 0
+We are returning 1
+The first element of group is ?, we set it to ., remove one element from group and continue
+
+Running method
+Group is larger than group size 
+1
+?
+We set |size| elements to # followed by ., remove |size| + 1 elements from groups and remove size from sizes
+
+Running method
+Group is smaller than size
+There are no #'s in group, we set all ?'s to ., remove group from groups and continue with same sizes
+
+Running method
+Group is larger than group size 
+1
+#
+We are returning 0
+We are returning 0
+The first element of group is ?, we set it to ., remove one element from group and continue
+
+Running method
+Equal 
+Setting all of this group to #
+
+Running method
+Group is larger than group size 
+1
+#
+We are returning 0
+There are no #'s in this group, setting all of this group to .
+
+Running method
+Group is larger than group size 
+1
+#
+We are returning 0
+We are returning 0
+We are returning 0
+We are returning 1
+
+Running method
+Group is larger than group size 
+1
+?
+We set |size| elements to # followed by ., remove |size| + 1 elements from groups and remove size from sizes
+
+Running method
+Group is smaller than size
+There are no #'s in group, we set all ?'s to ., remove group from groups and continue with same sizes
+
+Running method
+Group is larger than group size 
+1
+?
+We set |size| elements to # followed by ., remove |size| + 1 elements from groups and remove size from sizes
+
+Running method
+Group is smaller than size
+There are no #'s in group, we set all ?'s to ., remove group from groups and continue with same sizes
+
+Running method
+Equal 
+Setting all of this group to #
+
+Running method
+We have processed all damaged groups
+We are returning 1
+We are returning 1
+The first element of group is ?, we set it to ., remove one element from group and continue
+
+Running method
+Equal 
+Setting all of this group to #
+
+Running method
+Equal 
+Setting all of this group to #
+
+Running method
+We have processed all damaged groups
+We are returning 1
+There are no #'s in this group, setting all of this group to .
+
+Running method
+Group is larger than group size 
+1
+#
+The first element of group is ?, we set it to ., remove one element from group and continue
+
+Running method
+Group is larger than group size 
+1
+#
+We are returning 0
+We are returning 0
+We are returning 1
+We are returning 2
+We are returning 2
+The first element of group is ?, we set it to ., remove one element from group and continue
+
+Running method
+Equal 
+Setting all of this group to #
+
+Running method
+Group is larger than group size 
+1
+?
+We set |size| elements to # followed by ., remove |size| + 1 elements from groups and remove size from sizes
+
+Running method
+Group is smaller than size
+There are no #'s in group, we set all ?'s to ., remove group from groups and continue with same sizes
+
+Running method
+Equal 
+Setting all of this group to #
+
+Running method
+We have processed all damaged groups
+We are returning 1
+We are returning 1
+The first element of group is ?, we set it to ., remove one element from group and continue
+
+Running method
+Equal 
+Setting all of this group to #
+
+Running method
+Equal 
+Setting all of this group to #
+
+Running method
+We have processed all damaged groups
+We are returning 1
+There are no #'s in this group, setting all of this group to .
+
+Running method
+Group is larger than group size 
+1
+#
+The first element of group is ?, we set it to ., remove one element from group and continue
+
+Running method
+Group is larger than group size 
+1
+#
+We are returning 0
+We are returning 0
+We are returning 1
+We are returning 2
+There are no #'s in this group, setting all of this group to .
+
+Running method
+Group is larger than group size 
+1
+?
+We set |size| elements to # followed by ., remove |size| + 1 elements from groups and remove size from sizes
+
+Running method
+Group is smaller than size
+There are no #'s in group, we set all ?'s to ., remove group from groups and continue with same sizes
+
+Running method
+Group is larger than group size 
+1
+#
+The first element of group is ?, we set it to ., remove one element from group and continue
+
+Running method
+Group is larger than group size 
+1
+#
+We are returning 0
+We are returning 0
+We are returning 0
+The first element of group is ?, we set it to ., remove one element from group and continue
+
+Running method
+Equal 
+Setting all of this group to #
+
+Running method
+Group is larger than group size 
+1
+#
+The first element of group is ?, we set it to ., remove one element from group and continue
+
+Running method
+Group is larger than group size 
+1
+#
+We are returning 0
+We are returning 0
+There are no #'s in this group, setting all of this group to .
+
+Running method
+Group is larger than group size 
+1
+#
+The first element of group is ?, we set it to ., remove one element from group and continue
+
+Running method
+Group is larger than group size 
+1
+#
+We are returning 0
+We are returning 0
+We are returning 0
+We are returning 0
+We are returning 2
+We are returning 4
+
+Running method
+Group is larger than group size 
+1
+#
+The first element of group is ?, we set it to ., remove one element from group and continue
+
+Running method
+Group is larger than group size 
+1
+?
+We set |size| elements to # followed by ., remove |size| + 1 elements from groups and remove size from sizes
+
+Running method
+Group is larger than group size 
+3
+?
+We set |size| elements to # followed by ., remove |size| + 1 elements from groups and remove size from sizes
+
+Running method
+Group is larger than group size 
+1
+?
+We set |size| elements to # followed by ., remove |size| + 1 elements from groups and remove size from sizes
+
+Running method
+Equal 
+Setting all of this group to #
+
+Running method
+We have processed all damaged groups
+We are returning 1
+We are returning 1
+We are returning 1
+We are returning 1
+We are returning 1
+
+Running method
+Equal 
+Setting all of this group to #
+
+Running method
+Equal 
+Setting all of this group to #
+
+Running method
+Equal 
+Setting all of this group to #
+
+Running method
+We have processed all damaged groups
+We are returning 1
+We are returning 1
+There are no #'s in this group, setting all of this group to .
+
+Running method
+Group is smaller than size
+We are returning 0
+We are returning 1
+
+Running method
+Group is larger than group size 
+1
+?
+We set |size| elements to # followed by ., remove |size| + 1 elements from groups and remove size from sizes
+
+Running method
+Group is smaller than size
+There are no #'s in group, we set all ?'s to ., remove group from groups and continue with same sizes
+
+Running method
+Equal 
+Setting all of this group to #
+
+Running method
+Equal 
+Setting all of this group to #
+
+Running method
+We have processed all damaged groups
+We are returning 1
+We are returning 1
+We are returning 1
+The first element of group is ?, we set it to ., remove one element from group and continue
+
+Running method
+Group is larger than group size 
+1
+?
+We set |size| elements to # followed by ., remove |size| + 1 elements from groups and remove size from sizes
+
+Running method
+Group is smaller than size
+There are no #'s in group, we set all ?'s to ., remove group from groups and continue with same sizes
+
+Running method
+Equal 
+Setting all of this group to #
+
+Running method
+Equal 
+Setting all of this group to #
+
+Running method
+We have processed all damaged groups
+We are returning 1
+We are returning 1
+We are returning 1
+The first element of group is ?, we set it to ., remove one element from group and continue
+
+Running method
+Group is larger than group size 
+1
+?
+We set |size| elements to # followed by ., remove |size| + 1 elements from groups and remove size from sizes
+
+Running method
+Group is smaller than size
+There are no #'s in group, we set all ?'s to ., remove group from groups and continue with same sizes
+
+Running method
+Equal 
+Setting all of this group to #
+
+Running method
+Equal 
+Setting all of this group to #
+
+Running method
+We have processed all damaged groups
+We are returning 1
+We are returning 1
+We are returning 1
+The first element of group is ?, we set it to ., remove one element from group and continue
+
+Running method
+Equal 
+Setting all of this group to #
+
+Running method
+Equal 
+Setting all of this group to #
+
+Running method
+Equal 
+Setting all of this group to #
+
+Running method
+We have processed all damaged groups
+We are returning 1
+We are returning 1
+There are no #'s in this group, setting all of this group to .
+
+Running method
+Group is larger than group size 
+1
+#
+We are returning 0
+We are returning 1
+We are returning 2
+We are returning 3
+We are returning 4
+
+Running method
+Group is larger than group size 
+3
+#
+The first element of group is ?, we set it to ., remove one element from group and continue
+
+Running method
+Group is larger than group size 
+3
+?
+We set |size| elements to # followed by ., remove |size| + 1 elements from groups and remove size from sizes
+
+Running method
+Group is larger than group size 
+2
+?
+We set |size| elements to # followed by ., remove |size| + 1 elements from groups and remove size from sizes
+
+Running method
+Group is larger than group size 
+1
+?
+We set |size| elements to # followed by ., remove |size| + 1 elements from groups and remove size from sizes
+
+Running method
+We have processed all damaged groups
+The first element of group is ?, we set it to ., remove one element from group and continue
+
+Running method
+Group is larger than group size 
+1
+?
+We set |size| elements to # followed by ., remove |size| + 1 elements from groups and remove size from sizes
+
+Running method
+We have processed all damaged groups
+The first element of group is ?, we set it to ., remove one element from group and continue
+
+Running method
+Group is larger than group size 
+1
+?
+We set |size| elements to # followed by ., remove |size| + 1 elements from groups and remove size from sizes
+
+Running method
+We have processed all damaged groups
+The first element of group is ?, we set it to ., remove one element from group and continue
+
+Running method
+Equal 
+Setting all of this group to #
+
+Running method
+We have processed all damaged groups
+There are no #'s in this group, setting all of this group to .
+
+Running method
+We have run out of springs
+We are returning 1
+We are returning 2
+We are returning 3
+We are returning 4
+The first element of group is ?, we set it to ., remove one element from group and continue
+
+Running method
+Group is larger than group size 
+2
+?
+We set |size| elements to # followed by ., remove |size| + 1 elements from groups and remove size from sizes
+
+Running method
+Group is larger than group size 
+1
+?
+We set |size| elements to # followed by ., remove |size| + 1 elements from groups and remove size from sizes
+
+Running method
+We have processed all damaged groups
+The first element of group is ?, we set it to ., remove one element from group and continue
+
+Running method
+Group is larger than group size 
+1
+?
+We set |size| elements to # followed by ., remove |size| + 1 elements from groups and remove size from sizes
+
+Running method
+We have processed all damaged groups
+The first element of group is ?, we set it to ., remove one element from group and continue
+
+Running method
+Equal 
+Setting all of this group to #
+
+Running method
+We have processed all damaged groups
+There are no #'s in this group, setting all of this group to .
+
+Running method
+We have run out of springs
+We are returning 1
+We are returning 2
+We are returning 3
+The first element of group is ?, we set it to ., remove one element from group and continue
+
+Running method
+Group is larger than group size 
+2
+?
+We set |size| elements to # followed by ., remove |size| + 1 elements from groups and remove size from sizes
+
+Running method
+Group is larger than group size 
+1
+?
+We set |size| elements to # followed by ., remove |size| + 1 elements from groups and remove size from sizes
+
+Running method
+We have processed all damaged groups
+The first element of group is ?, we set it to ., remove one element from group and continue
+
+Running method
+Equal 
+Setting all of this group to #
+
+Running method
+We have processed all damaged groups
+There are no #'s in this group, setting all of this group to .
+
+Running method
+We have run out of springs
+We are returning 1
+We are returning 2
+The first element of group is ?, we set it to ., remove one element from group and continue
+
+Running method
+Group is larger than group size 
+2
+?
+We set |size| elements to # followed by ., remove |size| + 1 elements from groups and remove size from sizes
+
+Running method
+Equal 
+Setting all of this group to #
+
+Running method
+We have processed all damaged groups
+There are no #'s in this group, setting all of this group to .
+
+Running method
+We have run out of springs
+We are returning 1
+The first element of group is ?, we set it to ., remove one element from group and continue
+
+Running method
+Group is larger than group size 
+2
+?
+We set |size| elements to # followed by ., remove |size| + 1 elements from groups and remove size from sizes
+
+Running method
+Group is smaller than size
+There are no #'s in group, we set all ?'s to ., remove group from groups and continue with same sizes
+
+Running method
+We have run out of springs
+We are returning 0
+The first element of group is ?, we set it to ., remove one element from group and continue
+
+Running method
+Equal 
+Setting all of this group to #
+
+Running method
+We have run out of springs
+There are no #'s in this group, setting all of this group to .
+
+Running method
+We have run out of springs
+We are returning 0
+We are returning 0
+We are returning 1
+We are returning 3
+We are returning 6
+We are returning 10
+We are returning 10
+We are returning 10
