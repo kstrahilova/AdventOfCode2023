@@ -65,7 +65,7 @@ class Challenge
         global $part;
 
         if ($part == 1) {
-            $distance = 1;
+            $distance = 2;
         } else {
             $distance = 1000000;
         }
@@ -83,10 +83,11 @@ class Challenge
 
     static function main()
     {
+        $startTime = microtime(true);
         $input = array_map(fn (string $line) => str_split(trim($line)), file(__DIR__ . "/testInput.txt"));
-        $input = array_map(fn (string $line) => str_split(trim($line)), file(__DIR__ . "/input.txt"));
+        // $input = array_map(fn (string $line) => str_split(trim($line)), file(__DIR__ . "/input.txt"));
         global $part;
-        $part = 2;
+        $part = 1;
         for ($i = 0; $i < count($input); $i++) {
             for ($j = 0; $j < count($input[$i]); $j++) {
                 $input[$i][$j] = [$input[$i][$j], 1];
@@ -124,6 +125,7 @@ class Challenge
         file_put_contents(__DIR__ . "/output.txt", $output);
 
         echo ("Result: " . $result . "\n");
+        echo "Elapsed time is: ". (microtime(true) - $startTime) ." seconds\n";
     }
 
 }
