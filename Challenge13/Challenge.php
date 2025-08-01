@@ -33,6 +33,46 @@ class Challenge
         }
         return false;
     }
+    
+
+    /**
+     * @return int #elements different between two arrays
+     */
+    static function numberOfDifferentElements(array $a, array $b): int
+    {
+        $current = 0;
+        if (count($a) !== count($b)) {
+            return PHP_INT_MAX;
+        } else {
+            for ($i = 0; $i < count($a); $i++) {
+                if ($a[$i] !== $b[$i]) {
+                    $current += 1;
+                }
+            }
+        }
+        return $current;
+    }
+    static function checkSmudge(array $pattern, int $reflection): bool
+    {
+        $allowed = 1;
+        for ($i = 0; $i <= count($pattern) - $reflection; $i++) {
+            $first = $reflection - 1 - $i;
+            $second = $reflection + $i;
+            echo "Reflection ". $reflection . " first index " . $first . " second index " . $second . PHP_EOL;
+            if ($first < 0 || $second >= count($pattern)) {
+                return true;
+            } else {
+                $nDifferentlements = Challenge::numberOfDifferentElements($pattern[$first], $pattern[$second]);
+                if ($allowed < $nDifferentlements) {
+                    return false;
+                } else {
+                    $allowed -= $nDifferentlements;
+                }
+            }
+
+        }
+        return true;
+    }
     /**
      * @return int - the index below horizontal line  = #rows above horizontal line
      */
@@ -40,8 +80,9 @@ class Challenge
     {
         for ($i = 0; $i < count($pattern) - 1; $i++) {
             if (Challenge::compareArrays($pattern[$i], $pattern[$i + 1])) {
-                if (Challenge::checkPerfect($pattern, $i + 1)) {
-                    // echo "Returning " . ($i + 1) . "\n";
+                // if (Challenge::checkPerfect($pattern, $i + 1)) {
+                if (Challenge::checkSmudge($pattern, $i + 1)) {
+                    echo "Returning " . ($i + 1) . "\n";
                     return $i + 1;
                 }
             }
@@ -52,9 +93,12 @@ class Challenge
     {
         global $output;
         $horisontalLine = Challenge::findHorizontalLine($pattern);
+        $verticalLine = 0;
+        if ($horisontalLine == 0) {
         // Get transpose to check columns
-        $pattern = array_map(null, ...$pattern);
-        $verticalLine = Challenge::findHorizontalLine($pattern);
+            $pattern = array_map(null, ...$pattern);
+            $verticalLine = Challenge::findHorizontalLine($pattern);
+        }
 
         // foreach ($pattern as $row) {
         //     foreach ($row as $element) {
@@ -72,7 +116,7 @@ class Challenge
     static function main()
     {
         $input = file(__DIR__ . "/testInput.txt");
-        $input = file(__DIR__ . "/input.txt");
+        // $input = file(__DIR__ . "/input.txt");
         $result = 0;
         global $output;
         $currentPattern = [];
